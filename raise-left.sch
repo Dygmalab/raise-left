@@ -83,10 +83,6 @@ F 3 "" H 1750 4600 50  0000 C CNN
 	1    1750 4600
 	1    0    0    -1  
 $EndComp
-Text Label 1450 3200 0    60   ~ 0
-sda_in
-Text Label 1450 3300 0    60   ~ 0
-scl_in
 $Comp
 L +5V #PWR02
 U 1 1 591D9088
@@ -220,7 +216,7 @@ Wire Wire Line
 	1700 5850 1700 5700
 Text Notes 5050 6700 0    60   ~ 0
 programming header
-Text Notes 950  2600 0    60   ~ 0
+Text Notes 750  3500 0    60   ~ 0
 i2c connector
 NoConn ~ 3650 4600
 $Comp
@@ -311,31 +307,6 @@ $EndComp
 Text Label 3650 3750 0    60   ~ 0
 row7
 NoConn ~ 3650 2400
-$Comp
-L Earth #PWR011
-U 1 1 59956CBC
-P 1450 3000
-F 0 "#PWR011" H 1450 2750 50  0001 C CNN
-F 1 "Earth" H 1450 2850 50  0001 C CNN
-F 2 "" H 1450 3000 60  0000 C CNN
-F 3 "" H 1450 3000 60  0000 C CNN
-	1    1450 3000
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 1450 3100
-NoConn ~ 1050 2800
-$Comp
-L USB_OTG P1
-U 1 1 59956CC8
-P 1150 3200
-F 0 "P1" H 1475 3075 50  0000 C CNN
-F 1 "USB_OTG" H 1150 3400 50  0000 C CNN
-F 2 "fp:USB MICRO B" V 1100 3100 50  0001 C CNN
-F 3 "" V 1100 3100 50  0000 C CNN
-F 4 "2293836" H 1150 3200 60  0001 C CNN "farnell #"
-	1    1150 3200
-	0    -1   -1   0   
-$EndComp
 $Comp
 L CONN_01X04 P2
 U 1 1 59957597
@@ -1509,17 +1480,6 @@ F 3 "" H 1050 4050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5VA #PWR024
-U 1 1 59AFDC62
-P 1450 3400
-F 0 "#PWR024" H 1450 3250 50  0001 C CNN
-F 1 "+5VA" H 1465 3573 50  0000 C CNN
-F 2 "" H 1450 3400 50  0000 C CNN
-F 3 "" H 1450 3400 50  0000 C CNN
-	1    1450 3400
-	-1   0    0    1   
-$EndComp
-$Comp
 L +5VA #PWR025
 U 1 1 59AFDE2A
 P 2200 6050
@@ -1629,10 +1589,10 @@ F 3 "" H 3750 6050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_1P W?
+L TEST_1P W12
 U 1 1 59B036A7
 P 6400 6000
-F 0 "W?" V 6354 6188 50  0000 L CNN
+F 0 "W12" V 6354 6188 50  0000 L CNN
 F 1 "TEST_1P" V 6445 6188 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 6600 6000 50  0001 C CNN
 F 3 "" H 6600 6000 50  0000 C CNN
