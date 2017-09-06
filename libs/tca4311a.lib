@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# TCA4311A
+#
+DEF TCA4311A U 0 40 Y Y 1 F N
+F0 "U" 50 -300 60 H V C CNN
+F1 "TCA4311A" 0 300 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -250 200 400 -200 0 1 0 N
+X en 1 -450 150 200 R 50 50 1 1 I
+X sclout 2 -450 50 200 R 50 50 1 1 O
+X sclin 3 -450 -50 200 R 50 50 1 1 I
+X gnd 4 -450 -150 200 R 50 50 1 1 W
+X ready 5 600 -150 200 L 50 50 1 1 O
+X sdain 6 600 -50 200 L 50 50 1 1 I
+X sdaout 7 600 50 200 L 50 50 1 1 O
+X vcc 8 600 150 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
