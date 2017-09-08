@@ -178,10 +178,10 @@ i2c_add_b0
 Text Label 1350 5850 3    60   ~ 0
 i2c_add_b1
 $Comp
-L R R3
+L R R-bit1
 U 1 1 595A1F4C
 P 1350 5550
-F 0 "R3" H 1420 5596 50  0000 L CNN
+F 0 "R-bit1" H 1420 5596 50  0000 L CNN
 F 1 "10k" H 1420 5505 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206" V 1280 5550 50  0001 C CNN
 F 3 "" H 1350 5550 50  0000 C CNN
@@ -202,10 +202,10 @@ $EndComp
 Wire Wire Line
 	1350 5850 1350 5700
 $Comp
-L R R1
+L R R-bit0
 U 1 1 595A1FC8
 P 950 5550
-F 0 "R1" H 1020 5596 50  0000 L CNN
+F 0 "R-bit0" H 1020 5596 50  0000 L CNN
 F 1 "10k" H 1020 5505 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206" V 880 5550 50  0001 C CNN
 F 3 "" H 950 5550 50  0000 C CNN
@@ -1043,50 +1043,6 @@ Text Label 9400 1500 0    60   ~ 0
 col5
 Text Label 10200 1500 0    60   ~ 0
 col6
-$Comp
-L TEST_1P W1
-U 1 1 59AFC1B3
-P 3650 1750
-F 0 "W1" V 3604 1938 50  0000 L CNN
-F 1 "TEST_1P" V 3695 1938 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3850 1750 50  0001 C CNN
-F 3 "" H 3850 1750 50  0000 C CNN
-	1    3650 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W2
-U 1 1 59AFC780
-P 3650 1850
-F 0 "W2" V 3604 2038 50  0000 L CNN
-F 1 "TEST_1P" V 3695 2038 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3850 1850 50  0001 C CNN
-F 3 "" H 3850 1850 50  0000 C CNN
-	1    3650 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W3
-U 1 1 59AFC931
-P 3650 1950
-F 0 "W3" V 3604 2138 50  0000 L CNN
-F 1 "TEST_1P" V 3695 2138 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3850 1950 50  0001 C CNN
-F 3 "" H 3850 1950 50  0000 C CNN
-	1    3650 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P W4
-U 1 1 59AFCA89
-P 3650 2050
-F 0 "W4" V 3604 2238 50  0000 L CNN
-F 1 "TEST_1P" V 3695 2238 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3850 2050 50  0001 C CNN
-F 3 "" H 3850 2050 50  0000 C CNN
-	1    3650 2050
-	0    1    1    0   
-$EndComp
 $Sheet
 S 5550 5450 1300 600 
 U 59B158CF
@@ -1320,4 +1276,52 @@ Text Label 10200 4400 0    60   ~ 0
 lp2.2
 Text Label 9400 4400 0    60   ~ 0
 lp1.2
+$Comp
+L CONN_01X04 P5
+U 1 1 59B26306
+P 1150 3700
+F 0 "P5" H 1228 3741 50  0000 L CNN
+F 1 "CONN_01X04" H 1228 3650 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 1150 3700 50  0001 C CNN
+F 3 "" H 1150 3700 50  0000 C CNN
+	1    1150 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 950  3650 0    60   Input ~ 0
+sda
+Text GLabel 950  3750 0    60   Input ~ 0
+scl
+$Comp
+L Earth #PWR015
+U 1 1 59B26B96
+P 950 3850
+F 0 "#PWR015" H 950 3600 50  0001 C CNN
+F 1 "Earth" H 950 3700 50  0001 C CNN
+F 2 "" H 950 3850 50  0000 C CNN
+F 3 "" H 950 3850 50  0000 C CNN
+	1    950  3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR016
+U 1 1 59B26CE1
+P 950 3550
+F 0 "#PWR016" H 950 3400 50  0001 C CNN
+F 1 "+5V" H 965 3723 50  0000 C CNN
+F 2 "" H 950 3550 50  0000 C CNN
+F 3 "" H 950 3550 50  0000 C CNN
+	1    950  3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P6
+U 1 1 59B27BF1
+P 3850 1900
+F 0 "P6" H 3928 1941 50  0000 L CNN
+F 1 "CONN_01X04" H 3928 1850 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3850 1900 50  0001 C CNN
+F 3 "" H 3850 1900 50  0000 C CNN
+	1    3850 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
