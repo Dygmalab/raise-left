@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1330,7 +1330,7 @@ U 1 1 59D16A8E
 P 5300 6950
 F 0 "P4" V 5423 7138 50  0000 L CNN
 F 1 "USB_OTG" V 5332 7138 50  0000 L CNN
-F 2 "fp:USB MICRO B - top" V 5250 6850 50  0001 C CNN
+F 2 "fp:USB MICRO B" V 5250 6850 50  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/1051640001_sd.pdf" V 4650 6850 50  0000 C CNN
 F 4 "2614947" H 5300 6950 60  0001 C CNN "farnell #"
 	1    5300 6950
