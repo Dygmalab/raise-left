@@ -1,4 +1,5 @@
-EESchema Schematic File Version 3
+EESchema Schematic File Version 2
+LIBS:raise-left-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,14 +33,14 @@ LIBS:ws2812b
 LIBS:tca4311a
 LIBS:rgbled
 LIBS:raise-left-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Raise LHS"
-Date "2017-08-17"
-Rev "1"
+Title "Raise Right Main"
+Date "2017-11-06"
+Rev "v4.2"
 Comp "Dygma"
 Comment1 "Matt Venn"
 Comment2 ""
@@ -303,7 +304,7 @@ U 1 1 59959899
 P 5700 3750
 F 0 "SW4" H 5700 4005 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 3914 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 5700 3750 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 5700 3750 50  0001 C CNN
 F 3 "" H 5700 3750 50  0000 C CNN
 	1    5700 3750
 	1    0    0    -1  
@@ -314,7 +315,7 @@ U 1 1 5995989F
 P 5700 4400
 F 0 "SW5" H 5700 4655 50  0000 C CNN
 F 1 "SW_PUSH" H 5700 4564 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 5700 4400 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 5700 4400 50  0001 C CNN
 F 3 "" H 5700 4400 50  0000 C CNN
 	1    5700 4400
 	1    0    0    -1  
@@ -413,7 +414,7 @@ U 1 1 59959EA8
 P 6500 3750
 F 0 "SW9" H 6500 4005 50  0000 C CNN
 F 1 "SW_PUSH" H 6500 3914 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 6500 3750 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 6500 3750 50  0001 C CNN
 F 3 "" H 6500 3750 50  0000 C CNN
 	1    6500 3750
 	1    0    0    -1  
@@ -424,7 +425,7 @@ U 1 1 59959EAE
 P 6500 4400
 F 0 "SW10" H 6500 4655 50  0000 C CNN
 F 1 "SW_PUSH" H 6500 4564 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 6500 4400 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 6500 4400 50  0001 C CNN
 F 3 "" H 6500 4400 50  0000 C CNN
 	1    6500 4400
 	1    0    0    -1  
@@ -523,7 +524,7 @@ U 1 1 5995A924
 P 7300 3750
 F 0 "SW14" H 7300 4005 50  0000 C CNN
 F 1 "SW_PUSH" H 7300 3914 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 7300 3750 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 7300 3750 50  0001 C CNN
 F 3 "" H 7300 3750 50  0000 C CNN
 	1    7300 3750
 	1    0    0    -1  
@@ -534,7 +535,7 @@ U 1 1 5995A92A
 P 7300 4400
 F 0 "SW15" H 7300 4655 50  0000 C CNN
 F 1 "SW_PUSH" H 7300 4564 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 7300 4400 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 7300 4400 50  0001 C CNN
 F 3 "" H 7300 4400 50  0000 C CNN
 	1    7300 4400
 	1    0    0    -1  
@@ -633,7 +634,7 @@ U 1 1 5995AC4B
 P 8100 3750
 F 0 "SW19" H 8100 4005 50  0000 C CNN
 F 1 "SW_PUSH" H 8100 3914 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 8100 3750 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 8100 3750 50  0001 C CNN
 F 3 "" H 8100 3750 50  0000 C CNN
 	1    8100 3750
 	1    0    0    -1  
@@ -644,7 +645,7 @@ U 1 1 5995AC51
 P 8100 4400
 F 0 "SW20" H 8100 4655 50  0000 C CNN
 F 1 "SW_PUSH" H 8100 4564 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 8100 4400 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 8100 4400 50  0001 C CNN
 F 3 "" H 8100 4400 50  0000 C CNN
 	1    8100 4400
 	1    0    0    -1  
@@ -743,7 +744,7 @@ U 1 1 5995ACA2
 P 8900 3750
 F 0 "SW24" H 8900 4005 50  0000 C CNN
 F 1 "SW_PUSH" H 8900 3914 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 8900 3750 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 8900 3750 50  0001 C CNN
 F 3 "" H 8900 3750 50  0000 C CNN
 	1    8900 3750
 	1    0    0    -1  
@@ -754,7 +755,7 @@ U 1 1 5995ACA8
 P 8900 4400
 F 0 "SW25" H 8900 4655 50  0000 C CNN
 F 1 "SW_PUSH" H 8900 4564 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 8900 4400 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 8900 4400 50  0001 C CNN
 F 3 "" H 8900 4400 50  0000 C CNN
 	1    8900 4400
 	1    0    0    -1  
@@ -798,7 +799,7 @@ U 1 1 5995AE87
 P 9700 2550
 F 0 "SW27" H 9700 2805 50  0000 C CNN
 F 1 "SW_PUSH" H 9700 2714 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 9700 2550 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 9700 2550 50  0001 C CNN
 F 3 "" H 9700 2550 50  0000 C CNN
 	1    9700 2550
 	1    0    0    -1  
@@ -831,7 +832,7 @@ U 1 1 5995AEA1
 P 9700 3200
 F 0 "SW28" H 9700 3455 50  0000 C CNN
 F 1 "SW_PUSH" H 9700 3364 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 9700 3200 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 9700 3200 50  0001 C CNN
 F 3 "" H 9700 3200 50  0000 C CNN
 	1    9700 3200
 	1    0    0    -1  
@@ -853,7 +854,7 @@ U 1 1 5995AEB1
 P 9700 3750
 F 0 "SW29" H 9700 4005 50  0000 C CNN
 F 1 "SW_PUSH" H 9700 3914 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 9700 3750 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 9700 3750 50  0001 C CNN
 F 3 "" H 9700 3750 50  0000 C CNN
 	1    9700 3750
 	1    0    0    -1  
@@ -875,7 +876,7 @@ U 1 1 5995B0D6
 P 10500 1900
 F 0 "SW30" H 10500 2155 50  0000 C CNN
 F 1 "SW_PUSH" H 10500 2064 50  0000 C CNN
-F 2 "fp:CHERRY_MX" H 10500 1900 50  0001 C CNN
+F 2 "fp:kailhsocket-cherry" H 10500 1900 50  0001 C CNN
 F 3 "" H 10500 1900 50  0000 C CNN
 	1    10500 1900
 	1    0    0    -1  
@@ -1325,7 +1326,7 @@ F 3 "" H 2200 6600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L USB_OTG P4
+L USB_OTG-RESCUE-raise-left P4
 U 1 1 59D16A8E
 P 5300 6950
 F 0 "P4" V 5423 7138 50  0000 L CNN
@@ -1406,15 +1407,14 @@ F 3 "" H 4000 1450 50  0000 C CNN
 $EndComp
 NoConn ~ 3650 1950
 NoConn ~ 3650 2050
-Text Label 9850 5750 2    60   ~ 0
-col5
 Text Label 9850 5850 2    60   ~ 0
-col6
+col5
 Text Label 9850 5950 2    60   ~ 0
+col6
+Text Label 9850 6050 2    60   ~ 0
 row7
 Text Notes 9250 4300 0    60   ~ 0
 2 extra switches are on another PCB
-NoConn ~ 9850 6050
 Text Notes 5150 7500 0    60   ~ 0
 top mount
 Text GLabel 2150 5250 2    60   Input ~ 0
@@ -1527,7 +1527,7 @@ F 4 "1302345" H 10050 5600 60  0001 C CNN "farnell #"
 	1    0    0    -1  
 $EndComp
 Text Notes 9500 4950 0    60   ~ 0
-for leds i5 j5 k5
+for leds h5 i5 j5 k5
 $Comp
 L TEST_1P W2
 U 1 1 59DB99A9
@@ -1685,11 +1685,11 @@ Wire Wire Line
 	3100 7000 2800 7000
 Wire Wire Line
 	4000 6600 4000 6700
-Text GLabel 9850 5650 0    60   Input ~ 0
+Text GLabel 9850 5750 0    60   Input ~ 0
 cb2
-Text GLabel 9850 5550 0    60   Input ~ 0
+Text GLabel 9850 5650 0    60   Input ~ 0
 cb1
-Text GLabel 9850 5450 0    60   Input ~ 0
+Text GLabel 9850 5550 0    60   Input ~ 0
 ca9
 Text GLabel 9850 5350 0    60   Input ~ 0
 cb6
@@ -1703,4 +1703,19 @@ NoConn ~ 3350 5350
 NoConn ~ 3350 5500
 NoConn ~ 3350 5650
 NoConn ~ 3350 5800
+Text GLabel 9850 5450 0    60   Input ~ 0
+ca8
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5A0085FD
+P 2550 7400
+F 0 "#FLG01" H 2550 7495 50  0001 C CNN
+F 1 "PWR_FLAG" H 2550 7623 50  0000 C CNN
+F 2 "" H 2550 7400 50  0000 C CNN
+F 3 "" H 2550 7400 50  0000 C CNN
+	1    2550 7400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 7400 2550 7400
 $EndSCHEMATC
