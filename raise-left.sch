@@ -923,6 +923,7 @@ F 0 "P1" H 1150 7650 50  0000 C CNN
 F 1 "CONN_02X03" H 1150 7250 50  0000 C CNN
 F 2 "Connectors:Tag-Connect_TC2030-IDC-NL" H 1150 6250 60  0001 C CNN
 F 3 "" H 1150 6250 60  0000 C CNN
+F 4 "dnp" H 1150 7450 60  0001 C CNN "farnell #"
 	1    1150 7450
 	1    0    0    -1  
 $EndComp
@@ -1131,6 +1132,7 @@ F 0 "P2" H 4278 1691 50  0000 L CNN
 F 1 "CONN_01X05" H 4278 1600 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 4200 1650 50  0001 C CNN
 F 3 "" H 4200 1650 50  0000 C CNN
+F 4 "dnp" H 4200 1650 60  0001 C CNN "farnell #"
 	1    4200 1650
 	1    0    0    -1  
 $EndComp
@@ -1190,6 +1192,7 @@ F 0 "P7" H 3628 5091 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5000 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 3550 5050 50  0001 C CNN
 F 3 "" H 3550 5050 50  0000 C CNN
+F 4 "dnp" H 3550 5050 60  0001 C CNN "farnell #"
 	1    3550 5050
 	1    0    0    -1  
 $EndComp
@@ -1201,6 +1204,7 @@ F 0 "P8" H 3628 5241 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5150 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 3550 5200 50  0001 C CNN
 F 3 "" H 3550 5200 50  0000 C CNN
+F 4 "dnp" H 3550 5200 60  0001 C CNN "farnell #"
 	1    3550 5200
 	1    0    0    -1  
 $EndComp
@@ -1212,6 +1216,7 @@ F 0 "P9" H 3628 5391 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5300 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 3550 5350 50  0001 C CNN
 F 3 "" H 3550 5350 50  0000 C CNN
+F 4 "dnp" H 3550 5350 60  0001 C CNN "farnell #"
 	1    3550 5350
 	1    0    0    -1  
 $EndComp
@@ -1223,6 +1228,7 @@ F 0 "P10" H 3628 5541 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5450 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 3550 5500 50  0001 C CNN
 F 3 "" H 3550 5500 50  0000 C CNN
+F 4 "dnp" H 3550 5500 60  0001 C CNN "farnell #"
 	1    3550 5500
 	1    0    0    -1  
 $EndComp
@@ -1240,6 +1246,7 @@ F 0 "P6" H 3628 5841 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5750 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 3550 5800 50  0001 C CNN
 F 3 "" H 3550 5800 50  0000 C CNN
+F 4 "dnp" H 3550 5800 60  0001 C CNN "farnell #"
 	1    3550 5800
 	1    0    0    -1  
 $EndComp
@@ -1265,6 +1272,7 @@ F 0 "W2" V 3054 7188 50  0000 L CNN
 F 1 "TEST_1P" V 3145 7188 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3300 7000 50  0001 C CNN
 F 3 "" H 3300 7000 50  0000 C CNN
+F 4 "dnp" H 3100 7000 60  0001 C CNN "farnell #"
 	1    3100 7000
 	0    1    1    0   
 $EndComp
@@ -1454,6 +1462,7 @@ F 0 "P3" H 3628 5691 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5600 50  0000 L CNN
 F 2 "fp:6.8mmhole" H 3550 5650 50  0001 C CNN
 F 3 "" H 3550 5650 50  0000 C CNN
+F 4 "dnp" H 3550 5650 60  0001 C CNN "farnell #"
 	1    3550 5650
 	1    0    0    -1  
 $EndComp
@@ -1466,8 +1475,74 @@ F 0 "P5" H 3628 5991 50  0000 L CNN
 F 1 "CONN_01X01" H 3628 5900 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 3550 5950 50  0001 C CNN
 F 3 "" H 3550 5950 50  0000 C CNN
+F 4 "dnp" H 3550 5950 60  0001 C CNN "farnell #"
 	1    3550 5950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3350 5950
+$Comp
+L CONN_01X01 P11
+U 1 1 5A3A7E48
+P 4600 5300
+F 0 "P11" H 4678 5341 50  0000 L CNN
+F 1 "CONN_01X01" H 4678 5250 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 4600 5300 50  0001 C CNN
+F 3 "" H 4600 5300 50  0000 C CNN
+F 4 "dnp" H 4600 5300 60  0001 C CNN "farnell #"
+	1    4600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P12
+U 1 1 5A3A7E4F
+P 4600 5450
+F 0 "P12" H 4678 5491 50  0000 L CNN
+F 1 "CONN_01X01" H 4678 5400 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 4600 5450 50  0001 C CNN
+F 3 "" H 4600 5450 50  0000 C CNN
+F 4 "dnp" H 4600 5450 60  0001 C CNN "farnell #"
+	1    4600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P14
+U 1 1 5A3A7E56
+P 4600 5750
+F 0 "P14" H 4678 5791 50  0000 L CNN
+F 1 "CONN_01X01" H 4678 5700 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 4600 5750 50  0001 C CNN
+F 3 "" H 4600 5750 50  0000 C CNN
+F 4 "dnp" H 4600 5750 60  0001 C CNN "farnell #"
+	1    4600 5750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 5300
+NoConn ~ 4400 5450
+NoConn ~ 4400 5750
+$Comp
+L CONN_01X01 P13
+U 1 1 5A3A7E60
+P 4600 5600
+F 0 "P13" H 4678 5641 50  0000 L CNN
+F 1 "CONN_01X01" H 4678 5550 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 4600 5600 50  0001 C CNN
+F 3 "" H 4600 5600 50  0000 C CNN
+F 4 "dnp" H 4600 5600 60  0001 C CNN "farnell #"
+	1    4600 5600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 5600
+$Comp
+L CONN_01X01 P15
+U 1 1 5A3A7E68
+P 4600 5900
+F 0 "P15" H 4678 5941 50  0000 L CNN
+F 1 "CONN_01X01" H 4678 5850 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_5mm" H 4600 5900 50  0001 C CNN
+F 3 "" H 4600 5900 50  0000 C CNN
+F 4 "dnp" H 4600 5900 60  0001 C CNN "farnell #"
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4400 5900
 $EndSCHEMATC
