@@ -1,4 +1,5 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:raise-left-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,12 +32,13 @@ LIBS:valves
 LIBS:ws2812b
 LIBS:tca4311a
 LIBS:rgbled
+LIBS:usb_c_16pin
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -1182,10 +1184,10 @@ $EndComp
 Wire Wire Line
 	9500 3950 9500 4250
 $Comp
-L Earth #PWR028
+L Earth #PWR016
 U 1 1 59AF6F30
 P 9500 4250
-F 0 "#PWR028" H 9500 4000 50  0001 C CNN
+F 0 "#PWR016" H 9500 4000 50  0001 C CNN
 F 1 "Earth" H 9500 4100 50  0001 C CNN
 F 2 "" H 9500 4250 50  0000 C CNN
 F 3 "" H 9500 4250 50  0000 C CNN
@@ -1213,10 +1215,10 @@ F 3 "" H 9700 3650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR029
+L +5V #PWR017
 U 1 1 59AFE176
 P 9050 1950
-F 0 "#PWR029" H 9050 1800 50  0001 C CNN
+F 0 "#PWR017" H 9050 1800 50  0001 C CNN
 F 1 "+5V" H 9065 2123 50  0000 C CNN
 F 2 "" H 9050 1950 50  0000 C CNN
 F 3 "" H 9050 1950 50  0000 C CNN
