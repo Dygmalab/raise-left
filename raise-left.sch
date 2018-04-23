@@ -164,9 +164,11 @@ F 0 "IC1" H 2400 4707 50  0000 C CNN
 F 1 "ATTINY88-A" H 2400 4616 50  0000 C CNN
 F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 2400 4525 50  0001 C CIN
 F 3 "" H 2400 2950 50  0000 C CNN
-F 4 "1748549" H 2400 2950 60  0001 C CNN "farnell #"
+F 4 "1704570" H 2400 2950 60  0001 C CNN "farnell #"
 F 5 "microchip" H -300 -200 60  0001 C CNN "supplier"
 F 6 "attiny88mu" H -300 -200 60  0001 C CNN "supplier PN"
+F 7 "Value" H 2400 2950 60  0001 C CNN "MOQ"
+F 8 "Value" H 2400 2950 60  0001 C CNN "leadtime"
 	1    2400 2950
 	1    0    0    -1  
 $EndComp
