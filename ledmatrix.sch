@@ -529,7 +529,7 @@ F 0 "C3" H 8815 2146 50  0000 L CNN
 F 1 "1uF, ceramic, 6v, 10%, x5r" H 8300 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8738 1950 50  0001 C CNN
 F 3 "" H 8700 2100 50  0000 C CNN
-F 4 "1759422" H 8700 2100 60  0001 C CNN "farnell #"
+F 4 "1865556" H 8700 2100 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 6 "Value" H 8700 2100 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8700 2100 60  0001 C CNN "MOQ"
