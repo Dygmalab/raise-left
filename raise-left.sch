@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Raise Right Main"
-Date "2017-11-06"
-Rev "v4.2"
+Title "Raise Left"
+Date "2018-04-24"
+Rev "v4.3"
 Comp "Dygma"
 Comment1 "Matt Venn"
 Comment2 ""
@@ -166,7 +166,7 @@ F 2 "Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm" H 2400 4525 50  0001 C CIN
 F 3 "" H 2400 2950 50  0000 C CNN
 F 4 "1704570" H 2400 2950 60  0001 C CNN "farnell #"
 F 5 "microchip" H -300 -200 60  0001 C CNN "supplier"
-F 6 "attiny88mu" H -300 -200 60  0001 C CNN "supplier PN"
+F 6 "attiny88-au" H -300 -200 60  0001 C CNN "supplier PN"
 F 7 "Value" H 2400 2950 60  0001 C CNN "MOQ"
 F 8 "Value" H 2400 2950 60  0001 C CNN "leadtime"
 	1    2400 2950
@@ -1376,8 +1376,6 @@ Text GLabel 10450 5750 0    60   Input ~ 0
 cb2
 Text GLabel 10450 5650 0    60   Input ~ 0
 cb1
-Text GLabel 10450 5550 0    60   Input ~ 0
-ca9
 Text GLabel 10450 5350 0    60   Input ~ 0
 cb6
 Text GLabel 10450 5250 0    60   Input ~ 0
@@ -1386,8 +1384,6 @@ Text GLabel 10450 5150 0    60   Input ~ 0
 cb4
 NoConn ~ 4700 5800
 NoConn ~ 4700 5950
-Text GLabel 10450 5450 0    60   Input ~ 0
-ca8
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 5A0085FD
@@ -1659,7 +1655,7 @@ L R R1
 U 1 1 5AD7EA25
 P 1050 5500
 F 0 "R1" H 1120 5546 50  0000 L CNN
-F 1 "10k, 125mW, 5%" V 850 5200 50  0000 L CNN
+F 1 "10k, 125mW, 5%" V 1150 8550 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" V 980 5500 50  0001 C CNN
 F 3 "" H 1050 5500 50  0000 C CNN
 F 4 "2447230" H 1050 5500 60  0001 C CNN "farnell #"
@@ -1922,5 +1918,27 @@ F 2 "" H 750 1850 50  0000 C CNN
 F 3 "" H 750 1850 50  0000 C CNN
 	1    750  1850
 	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR033
+U 1 1 5ADF3261
+P 10450 5450
+F 0 "#PWR033" H 10450 5200 50  0001 C CNN
+F 1 "Earth" H 10450 5300 50  0001 C CNN
+F 2 "" H 10450 5450 50  0000 C CNN
+F 3 "" H 10450 5450 50  0000 C CNN
+	1    10450 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR034
+U 1 1 5ADF3596
+P 10450 5550
+F 0 "#PWR034" H 10450 5300 50  0001 C CNN
+F 1 "Earth" H 10450 5400 50  0001 C CNN
+F 2 "" H 10450 5550 50  0000 C CNN
+F 3 "" H 10450 5550 50  0000 C CNN
+	1    10450 5550
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
