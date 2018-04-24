@@ -458,7 +458,7 @@ $EndComp
 Text Notes 9200 850  0    60   ~ 0
 14 leds per row
 Text Notes 9150 1300 0    60   ~ 0
-5 rows = 70RGBs\nbut 16 are on another board,  54 on this one\nconnected with ca1-ca9
+5 rows = 70RGBs max\n2 are on low profile board
 $Comp
 L sled1735-RESCUE-raise-left U58
 U 1 1 59AF4F98
@@ -1105,8 +1105,6 @@ Wire Wire Line
 NoConn ~ 9500 3650
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
-Text Label 4100 6500 2    60   ~ 0
-CA9
 Text Label 4100 6600 2    60   ~ 0
 CB1
 Text Label 4100 6700 2    60   ~ 0
@@ -1124,8 +1122,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 6300 3750 6300
 Wire Wire Line
-	3750 6500 4100 6500
-Wire Wire Line
 	4100 6600 3750 6600
 Wire Wire Line
 	3750 6700 4100 6700
@@ -1135,16 +1131,14 @@ Text Notes 7650 5800 2    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 750  5500 2    197  ~ 0
 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
-Text Notes 3550 5950 0    60   ~ 0
-for leds h5 i5 j5 k5
+Text Notes 4450 6550 0    60   ~ 0
+2 lights for the LP, j5 k5
 Text GLabel 3750 6100 0    60   Input ~ 0
 cb4
 Text GLabel 3750 6200 0    60   Input ~ 0
 cb5
 Text GLabel 3750 6300 0    60   Input ~ 0
 cb6
-Text GLabel 3750 6500 0    60   Input ~ 0
-ca9
 Text GLabel 3750 6600 0    60   Input ~ 0
 cb1
 Text GLabel 3750 6700 0    60   Input ~ 0
@@ -1181,22 +1175,6 @@ Wire Notes Line
 	5550 6300 4400 6300
 Wire Notes Line
 	5150 4750 5150 6250
-Wire Notes Line
-	5150 6250 4450 6250
-Wire Notes Line
-	4750 4750 4750 6200
-Wire Notes Line
-	4750 6200 4500 6200
-Wire Notes Line
-	4400 4700 4400 6200
-Wire Notes Line
-	4400 6200 4350 6200
-Text GLabel 3750 6400 0    60   Input ~ 0
-ca8
-Text Label 4100 6400 2    60   ~ 0
-CA8
-Wire Wire Line
-	3750 6400 4100 6400
 $Comp
 L rgbled rgb-c1
 U 1 1 5AD77AF6
