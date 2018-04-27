@@ -455,10 +455,10 @@ F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7550 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 9200 850  0    60   ~ 0
+Text Notes 9150 1200 0    60   ~ 0
 14 leds per row
 Text Notes 9150 1300 0    60   ~ 0
-5 rows = 70RGBs max\n2 are on low profile board
+5 rows = 70RGBs\n
 $Comp
 L sled1735-RESCUE-raise-left U58
 U 1 1 59AF4F98
@@ -1131,8 +1131,8 @@ Text Notes 7650 5800 2    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 750  5500 2    197  ~ 0
 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
-Text Notes 4450 6550 0    60   ~ 0
-2 lights for the LP, j5 k5
+Text Notes 3550 5950 0    60   ~ 0
+for leds  j5 k5
 Text GLabel 3750 6100 0    60   Input ~ 0
 cb4
 Text GLabel 3750 6200 0    60   Input ~ 0
