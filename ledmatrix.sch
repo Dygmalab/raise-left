@@ -1461,4 +1461,52 @@ Connection ~ 2950 3600
 Connection ~ 2550 3600
 Connection ~ 2150 3600
 Connection ~ 1750 3600
+$Comp
+L rgbled rgb-e5
+U 1 1 5AE323BB
+P 3150 5100
+F 0 "rgb-e5" H 2981 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 5133 60  0000 R CNN
+F 2 "fp:3528-4p" H 3150 5100 60  0001 C CNN
+F 3 "" H 3150 5100 60  0001 C CNN
+F 4 "any/open" H 400 0   60  0001 C CNN "supplier"
+F 5 "Value" H 3150 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 5100 60  0001 C CNN "leadtime"
+	1    3150 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-ISOh2
+U 1 1 5AE32BA1
+P 4300 2450
+F 0 "rgb-ISOh2" H 4375 3037 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4375 2931 60  0000 C CNN
+F 2 "fp:3528-4p" H 4300 2450 60  0001 C CNN
+F 3 "" H 4300 2450 60  0001 C CNN
+F 4 "any/open" H -50 50  60  0001 C CNN "supplier"
+F 5 "Value" H 4300 2450 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4300 2450 60  0001 C CNN "MOQ"
+F 7 "Value" H 4300 2450 60  0001 C CNN "leadtime"
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2250 4300 2200
+Connection ~ 4300 2200
+Wire Wire Line
+	4300 1950 4300 1900
+Connection ~ 4300 1900
+Wire Wire Line
+	4300 2550 4300 2500
+Connection ~ 4300 2500
+Wire Wire Line
+	4500 2450 4550 2450
+Connection ~ 4550 2450
+Wire Wire Line
+	4500 2150 4550 2150
+Connection ~ 4550 2150
+Wire Wire Line
+	4500 2750 4550 2750
+Connection ~ 4550 2750
 $EndSCHEMATC

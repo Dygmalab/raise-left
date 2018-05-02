@@ -1,4 +1,4 @@
-update=Wed 18 Apr 2018 13:35:51 CEST
+update=Wed 02 May 2018 09:35:55 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -73,3 +63,13 @@ LibName31=libs/ws2812b
 LibName32=libs/tca4311a
 LibName33=libs/rgbled
 LibName34=libs/usb_c_16pin
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
