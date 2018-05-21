@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left.sch)
-    (date "Fri 27 Apr 2018 14:00:42 CEST")
-    (tool "Eeschema no-vcs-found-3045509~61~ubuntu16.04.1")
+    (source /home/matt/dygma/left/raise-left.sch)
+    (date "lun 21 may 2018 13:14:51 CEST")
+    (tool "Eeschema (2017-11-06 revision 30455092c)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Raise Left")
@@ -28,7 +28,7 @@
   (components
     (comp (ref C2)
       (value "1uF, ceramic, 6v, 10%, x5r")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint raise_fp:C_0603)
       (fields
         (field (name "farnell #") 1865556)
         (field (name supplier) any/open)
@@ -40,7 +40,7 @@
       (tstamp 591D9ED3))
     (comp (ref R2)
       (value "10k, 125mW, 5%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447230)
         (field (name supplier) any/open)
@@ -52,7 +52,7 @@
       (tstamp 591EB8A2))
     (comp (ref IC1)
       (value ATTINY88-A)
-      (footprint Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm)
+      (footprint raise_fp:LQFP-32_7x7mm_Pitch0.8mm)
       (fields
         (field (name "farnell #") 1704570)
         (field (name supplier) microchip)
@@ -64,7 +64,7 @@
       (tstamp 591D5DCC))
     (comp (ref SW1)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -73,7 +73,7 @@
       (tstamp 59958E31))
     (comp (ref SW2)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -82,7 +82,7 @@
       (tstamp 59958E32))
     (comp (ref D1)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open)
@@ -94,7 +94,7 @@
       (tstamp 59958E33))
     (comp (ref D2)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -103,7 +103,7 @@
       (tstamp 59958E34))
     (comp (ref SW3)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -112,7 +112,7 @@
       (tstamp 59958E38))
     (comp (ref D3)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -121,7 +121,7 @@
       (tstamp 59958E39))
     (comp (ref SW4)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -130,7 +130,7 @@
       (tstamp 59959899))
     (comp (ref SW5)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -139,7 +139,7 @@
       (tstamp 5995989F))
     (comp (ref D4)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -148,7 +148,7 @@
       (tstamp 599598A5))
     (comp (ref D5)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -157,7 +157,7 @@
       (tstamp 599598AB))
     (comp (ref SW6)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -166,7 +166,7 @@
       (tstamp 59959E78))
     (comp (ref SW7)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -175,7 +175,7 @@
       (tstamp 59959E7E))
     (comp (ref D6)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -184,7 +184,7 @@
       (tstamp 59959E84))
     (comp (ref D7)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -193,7 +193,7 @@
       (tstamp 59959E8A))
     (comp (ref SW8)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -202,7 +202,7 @@
       (tstamp 59959E98))
     (comp (ref D8)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -211,7 +211,7 @@
       (tstamp 59959E9E))
     (comp (ref SW9)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -220,7 +220,7 @@
       (tstamp 59959EA8))
     (comp (ref SW10)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -229,7 +229,7 @@
       (tstamp 59959EAE))
     (comp (ref D9)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -238,7 +238,7 @@
       (tstamp 59959EB4))
     (comp (ref D10)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -247,7 +247,7 @@
       (tstamp 59959EBA))
     (comp (ref SW11)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -256,7 +256,7 @@
       (tstamp 5995A8F4))
     (comp (ref SW12)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -265,7 +265,7 @@
       (tstamp 5995A8FA))
     (comp (ref D11)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -274,7 +274,7 @@
       (tstamp 5995A900))
     (comp (ref D12)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -283,7 +283,7 @@
       (tstamp 5995A906))
     (comp (ref SW13)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -292,7 +292,7 @@
       (tstamp 5995A914))
     (comp (ref D13)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -301,7 +301,7 @@
       (tstamp 5995A91A))
     (comp (ref SW14)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -310,7 +310,7 @@
       (tstamp 5995A924))
     (comp (ref SW15)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -319,7 +319,7 @@
       (tstamp 5995A92A))
     (comp (ref D14)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -328,7 +328,7 @@
       (tstamp 5995A930))
     (comp (ref D15)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -337,7 +337,7 @@
       (tstamp 5995A936))
     (comp (ref SW16)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -346,7 +346,7 @@
       (tstamp 5995AC1B))
     (comp (ref SW17)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -355,7 +355,7 @@
       (tstamp 5995AC21))
     (comp (ref D16)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -364,7 +364,7 @@
       (tstamp 5995AC27))
     (comp (ref D17)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -373,7 +373,7 @@
       (tstamp 5995AC2D))
     (comp (ref SW18)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -382,7 +382,7 @@
       (tstamp 5995AC3B))
     (comp (ref D18)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -391,7 +391,7 @@
       (tstamp 5995AC41))
     (comp (ref SW19)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -400,7 +400,7 @@
       (tstamp 5995AC4B))
     (comp (ref SW20)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -409,7 +409,7 @@
       (tstamp 5995AC51))
     (comp (ref D19)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -418,7 +418,7 @@
       (tstamp 5995AC57))
     (comp (ref D20)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -427,7 +427,7 @@
       (tstamp 5995AC5D))
     (comp (ref SW21)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -436,7 +436,7 @@
       (tstamp 5995AC72))
     (comp (ref SW22)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -445,7 +445,7 @@
       (tstamp 5995AC78))
     (comp (ref D21)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -454,7 +454,7 @@
       (tstamp 5995AC7E))
     (comp (ref D22)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -463,7 +463,7 @@
       (tstamp 5995AC84))
     (comp (ref SW23)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -472,7 +472,7 @@
       (tstamp 5995AC92))
     (comp (ref D23)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -481,7 +481,7 @@
       (tstamp 5995AC98))
     (comp (ref SW24)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -490,7 +490,7 @@
       (tstamp 5995ACA2))
     (comp (ref SW25)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -499,7 +499,7 @@
       (tstamp 5995ACA8))
     (comp (ref D24)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -508,7 +508,7 @@
       (tstamp 5995ACAE))
     (comp (ref D25)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -517,7 +517,7 @@
       (tstamp 5995ACB4))
     (comp (ref SW26)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -526,7 +526,7 @@
       (tstamp 5995AE81))
     (comp (ref SW27)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -535,7 +535,7 @@
       (tstamp 5995AE87))
     (comp (ref D26)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -544,7 +544,7 @@
       (tstamp 5995AE8D))
     (comp (ref D27)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -553,7 +553,7 @@
       (tstamp 5995AE93))
     (comp (ref SW28)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -562,7 +562,7 @@
       (tstamp 5995AEA1))
     (comp (ref D28)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -571,7 +571,7 @@
       (tstamp 5995AEA7))
     (comp (ref SW29)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -580,7 +580,7 @@
       (tstamp 5995AEB1))
     (comp (ref D29)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -589,7 +589,7 @@
       (tstamp 5995AEBD))
     (comp (ref SW30)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -598,7 +598,7 @@
       (tstamp 5995B0D6))
     (comp (ref D30)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -607,7 +607,7 @@
       (tstamp 5995B0E2))
     (comp (ref P8)
       (value CONN_02X03)
-      (footprint Connectors:Tag-Connect_TC2030-IDC-NL)
+      (footprint raise_fp:Tag-Connect_TC2030-IDC-NL)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -619,7 +619,7 @@
       (tstamp 59B16B51))
     (comp (ref C5)
       (value "10uF, ceramic, 6v, 10%, x5r")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint raise_fp:C_0603)
       (fields
         (field (name "farnell #") 1288201)
         (field (name supplier) any/open)
@@ -631,7 +631,7 @@
       (tstamp 59D15DBC))
     (comp (ref R6)
       (value "5.1k, 125mW, 1%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447404)
         (field (name supplier) any/open)
@@ -643,7 +643,7 @@
       (tstamp 59D15DC4))
     (comp (ref R7)
       (value "10k, 125mW, 5%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447230)
         (field (name supplier) any/open)
@@ -655,7 +655,7 @@
       (tstamp 59D3AEF6))
     (comp (ref P6)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_5.5mm)
+      (footprint raise_fp:MountingHole_5.5mm)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -667,7 +667,7 @@
       (tstamp 59D3C92C))
     (comp (ref P7)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_5.5mm)
+      (footprint raise_fp:MountingHole_5.5mm)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -676,7 +676,7 @@
       (tstamp 59D3CA62))
     (comp (ref lp1)
       (value "FPC 10 way connector, 0.5mm pitch, right angle, bottom contact")
-      (footprint fp:FPC_10_2046)
+      (footprint raise_fp:FPC_10_2046)
       (fields
         (field (name "farnell #") 1302345)
         (field (name supplier) any/open))
@@ -685,7 +685,7 @@
       (tstamp 59D8DB08))
     (comp (ref Q1)
       (value "PMOS, -3.6A, 0.02R")
-      (footprint TO_SOT_Packages_SMD:SOT-23)
+      (footprint raise_fp:SOT-23)
       (fields
         (field (name "farnell #") 2061419)
         (field (name supplier) "diodes inc")
@@ -697,7 +697,7 @@
       (tstamp 5A316B6D))
     (comp (ref P1)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.7mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -706,7 +706,7 @@
       (tstamp 5A3A7E48))
     (comp (ref P2)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.7mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -718,7 +718,7 @@
       (tstamp 5A3A7E4F))
     (comp (ref P4)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.7mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -730,7 +730,7 @@
       (tstamp 5A3A7E56))
     (comp (ref P3)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.7mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -742,7 +742,7 @@
       (tstamp 5A3A7E60))
     (comp (ref P5)
       (value CONN_01X01)
-      (footprint Mounting_Holes:MountingHole_5.5mm)
+      (footprint raise_fp:MountingHole_5.5mm)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -751,7 +751,7 @@
       (tstamp 5A3A7E68))
     (comp (ref L1)
       (value Ferrite_Bead)
-      (footprint Resistors_SMD:R_0603)
+      (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 1515745)
         (field (name supplier) any/open))
@@ -760,7 +760,7 @@
       (tstamp 5AD7487F))
     (comp (ref J1)
       (value USB_C_Receptacle_16pin)
-      (footprint fp:usb-c-16smt)
+      (footprint raise_fp:usb-c-16smt)
       (fields
         (field (name supplier) "contact technology corp")
         (field (name "supplier PN") sbc-160s-202-s338))
@@ -769,7 +769,7 @@
       (tstamp 5AD7508D))
     (comp (ref R3)
       (value "5.1k, 125mW, 1%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447404)
         (field (name supplier) any/open)
@@ -781,7 +781,7 @@
       (tstamp 5AD7C1C8))
     (comp (ref TP1)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -790,7 +790,7 @@
       (tstamp 5AD7D968))
     (comp (ref R1)
       (value "10k, 125mW, 5%")
-      (footprint Resistors_SMD:R_0603)
+      (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447230)
         (field (name supplier) any/open)
@@ -802,7 +802,7 @@
       (tstamp 5AD7EA25))
     (comp (ref TP4)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -811,7 +811,7 @@
       (tstamp 5AD7F77E))
     (comp (ref TP5)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -820,7 +820,7 @@
       (tstamp 5AD7F9F4))
     (comp (ref TP3)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -829,7 +829,7 @@
       (tstamp 5AD7FABC))
     (comp (ref TP2)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -838,7 +838,7 @@
       (tstamp 5AD803F9))
     (comp (ref TP6)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -847,7 +847,7 @@
       (tstamp 5AD80DE1))
     (comp (ref C1)
       (value "47uF, ceramic, 6v, 10%, x5r")
-      (footprint Capacitors_SMD:C_1206)
+      (footprint raise_fp:C_1206)
       (fields
         (field (name supplier) any/open)
         (field (name "supplier PN") Value)
@@ -859,7 +859,7 @@
       (tstamp 5AD764DF))
     (comp (ref TP7)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -868,7 +868,7 @@
       (tstamp 5AD86355))
     (comp (ref TP8)
       (value TEST)
-      (footprint Measurement_Points:Measurement_Point_Round-SMD-Pad_Small)
+      (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -877,7 +877,7 @@
       (tstamp 5AD8709D))
     (comp (ref C4)
       (value "10uF, ceramic, 6v, 10%, x5r")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint raise_fp:C_0603)
       (fields
         (field (name "farnell #") 1288201)
         (field (name supplier) any/open)
@@ -889,7 +889,7 @@
       (tstamp 5AD8BBAF))
     (comp (ref SW31)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11)
@@ -900,7 +900,7 @@
       (tstamp 5AE31915))
     (comp (ref SW32)
       (value "kailh hot plug sockets")
-      (footprint fp:kailhsocket-cherry)
+      (footprint raise_fp:kailhsocket-cherry)
       (fields
         (field (name supplier) kailh)
         (field (name "supplier PN") CPG151101S11))
@@ -909,7 +909,7 @@
       (tstamp 5AE31F14))
     (comp (ref D31)
       (value "small signal diode, 100mA")
-      (footprint Diodes_SMD:D_SOD-123)
+      (footprint raise_fp:D_SOD-123)
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open))
@@ -918,7 +918,7 @@
       (tstamp 5AE320C8))
     (comp (ref rgb-h1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -926,7 +926,7 @@
       (tstamp 5AD83083))
     (comp (ref rgb-i1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -934,7 +934,7 @@
       (tstamp 59AEC889))
     (comp (ref rgb-j1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -942,7 +942,7 @@
       (tstamp 59AEC8B9))
     (comp (ref rgb-k1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -950,7 +950,7 @@
       (tstamp 59AEC8EB))
     (comp (ref rgb-l1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -958,7 +958,7 @@
       (tstamp 59AEC91F))
     (comp (ref rgb-m1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -966,7 +966,7 @@
       (tstamp 59AEC95D))
     (comp (ref rgb-n1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -974,7 +974,7 @@
       (tstamp 59AEC995))
     (comp (ref rgb-o1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -982,7 +982,7 @@
       (tstamp 5AD8308A))
     (comp (ref rgb-p1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -990,7 +990,7 @@
       (tstamp 59AECA80))
     (comp (ref rgb-h2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -998,7 +998,7 @@
       (tstamp 5AD8308C))
     (comp (ref rgb-i2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1006,7 +1006,7 @@
       (tstamp 59AED4A7))
     (comp (ref rgb-j2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1014,7 +1014,7 @@
       (tstamp 59AED4EF))
     (comp (ref rgb-k2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1022,7 +1022,7 @@
       (tstamp 5AD8308F))
     (comp (ref rgb-l2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1030,7 +1030,7 @@
       (tstamp 5AD83090))
     (comp (ref rgb-m2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1038,7 +1038,7 @@
       (tstamp 5AD83091))
     (comp (ref rgb-n2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1046,7 +1046,7 @@
       (tstamp 59AED705))
     (comp (ref rgb-o2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1054,7 +1054,7 @@
       (tstamp 59AED75B))
     (comp (ref rgb-p2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1062,7 +1062,7 @@
       (tstamp 59AED7B3))
     (comp (ref rgb-i3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1070,7 +1070,7 @@
       (tstamp 5AD83095))
     (comp (ref rgb-j3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1078,7 +1078,7 @@
       (tstamp 5AD83096))
     (comp (ref rgb-k3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1086,7 +1086,7 @@
       (tstamp 5AD83097))
     (comp (ref rgb-l3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1094,7 +1094,7 @@
       (tstamp 59AEDF2E))
     (comp (ref rgb-m3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1102,7 +1102,7 @@
       (tstamp 5AD83099))
     (comp (ref rgb-n3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1110,7 +1110,7 @@
       (tstamp 59AEE000))
     (comp (ref rgb-o3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1118,7 +1118,7 @@
       (tstamp 59AEE06C))
     (comp (ref rgb-p3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1126,7 +1126,7 @@
       (tstamp 5AD8309C))
     (comp (ref rgb-l4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1134,7 +1134,7 @@
       (tstamp 5AD8309D))
     (comp (ref rgb-m4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1142,7 +1142,7 @@
       (tstamp 5AD8309E))
     (comp (ref rgb-n4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1150,7 +1150,7 @@
       (tstamp 5AD8309F))
     (comp (ref rgb-o4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1158,7 +1158,7 @@
       (tstamp 5AD830A0))
     (comp (ref rgb-p4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1166,18 +1166,18 @@
       (tstamp 5AD830A1))
     (comp (ref U1)
       (value sled1735)
-      (footprint fp:QFN-56_EP_4.5x6.5_Pitch0.4mm)
+      (footprint raise_fp:QFN-56_EP_4.5x6.5_Pitch0.4mm)
       (fields
         (field (name supplier) sonix)
         (field (name "supplier PN") SLED1735J)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
-      (libsource (lib raise-left-rescue) (part sled1735-RESCUE-raise-left))
+      (libsource (lib raise-left-cache) (part sled1735-RESCUE-raise-left))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AF4F98))
     (comp (ref C3)
       (value "1uF, ceramic, 6v, 10%, x5r")
-      (footprint Capacitors_SMD:C_0603)
+      (footprint raise_fp:C_0603)
       (fields
         (field (name "farnell #") 1865556)
         (field (name supplier) any/open)
@@ -1189,7 +1189,7 @@
       (tstamp 59AF668F))
     (comp (ref rgb-i4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1197,7 +1197,7 @@
       (tstamp 59D2C906))
     (comp (ref rgb-h4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1205,7 +1205,7 @@
       (tstamp 59D2C90C))
     (comp (ref rgb-g4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1213,7 +1213,7 @@
       (tstamp 59D2C912))
     (comp (ref rgb-f4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1221,7 +1221,7 @@
       (tstamp 59D2C918))
     (comp (ref rgb-e4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1229,7 +1229,7 @@
       (tstamp 59D2C91E))
     (comp (ref rgb-d4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1237,7 +1237,7 @@
       (tstamp 59D2C924))
     (comp (ref rgb-c4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1245,7 +1245,7 @@
       (tstamp 59D2C92A))
     (comp (ref rgb-b4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1253,7 +1253,7 @@
       (tstamp 59D2C930))
     (comp (ref rgb-a4)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1261,7 +1261,7 @@
       (tstamp 59D2C936))
     (comp (ref rgb-a5)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1269,7 +1269,7 @@
       (tstamp 59D2CA0F))
     (comp (ref rgb-b5)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1277,7 +1277,7 @@
       (tstamp 59D2CA15))
     (comp (ref rgb-c5)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1285,7 +1285,7 @@
       (tstamp 59D2CA1B))
     (comp (ref rgb-d5)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
         (field (name "supplier PN") Value)
@@ -1296,7 +1296,7 @@
       (tstamp 5A005335))
     (comp (ref rgb-c1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
         (field (name "supplier PN") Value)
@@ -1307,7 +1307,7 @@
       (tstamp 5AD77AF6))
     (comp (ref rgb-d1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1315,7 +1315,7 @@
       (tstamp 5AD77AFD))
     (comp (ref rgb-e1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1323,7 +1323,7 @@
       (tstamp 5AD77B04))
     (comp (ref rgb-f1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1331,7 +1331,7 @@
       (tstamp 5AD77B0B))
     (comp (ref rgb-g1)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1339,7 +1339,7 @@
       (tstamp 5AD77B25))
     (comp (ref rgb-c2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1347,7 +1347,7 @@
       (tstamp 5AD77B3E))
     (comp (ref rgb-b2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1355,7 +1355,7 @@
       (tstamp 5AD77B45))
     (comp (ref rgb-a2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1363,7 +1363,7 @@
       (tstamp 5AD77B4C))
     (comp (ref rgb-f2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1371,7 +1371,7 @@
       (tstamp 5AD77B63))
     (comp (ref rgb-g2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1379,7 +1379,7 @@
       (tstamp 5AD77B6A))
     (comp (ref rgb-a3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1387,7 +1387,7 @@
       (tstamp 5AD77B71))
     (comp (ref rgb-b3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1395,7 +1395,7 @@
       (tstamp 5AD77B78))
     (comp (ref rgb-c3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1403,7 +1403,7 @@
       (tstamp 5AD77B7F))
     (comp (ref rgb-d3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1411,7 +1411,7 @@
       (tstamp 5AD77B86))
     (comp (ref rgb-e3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1419,7 +1419,7 @@
       (tstamp 5AD77B8D))
     (comp (ref rgb-f3)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
       (libsource (lib rgbled) (part rgbled))
@@ -1427,7 +1427,7 @@
       (tstamp 5AD77B94))
     (comp (ref rgb-e5)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
         (field (name "supplier PN") Value)
@@ -1438,7 +1438,7 @@
       (tstamp 5AE323BB))
     (comp (ref rgb-ISOh2)
       (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
-      (footprint fp:3528-4p)
+      (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
         (field (name "supplier PN") Value)
@@ -1639,7 +1639,7 @@
         (pin (num 4) (name G-) (type passive))
         (pin (num 5) (name R-) (type passive))
         (pin (num 6) (name B-) (type passive))))
-    (libpart (lib raise-left-rescue) (part sled1735-RESCUE-raise-left)
+    (libpart (lib raise-left-cache) (part sled1735-RESCUE-raise-left)
       (fields
         (field (name Reference) U)
         (field (name Value) sled1735-RESCUE-raise-left))
@@ -1692,16 +1692,14 @@
         (pin (num 46) (name CA9) (type BiDi))
         (pin (num 47) (name bottompad) (type power_in)))))
   (libraries
-    (library (logical raise-left-rescue)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-rescue.lib))
     (library (logical raise-left-cache)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-cache.lib))
+      (uri /home/matt/dygma/left/raise-left-cache.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical usb_c_16pin)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/libs/usb_c_16pin.lib))
     (library (logical rgbled)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/libs/rgbled.lib)))
+      (uri /home/matt/dygma/left/libs/rgbled.lib))
+    (library (logical usb_c_16pin)
+      (uri /home/matt/dygma/left/libs/usb_c_16pin.lib)))
   (nets
     (net (code 1) (name "Net-(C5-Pad2)")
       (node (ref C5) (pin 2))
