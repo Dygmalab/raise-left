@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/dygma/left/raise-left.sch)
-    (date "lun 21 may 2018 13:14:51 CEST")
+    (date "lun 21 may 2018 13:33:44 CEST")
     (tool "Eeschema (2017-11-06 revision 30455092c)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -764,7 +764,7 @@
       (fields
         (field (name supplier) "contact technology corp")
         (field (name "supplier PN") sbc-160s-202-s338))
-      (libsource (lib usb_c_16pin) (part USB_C_Receptacle_16pin))
+      (libsource (lib raise-left-cache) (part USB_C_Receptacle_16pin))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7508D))
     (comp (ref R3)
@@ -921,7 +921,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83083))
     (comp (ref rgb-i1)
@@ -929,7 +929,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC889))
     (comp (ref rgb-j1)
@@ -937,7 +937,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC8B9))
     (comp (ref rgb-k1)
@@ -945,7 +945,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC8EB))
     (comp (ref rgb-l1)
@@ -953,7 +953,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC91F))
     (comp (ref rgb-m1)
@@ -961,7 +961,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC95D))
     (comp (ref rgb-n1)
@@ -969,7 +969,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC995))
     (comp (ref rgb-o1)
@@ -977,7 +977,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8308A))
     (comp (ref rgb-p1)
@@ -985,7 +985,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AECA80))
     (comp (ref rgb-h2)
@@ -993,7 +993,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8308C))
     (comp (ref rgb-i2)
@@ -1001,7 +1001,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED4A7))
     (comp (ref rgb-j2)
@@ -1009,7 +1009,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED4EF))
     (comp (ref rgb-k2)
@@ -1017,7 +1017,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8308F))
     (comp (ref rgb-l2)
@@ -1025,7 +1025,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83090))
     (comp (ref rgb-m2)
@@ -1033,7 +1033,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83091))
     (comp (ref rgb-n2)
@@ -1041,7 +1041,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED705))
     (comp (ref rgb-o2)
@@ -1049,7 +1049,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED75B))
     (comp (ref rgb-p2)
@@ -1057,7 +1057,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED7B3))
     (comp (ref rgb-i3)
@@ -1065,7 +1065,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83095))
     (comp (ref rgb-j3)
@@ -1073,7 +1073,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83096))
     (comp (ref rgb-k3)
@@ -1081,7 +1081,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83097))
     (comp (ref rgb-l3)
@@ -1089,7 +1089,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEDF2E))
     (comp (ref rgb-m3)
@@ -1097,7 +1097,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83099))
     (comp (ref rgb-n3)
@@ -1105,7 +1105,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEE000))
     (comp (ref rgb-o3)
@@ -1113,7 +1113,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEE06C))
     (comp (ref rgb-p3)
@@ -1121,7 +1121,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309C))
     (comp (ref rgb-l4)
@@ -1129,7 +1129,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309D))
     (comp (ref rgb-m4)
@@ -1137,7 +1137,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309E))
     (comp (ref rgb-n4)
@@ -1145,7 +1145,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309F))
     (comp (ref rgb-o4)
@@ -1153,7 +1153,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD830A0))
     (comp (ref rgb-p4)
@@ -1161,7 +1161,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD830A1))
     (comp (ref U1)
@@ -1192,7 +1192,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C906))
     (comp (ref rgb-h4)
@@ -1200,7 +1200,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C90C))
     (comp (ref rgb-g4)
@@ -1208,7 +1208,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C912))
     (comp (ref rgb-f4)
@@ -1216,7 +1216,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C918))
     (comp (ref rgb-e4)
@@ -1224,7 +1224,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C91E))
     (comp (ref rgb-d4)
@@ -1232,7 +1232,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C924))
     (comp (ref rgb-c4)
@@ -1240,7 +1240,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C92A))
     (comp (ref rgb-b4)
@@ -1248,7 +1248,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C930))
     (comp (ref rgb-a4)
@@ -1256,7 +1256,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C936))
     (comp (ref rgb-a5)
@@ -1264,7 +1264,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2CA0F))
     (comp (ref rgb-b5)
@@ -1272,7 +1272,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2CA15))
     (comp (ref rgb-c5)
@@ -1280,7 +1280,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2CA1B))
     (comp (ref rgb-d5)
@@ -1291,7 +1291,7 @@
         (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5A005335))
     (comp (ref rgb-c1)
@@ -1302,7 +1302,7 @@
         (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77AF6))
     (comp (ref rgb-d1)
@@ -1310,7 +1310,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77AFD))
     (comp (ref rgb-e1)
@@ -1318,7 +1318,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B04))
     (comp (ref rgb-f1)
@@ -1326,7 +1326,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B0B))
     (comp (ref rgb-g1)
@@ -1334,7 +1334,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B25))
     (comp (ref rgb-c2)
@@ -1342,7 +1342,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B3E))
     (comp (ref rgb-b2)
@@ -1350,7 +1350,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B45))
     (comp (ref rgb-a2)
@@ -1358,7 +1358,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B4C))
     (comp (ref rgb-f2)
@@ -1366,7 +1366,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B63))
     (comp (ref rgb-g2)
@@ -1374,7 +1374,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B6A))
     (comp (ref rgb-a3)
@@ -1382,7 +1382,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B71))
     (comp (ref rgb-b3)
@@ -1390,7 +1390,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B78))
     (comp (ref rgb-c3)
@@ -1398,7 +1398,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B7F))
     (comp (ref rgb-d3)
@@ -1406,7 +1406,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B86))
     (comp (ref rgb-e3)
@@ -1414,7 +1414,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B8D))
     (comp (ref rgb-f3)
@@ -1422,7 +1422,7 @@
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B94))
     (comp (ref rgb-e5)
@@ -1433,7 +1433,7 @@
         (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AE323BB))
     (comp (ref rgb-ISOh2)
@@ -1444,7 +1444,7 @@
         (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
-      (libsource (lib rgbled) (part rgbled))
+      (libsource (lib raise-left-cache) (part rgbled))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AE32BA1)))
   (libparts
@@ -1605,7 +1605,7 @@
         (field (name Value) TEST))
       (pins
         (pin (num 1) (name ~) (type passive))))
-    (libpart (lib usb_c_16pin) (part USB_C_Receptacle_16pin)
+    (libpart (lib raise-left-cache) (part USB_C_Receptacle_16pin)
       (footprints
         (fp USB*C*Receptacle*))
       (fields
@@ -1628,7 +1628,7 @@
         (pin (num S2) (name SHIELD) (type passive))
         (pin (num S3) (name SHIELD) (type passive))
         (pin (num S4) (name SHIELD) (type passive))))
-    (libpart (lib rgbled) (part rgbled)
+    (libpart (lib raise-left-cache) (part rgbled)
       (fields
         (field (name Reference) U)
         (field (name Value) rgbled))
@@ -1692,14 +1692,10 @@
         (pin (num 46) (name CA9) (type BiDi))
         (pin (num 47) (name bottompad) (type power_in)))))
   (libraries
-    (library (logical raise-left-cache)
-      (uri /home/matt/dygma/left/raise-left-cache.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical rgbled)
-      (uri /home/matt/dygma/left/libs/rgbled.lib))
-    (library (logical usb_c_16pin)
-      (uri /home/matt/dygma/left/libs/usb_c_16pin.lib)))
+    (library (logical raise-left-cache)
+      (uri /home/matt/dygma/left/raise-left-cache.lib)))
   (nets
     (net (code 1) (name "Net-(C5-Pad2)")
       (node (ref C5) (pin 2))

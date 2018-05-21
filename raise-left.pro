@@ -37,7 +37,7 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=../raise_libs
+LibDir=
 [eeschema/libraries]
 LibName1=raise-left-rescue
 LibName2=power
