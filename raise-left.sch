@@ -157,10 +157,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW2
+L SW_PUSH SW8
 U 1 1 59958E32
 P 5400 2250
-F 0 "SW2" H 5400 2505 50  0000 C CNN
+F 0 "SW8" H 5400 2505 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 2414 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 2250 50  0001 C CNN
 F 3 "" H 5400 2250 50  0000 C CNN
@@ -186,10 +186,10 @@ F 8 "Value" H 5700 1750 60  0001 C CNN "leadtime"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D2
+L D D8
 U 1 1 59958E34
 P 5700 2400
-F 0 "D2" V 5746 2322 50  0000 R CNN
+F 0 "D8" V 5746 2322 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5655 2322 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5700 2400 50  0001 C CNN
 F 3 "" H 5700 2400 50  0000 C CNN
@@ -199,10 +199,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW3
+L SW_PUSH SW14
 U 1 1 59958E38
 P 5400 2900
-F 0 "SW3" H 5400 3155 50  0000 C CNN
+F 0 "SW14" H 5400 3155 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 3064 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 2900 50  0001 C CNN
 F 3 "" H 5400 2900 50  0000 C CNN
@@ -212,10 +212,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3
+L D D14
 U 1 1 59958E39
 P 5700 3050
-F 0 "D3" V 5746 2972 50  0000 R CNN
+F 0 "D14" V 5746 2972 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5655 2972 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5700 3050 50  0001 C CNN
 F 3 "" H 5700 3050 50  0000 C CNN
@@ -227,23 +227,25 @@ $EndComp
 Text Notes 5050 900  0    118  ~ 0
 switch matrix
 $Comp
-L SW_PUSH SW4
+L SW_PUSH SW_ISO_20
 U 1 1 59959899
 P 5400 3450
-F 0 "SW4" H 5400 3705 50  0000 C CNN
+F 0 "SW_ISO_20" H 5400 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 3450 50  0001 C CNN
 F 3 "" H 5400 3450 50  0000 C CNN
 F 4 "kailh" H -300 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5400 3450 60  0001 C CNN "MOQ"
+F 7 "Value" H 5400 3450 60  0001 C CNN "leadtime"
 	1    5400 3450
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW5
+L SW_PUSH SW27
 U 1 1 5995989F
 P 5400 4100
-F 0 "SW5" H 5400 4355 50  0000 C CNN
+F 0 "SW27" H 5400 4355 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 4264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 4100 50  0001 C CNN
 F 3 "" H 5400 4100 50  0000 C CNN
@@ -253,10 +255,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D4
+L D D20
 U 1 1 599598A5
 P 5700 3600
-F 0 "D4" V 5746 3522 50  0000 R CNN
+F 0 "D20" V 5746 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5655 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5700 3600 50  0001 C CNN
 F 3 "" H 5700 3600 50  0000 C CNN
@@ -266,10 +268,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D5
+L D D27
 U 1 1 599598AB
 P 5700 4250
-F 0 "D5" V 5746 4172 50  0000 R CNN
+F 0 "D27" V 5746 4172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5655 4172 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5700 4250 50  0001 C CNN
 F 3 "" H 5700 4250 50  0000 C CNN
@@ -279,10 +281,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW6
+L SW_PUSH SW2
 U 1 1 59959E78
 P 6200 1600
-F 0 "SW6" H 6200 1855 50  0000 C CNN
+F 0 "SW2" H 6200 1855 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 6200 1764 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6200 1600 50  0001 C CNN
 F 3 "" H 6200 1600 50  0000 C CNN
@@ -292,10 +294,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW7
+L SW_PUSH SW9
 U 1 1 59959E7E
 P 6200 2250
-F 0 "SW7" H 6200 2505 50  0000 C CNN
+F 0 "SW9" H 6200 2505 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 6200 2414 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6200 2250 50  0001 C CNN
 F 3 "" H 6200 2250 50  0000 C CNN
@@ -305,10 +307,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D6
+L D D2
 U 1 1 59959E84
 P 6500 1750
-F 0 "D6" V 6546 1672 50  0000 R CNN
+F 0 "D2" V 6546 1672 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 6455 1672 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 6500 1750 50  0001 C CNN
 F 3 "" H 6500 1750 50  0000 C CNN
@@ -318,10 +320,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D7
+L D D9
 U 1 1 59959E8A
 P 6500 2400
-F 0 "D7" V 6546 2322 50  0000 R CNN
+F 0 "D9" V 6546 2322 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 6455 2322 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 6500 2400 50  0001 C CNN
 F 3 "" H 6500 2400 50  0000 C CNN
@@ -331,10 +333,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW8
+L SW_PUSH SW15
 U 1 1 59959E98
 P 6200 2900
-F 0 "SW8" H 6200 3155 50  0000 C CNN
+F 0 "SW15" H 6200 3155 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 6200 3064 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6200 2900 50  0001 C CNN
 F 3 "" H 6200 2900 50  0000 C CNN
@@ -344,10 +346,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D8
+L D D15
 U 1 1 59959E9E
 P 6500 3050
-F 0 "D8" V 6546 2972 50  0000 R CNN
+F 0 "D15" V 6546 2972 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 6455 2972 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 6500 3050 50  0001 C CNN
 F 3 "" H 6500 3050 50  0000 C CNN
@@ -357,10 +359,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW9
+L SW_PUSH SW21
 U 1 1 59959EA8
 P 6200 3450
-F 0 "SW9" H 6200 3705 50  0000 C CNN
+F 0 "SW21" H 6200 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 6200 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6200 3450 50  0001 C CNN
 F 3 "" H 6200 3450 50  0000 C CNN
@@ -370,10 +372,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW10
+L SW_PUSH SW28
 U 1 1 59959EAE
 P 6200 4100
-F 0 "SW10" H 6200 4355 50  0000 C CNN
+F 0 "SW28" H 6200 4355 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 6200 4264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6200 4100 50  0001 C CNN
 F 3 "" H 6200 4100 50  0000 C CNN
@@ -383,10 +385,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D9
+L D D21
 U 1 1 59959EB4
 P 6500 3600
-F 0 "D9" V 6546 3522 50  0000 R CNN
+F 0 "D21" V 6546 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 6455 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 6500 3600 50  0001 C CNN
 F 3 "" H 6500 3600 50  0000 C CNN
@@ -396,10 +398,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D10
+L D D28
 U 1 1 59959EBA
 P 6500 4250
-F 0 "D10" V 6546 4172 50  0000 R CNN
+F 0 "D28" V 6546 4172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 6455 4172 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 6500 4250 50  0001 C CNN
 F 3 "" H 6500 4250 50  0000 C CNN
@@ -409,10 +411,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW11
+L SW_PUSH SW3
 U 1 1 5995A8F4
 P 7000 1600
-F 0 "SW11" H 7000 1855 50  0000 C CNN
+F 0 "SW3" H 7000 1855 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7000 1764 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7000 1600 50  0001 C CNN
 F 3 "" H 7000 1600 50  0000 C CNN
@@ -422,10 +424,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW12
+L SW_PUSH SW10
 U 1 1 5995A8FA
 P 7000 2250
-F 0 "SW12" H 7000 2505 50  0000 C CNN
+F 0 "SW10" H 7000 2505 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7000 2414 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7000 2250 50  0001 C CNN
 F 3 "" H 7000 2250 50  0000 C CNN
@@ -435,10 +437,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D11
+L D D3
 U 1 1 5995A900
 P 7300 1750
-F 0 "D11" V 7346 1672 50  0000 R CNN
+F 0 "D3" V 7346 1672 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 7255 1672 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 7300 1750 50  0001 C CNN
 F 3 "" H 7300 1750 50  0000 C CNN
@@ -448,10 +450,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D12
+L D D10
 U 1 1 5995A906
 P 7300 2400
-F 0 "D12" V 7346 2322 50  0000 R CNN
+F 0 "D10" V 7346 2322 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 7255 2322 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 7300 2400 50  0001 C CNN
 F 3 "" H 7300 2400 50  0000 C CNN
@@ -461,10 +463,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW13
+L SW_PUSH SW16
 U 1 1 5995A914
 P 7000 2900
-F 0 "SW13" H 7000 3155 50  0000 C CNN
+F 0 "SW16" H 7000 3155 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7000 3064 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7000 2900 50  0001 C CNN
 F 3 "" H 7000 2900 50  0000 C CNN
@@ -474,10 +476,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D13
+L D D16
 U 1 1 5995A91A
 P 7300 3050
-F 0 "D13" V 7346 2972 50  0000 R CNN
+F 0 "D16" V 7346 2972 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 7255 2972 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 7300 3050 50  0001 C CNN
 F 3 "" H 7300 3050 50  0000 C CNN
@@ -487,10 +489,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW14
+L SW_PUSH SW22
 U 1 1 5995A924
 P 7000 3450
-F 0 "SW14" H 7000 3705 50  0000 C CNN
+F 0 "SW22" H 7000 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7000 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7000 3450 50  0001 C CNN
 F 3 "" H 7000 3450 50  0000 C CNN
@@ -500,10 +502,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW15
+L SW_PUSH SW29
 U 1 1 5995A92A
 P 7000 4100
-F 0 "SW15" H 7000 4355 50  0000 C CNN
+F 0 "SW29" H 7000 4355 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7000 4264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7000 4100 50  0001 C CNN
 F 3 "" H 7000 4100 50  0000 C CNN
@@ -513,10 +515,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D14
+L D D22
 U 1 1 5995A930
 P 7300 3600
-F 0 "D14" V 7346 3522 50  0000 R CNN
+F 0 "D22" V 7346 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 7255 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 7300 3600 50  0001 C CNN
 F 3 "" H 7300 3600 50  0000 C CNN
@@ -526,10 +528,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D15
+L D D29
 U 1 1 5995A936
 P 7300 4250
-F 0 "D15" V 7346 4172 50  0000 R CNN
+F 0 "D29" V 7346 4172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 7255 4172 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 7300 4250 50  0001 C CNN
 F 3 "" H 7300 4250 50  0000 C CNN
@@ -539,10 +541,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW16
+L SW_PUSH SW4
 U 1 1 5995AC1B
 P 7800 1600
-F 0 "SW16" H 7800 1855 50  0000 C CNN
+F 0 "SW4" H 7800 1855 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7800 1764 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7800 1600 50  0001 C CNN
 F 3 "" H 7800 1600 50  0000 C CNN
@@ -552,10 +554,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW17
+L SW_PUSH SW11
 U 1 1 5995AC21
 P 7800 2250
-F 0 "SW17" H 7800 2505 50  0000 C CNN
+F 0 "SW11" H 7800 2505 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7800 2414 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7800 2250 50  0001 C CNN
 F 3 "" H 7800 2250 50  0000 C CNN
@@ -565,10 +567,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D16
+L D D4
 U 1 1 5995AC27
 P 8100 1750
-F 0 "D16" V 8146 1672 50  0000 R CNN
+F 0 "D4" V 8146 1672 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8055 1672 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8100 1750 50  0001 C CNN
 F 3 "" H 8100 1750 50  0000 C CNN
@@ -578,10 +580,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D17
+L D D11
 U 1 1 5995AC2D
 P 8100 2400
-F 0 "D17" V 8146 2322 50  0000 R CNN
+F 0 "D11" V 8146 2322 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8055 2322 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8100 2400 50  0001 C CNN
 F 3 "" H 8100 2400 50  0000 C CNN
@@ -591,10 +593,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW18
+L SW_PUSH SW17
 U 1 1 5995AC3B
 P 7800 2900
-F 0 "SW18" H 7800 3155 50  0000 C CNN
+F 0 "SW17" H 7800 3155 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7800 3064 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7800 2900 50  0001 C CNN
 F 3 "" H 7800 2900 50  0000 C CNN
@@ -604,10 +606,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D18
+L D D17
 U 1 1 5995AC41
 P 8100 3050
-F 0 "D18" V 8146 2972 50  0000 R CNN
+F 0 "D17" V 8146 2972 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8055 2972 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8100 3050 50  0001 C CNN
 F 3 "" H 8100 3050 50  0000 C CNN
@@ -617,10 +619,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW19
+L SW_PUSH SW23
 U 1 1 5995AC4B
 P 7800 3450
-F 0 "SW19" H 7800 3705 50  0000 C CNN
+F 0 "SW23" H 7800 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7800 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7800 3450 50  0001 C CNN
 F 3 "" H 7800 3450 50  0000 C CNN
@@ -630,10 +632,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW20
+L SW_PUSH SW30
 U 1 1 5995AC51
 P 7800 4100
-F 0 "SW20" H 7800 4355 50  0000 C CNN
+F 0 "SW30" H 7800 4355 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 7800 4264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7800 4100 50  0001 C CNN
 F 3 "" H 7800 4100 50  0000 C CNN
@@ -643,10 +645,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D19
+L D D23
 U 1 1 5995AC57
 P 8100 3600
-F 0 "D19" V 8146 3522 50  0000 R CNN
+F 0 "D23" V 8146 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8055 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8100 3600 50  0001 C CNN
 F 3 "" H 8100 3600 50  0000 C CNN
@@ -656,10 +658,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D20
+L D D30
 U 1 1 5995AC5D
 P 8100 4250
-F 0 "D20" V 8146 4172 50  0000 R CNN
+F 0 "D30" V 8146 4172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8055 4172 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8100 4250 50  0001 C CNN
 F 3 "" H 8100 4250 50  0000 C CNN
@@ -669,10 +671,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW21
+L SW_PUSH SW5
 U 1 1 5995AC72
 P 8600 1600
-F 0 "SW21" H 8600 1855 50  0000 C CNN
+F 0 "SW5" H 8600 1855 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 8600 1764 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8600 1600 50  0001 C CNN
 F 3 "" H 8600 1600 50  0000 C CNN
@@ -682,10 +684,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW22
+L SW_PUSH SW12
 U 1 1 5995AC78
 P 8600 2250
-F 0 "SW22" H 8600 2505 50  0000 C CNN
+F 0 "SW12" H 8600 2505 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 8600 2414 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8600 2250 50  0001 C CNN
 F 3 "" H 8600 2250 50  0000 C CNN
@@ -695,10 +697,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D21
+L D D5
 U 1 1 5995AC7E
 P 8900 1750
-F 0 "D21" V 8946 1672 50  0000 R CNN
+F 0 "D5" V 8946 1672 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8855 1672 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8900 1750 50  0001 C CNN
 F 3 "" H 8900 1750 50  0000 C CNN
@@ -708,10 +710,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D22
+L D D12
 U 1 1 5995AC84
 P 8900 2400
-F 0 "D22" V 8946 2322 50  0000 R CNN
+F 0 "D12" V 8946 2322 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8855 2322 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8900 2400 50  0001 C CNN
 F 3 "" H 8900 2400 50  0000 C CNN
@@ -721,10 +723,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW23
+L SW_PUSH SW18
 U 1 1 5995AC92
 P 8600 2900
-F 0 "SW23" H 8600 3155 50  0000 C CNN
+F 0 "SW18" H 8600 3155 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 8600 3064 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8600 2900 50  0001 C CNN
 F 3 "" H 8600 2900 50  0000 C CNN
@@ -734,10 +736,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D23
+L D D18
 U 1 1 5995AC98
 P 8900 3050
-F 0 "D23" V 8946 2972 50  0000 R CNN
+F 0 "D18" V 8946 2972 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8855 2972 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8900 3050 50  0001 C CNN
 F 3 "" H 8900 3050 50  0000 C CNN
@@ -760,10 +762,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW25
+L SW_PUSH SW31
 U 1 1 5995ACA8
 P 8600 4100
-F 0 "SW25" H 8600 4355 50  0000 C CNN
+F 0 "SW31" H 8600 4355 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 8600 4264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8600 4100 50  0001 C CNN
 F 3 "" H 8600 4100 50  0000 C CNN
@@ -786,10 +788,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D25
+L D D31
 U 1 1 5995ACB4
 P 8900 4250
-F 0 "D25" V 8946 4172 50  0000 R CNN
+F 0 "D31" V 8946 4172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 8855 4172 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 8900 4250 50  0001 C CNN
 F 3 "" H 8900 4250 50  0000 C CNN
@@ -799,10 +801,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW26
+L SW_PUSH SW6
 U 1 1 5995AE81
 P 9400 1600
-F 0 "SW26" H 9400 1855 50  0000 C CNN
+F 0 "SW6" H 9400 1855 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 9400 1764 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9400 1600 50  0001 C CNN
 F 3 "" H 9400 1600 50  0000 C CNN
@@ -812,10 +814,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW27
+L SW_PUSH SW13
 U 1 1 5995AE87
 P 9400 2250
-F 0 "SW27" H 9400 2505 50  0000 C CNN
+F 0 "SW13" H 9400 2505 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 9400 2414 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9400 2250 50  0001 C CNN
 F 3 "" H 9400 2250 50  0000 C CNN
@@ -825,10 +827,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D26
+L D D6
 U 1 1 5995AE8D
 P 9700 1750
-F 0 "D26" V 9746 1672 50  0000 R CNN
+F 0 "D6" V 9746 1672 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 9655 1672 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 9700 1750 50  0001 C CNN
 F 3 "" H 9700 1750 50  0000 C CNN
@@ -838,10 +840,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D27
+L D D13
 U 1 1 5995AE93
 P 9700 2400
-F 0 "D27" V 9746 2322 50  0000 R CNN
+F 0 "D13" V 9746 2322 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 9655 2322 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 9700 2400 50  0001 C CNN
 F 3 "" H 9700 2400 50  0000 C CNN
@@ -851,10 +853,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW28
+L SW_PUSH SW19
 U 1 1 5995AEA1
 P 9400 2900
-F 0 "SW28" H 9400 3155 50  0000 C CNN
+F 0 "SW19" H 9400 3155 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 9400 3064 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9400 2900 50  0001 C CNN
 F 3 "" H 9400 2900 50  0000 C CNN
@@ -864,10 +866,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D28
+L D D19
 U 1 1 5995AEA7
 P 9700 3050
-F 0 "D28" V 9746 2972 50  0000 R CNN
+F 0 "D19" V 9746 2972 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 9655 2972 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 9700 3050 50  0001 C CNN
 F 3 "" H 9700 3050 50  0000 C CNN
@@ -877,10 +879,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW29
+L SW_PUSH SW25
 U 1 1 5995AEB1
 P 9400 3450
-F 0 "SW29" H 9400 3705 50  0000 C CNN
+F 0 "SW25" H 9400 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 9400 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9400 3450 50  0001 C CNN
 F 3 "" H 9400 3450 50  0000 C CNN
@@ -890,10 +892,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D29
+L D D25
 U 1 1 5995AEBD
 P 9700 3600
-F 0 "D29" V 9746 3522 50  0000 R CNN
+F 0 "D25" V 9746 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 9655 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 9700 3600 50  0001 C CNN
 F 3 "" H 9700 3600 50  0000 C CNN
@@ -903,10 +905,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW30
+L SW_PUSH SW7
 U 1 1 5995B0D6
 P 10200 1600
-F 0 "SW30" H 10200 1855 50  0000 C CNN
+F 0 "SW7" H 10200 1855 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 10200 1764 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 10200 1600 50  0001 C CNN
 F 3 "" H 10200 1600 50  0000 C CNN
@@ -916,10 +918,10 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D30
+L D D7
 U 1 1 5995B0E2
 P 10500 1750
-F 0 "D30" V 10546 1672 50  0000 R CNN
+F 0 "D7" V 10546 1672 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 10455 1672 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 10500 1750 50  0001 C CNN
 F 3 "" H 10500 1750 50  0000 C CNN
@@ -1487,7 +1489,7 @@ F 5 "sbc-160s-202-s338" H 0   0   60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6750 4950 6750 4750
+	6750 4750 6750 4950
 Wire Wire Line
 	6900 4850 6750 4850
 Connection ~ 6750 4850
@@ -1911,10 +1913,10 @@ F 3 "" H 10450 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH SW31
+L SW_PUSH SW20
 U 1 1 5AE31915
 P 5400 3350
-F 0 "SW31" H 5400 3605 50  0000 C CNN
+F 0 "SW20" H 5400 3605 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 3514 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 3350 50  0001 C CNN
 F 3 "" H 5400 3350 50  0000 C CNN
@@ -1929,10 +1931,10 @@ Wire Wire Line
 	5700 3350 5700 3450
 Connection ~ 5100 3350
 $Comp
-L SW_PUSH SW32
+L SW_PUSH SW26
 U 1 1 5AE31F14
 P 10200 3450
-F 0 "SW32" H 10200 3705 50  0000 C CNN
+F 0 "SW26" H 10200 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 10200 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 10200 3450 50  0001 C CNN
 F 3 "" H 10200 3450 50  0000 C CNN
@@ -1942,10 +1944,10 @@ F 5 "CPG151101S11" H 500 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D31
+L D D26
 U 1 1 5AE320C8
 P 10500 3600
-F 0 "D31" V 10546 3522 50  0000 R CNN
+F 0 "D26" V 10546 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 10455 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 10500 3600 50  0001 C CNN
 F 3 "" H 10500 3600 50  0000 C CNN
