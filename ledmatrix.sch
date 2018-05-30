@@ -1,7 +1,5 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
-LIBS:power
-LIBS:74xx
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -1619,18 +1617,18 @@ F 7 "Value" H 3150 5100 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-ISO-20
+L rgbled rgb-ANSI-21
 U 1 1 5AE32BA1
-P 4300 2450
-F 0 "rgb-ISO-20" H 4375 3037 60  0000 C CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4375 2931 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 4300 2450 60  0001 C CNN
-F 3 "" H 4300 2450 60  0001 C CNN
-F 4 "any/open" H -50 50  60  0001 C CNN "supplier"
-F 5 "Value" H 4300 2450 60  0001 C CNN "supplier PN"
-F 6 "Value" H 4300 2450 60  0001 C CNN "MOQ"
-F 7 "Value" H 4300 2450 60  0001 C CNN "leadtime"
-	1    4300 2450
+P 4650 2450
+F 0 "rgb-ANSI-21" H 4725 3037 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4725 2931 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 4650 2450 60  0001 C CNN
+F 3 "" H 4650 2450 60  0001 C CNN
+F 4 "any/open" H 300 50  60  0001 C CNN "supplier"
+F 5 "Value" H 4650 2450 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4650 2450 60  0001 C CNN "MOQ"
+F 7 "Value" H 4650 2450 60  0001 C CNN "leadtime"
+	1    4650 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1651,4 +1649,22 @@ Connection ~ 4550 2150
 Wire Wire Line
 	4500 2750 4550 2750
 Connection ~ 4550 2750
+Wire Wire Line
+	4850 2150 4950 2150
+Connection ~ 4950 2150
+Wire Wire Line
+	4850 2450 4950 2450
+Connection ~ 4950 2450
+Wire Wire Line
+	4850 2750 4950 2750
+Connection ~ 4950 2750
+Wire Wire Line
+	4650 2550 4650 2500
+Connection ~ 4650 2500
+Wire Wire Line
+	4650 2250 4650 2200
+Connection ~ 4650 2200
+Wire Wire Line
+	4650 1950 4650 1900
+Connection ~ 4650 1900
 $EndSCHEMATC

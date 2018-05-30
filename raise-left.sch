@@ -1,7 +1,5 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
-LIBS:power
-LIBS:74xx
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -122,7 +120,6 @@ Text Label 1700 5850 0    60   ~ 0
 reset
 Text Notes 750  7100 0    60   ~ 0
 programming header
-NoConn ~ 3350 4400
 Text Label 3350 3150 0    60   ~ 0
 row3
 $Comp
@@ -227,10 +224,10 @@ $EndComp
 Text Notes 5050 900  0    118  ~ 0
 switch matrix
 $Comp
-L SW_PUSH SW_ISO_20
+L SW_PUSH SW20
 U 1 1 59959899
 P 5400 3450
-F 0 "SW_ISO_20" H 5400 3705 50  0000 C CNN
+F 0 "SW20" H 5400 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 3450 50  0001 C CNN
 F 3 "" H 5400 3450 50  0000 C CNN
@@ -1913,22 +1910,20 @@ F 3 "" H 10450 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SW_PUSH SW20
+L SW_PUSH SW_ANSI_21
 U 1 1 5AE31915
-P 5400 3350
-F 0 "SW20" H 5400 3605 50  0000 C CNN
-F 1 "kailh hot plug sockets" H 5400 3514 50  0000 C CNN
-F 2 "raise_fp:kailhsocket-cherry" H 5400 3350 50  0001 C CNN
-F 3 "" H 5400 3350 50  0000 C CNN
-F 4 "kailh" H -300 -400 60  0001 C CNN "supplier"
-F 5 "CPG151101S11" H -300 -400 60  0001 C CNN "supplier PN"
-F 6 "Value" H 5400 3350 60  0001 C CNN "MOQ"
-F 7 "Value" H 5400 3350 60  0001 C CNN "leadtime"
-	1    5400 3350
+P 6200 3350
+F 0 "SW_ANSI_21" H 6200 3605 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 6200 3514 50  0000 C CNN
+F 2 "raise_fp:kailhsocket-cherry" H 6200 3350 50  0001 C CNN
+F 3 "" H 6200 3350 50  0000 C CNN
+F 4 "kailh" H 500 -400 60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 500 -400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6200 3350 60  0001 C CNN "MOQ"
+F 7 "Value" H 6200 3350 60  0001 C CNN "leadtime"
+	1    6200 3350
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 3350 5700 3450
 Connection ~ 5100 3350
 $Comp
 L SW_PUSH SW26
@@ -1956,4 +1951,8 @@ F 5 "any/open" H 500 -300 60  0001 C CNN "supplier"
 	1    10500 3600
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 3350 4400
+Connection ~ 5900 3350
+Wire Wire Line
+	6500 3350 6500 3450
 $EndSCHEMATC
