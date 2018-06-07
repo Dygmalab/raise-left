@@ -1617,10 +1617,10 @@ F 7 "Value" H 3150 5100 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-ANSI-21
+L rgbled rgb_ANSI_21
 U 1 1 5AE32BA1
 P 4650 2450
-F 0 "rgb-ANSI-21" H 4725 3037 60  0000 C CNN
+F 0 "rgb_ANSI_21" H 4725 3037 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4725 2931 60  0000 C CNN
 F 2 "raise_fp:3528-4p-rev" H 4650 2450 60  0001 C CNN
 F 3 "" H 4650 2450 60  0001 C CNN
