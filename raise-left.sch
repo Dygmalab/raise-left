@@ -365,8 +365,10 @@ F 2 "raise_fp:kailhsocket-cherry" H 6200 3450 50  0001 C CNN
 F 3 "" H 6200 3450 50  0000 C CNN
 F 4 "kailh" H -300 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6200 3450 60  0001 C CNN "MOQ"
+F 7 "Value" H 6200 3450 60  0001 C CNN "leadtime"
 	1    6200 3450
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW28
@@ -1911,7 +1913,7 @@ F 5 "CPG151101S11" H 500 -400 60  0001 C CNN "supplier PN"
 F 6 "Value" H 6200 3350 60  0001 C CNN "MOQ"
 F 7 "Value" H 6200 3350 60  0001 C CNN "leadtime"
 	1    6200 3350
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Connection ~ 5100 3350
 $Comp
