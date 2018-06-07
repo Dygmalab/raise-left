@@ -4668,7 +4668,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032F15)
-    (at 93.320324 63.800502 180)
+    (at 93.320324 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59958E33)
@@ -4712,7 +4712,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032F2D)
-    (at 98.070324 82.600502 180)
+    (at 98.070324 82.500502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59958E34)
@@ -4756,7 +4756,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032F45)
-    (at 100.445324 101.400502 180)
+    (at 100.445324 101.300502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59958E39)
@@ -4800,7 +4800,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032F5D)
-    (at 95.619954 120.200017 180)
+    (at 95.619954 120.100017 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /599598A5)
@@ -4844,7 +4844,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032F75)
-    (at 95.620324 139.000502 180)
+    (at 95.620324 138.900502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /599598AB)
@@ -4888,7 +4888,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032F8D)
-    (at 112.120324 63.800502 180)
+    (at 112.120324 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59959E84)
@@ -4932,7 +4932,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032FA5)
-    (at 121.620323 82.600502 180)
+    (at 121.620323 82.500502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59959E8A)
@@ -4976,7 +4976,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032FBD)
-    (at 126.370323 101.400502 180)
+    (at 126.370323 101.300502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59959E9E)
@@ -5020,7 +5020,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032FD5)
-    (at 117.119954 120.200017 180)
+    (at 117.119954 120.100017 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59959EB4)
@@ -5064,7 +5064,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B032FED)
-    (at 119.120323 139.000502 180)
+    (at 119.120323 138.900502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /59959EBA)
@@ -5108,7 +5108,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033005)
-    (at 130.920323 63.800502 180)
+    (at 130.920323 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995A900)
@@ -5152,7 +5152,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03301D)
-    (at 140.420323 82.600502 180)
+    (at 140.420323 82.500502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995A906)
@@ -5196,7 +5196,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033035)
-    (at 145.170323 101.400502 180)
+    (at 145.170323 101.300502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995A91A)
@@ -5240,7 +5240,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03304D)
-    (at 135.870323 120.200502 180)
+    (at 135.870323 120.100502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995A930)
@@ -5284,7 +5284,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033065)
-    (at 142.620323 139.000502 180)
+    (at 142.620323 138.900502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995A936)
@@ -5328,7 +5328,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03307D)
-    (at 149.720323 63.800502 180)
+    (at 149.720323 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC27)
@@ -5372,7 +5372,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033095)
-    (at 159.220323 82.600502 180)
+    (at 159.220323 82.500502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC2D)
@@ -5416,7 +5416,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0330AD)
-    (at 163.920323 101.400502 180)
+    (at 163.920323 101.300502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC41)
@@ -5460,7 +5460,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0330C5)
-    (at 154.620323 120.200502 180)
+    (at 154.620323 120.100502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC57)
@@ -5504,7 +5504,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0330DD)
-    (at 170.745324 139.000502 180)
+    (at 170.745324 138.900502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC5D)
@@ -5548,7 +5548,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0330F5)
-    (at 168.520323 63.800502 180)
+    (at 168.520323 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC7E)
@@ -5592,7 +5592,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03310D)
-    (at 178.020323 82.600502 180)
+    (at 178.020323 82.500502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC84)
@@ -5636,7 +5636,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033125)
-    (at 182.720323 101.400502 180)
+    (at 182.720323 101.300502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AC98)
@@ -5680,7 +5680,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03313D)
-    (at 173.370323 120.200502 180)
+    (at 173.370323 120.100502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995ACAE)
@@ -5724,7 +5724,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033155)
-    (at 201.370324 139.000502 180)
+    (at 201.370324 138.900502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995ACB4)
@@ -5768,7 +5768,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03316D)
-    (at 187.320323 63.800502 180)
+    (at 187.320323 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AE8D)
@@ -5812,7 +5812,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B033185)
-    (at 196.820323 82.600502 180)
+    (at 196.820323 82.500502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AE93)
@@ -5856,7 +5856,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B03319D)
-    (at 201.470323 101.400502 180)
+    (at 201.470323 101.300502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AEA7)
@@ -5900,7 +5900,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0331B5)
-    (at 192.120323 120.200502 180)
+    (at 192.120323 120.100502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995AEBD)
@@ -5944,7 +5944,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0331CD)
-    (at 206.120323 63.800502 180)
+    (at 206.120323 63.700502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5995B0E2)
@@ -5988,7 +5988,7 @@
   )
 
   (module raise_fp:D_SOD-123 (layer B.Cu) (tedit 5B052D88) (tstamp 5B0331FD)
-    (at 210.870323 120.200502 180)
+    (at 210.870323 120.100502 180)
     (descr SOD-123)
     (tags SOD-123)
     (path /5AE320C8)
