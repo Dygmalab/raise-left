@@ -1443,20 +1443,6 @@ F 8 "Value" H 4900 5150 60  0001 C CNN "leadtime"
 	1    4900 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X01 P5
-U 1 1 5A3A7E68
-P 4900 5650
-F 0 "P5" H 4978 5691 50  0000 L CNN
-F 1 "CONN_01X01" H 4978 5600 50  0000 L CNN
-F 2 "raise_fp:MountingHole_5.5mm" H 4900 5650 50  0001 C CNN
-F 3 "" H 4900 5650 50  0000 C CNN
-F 4 "dnp" H 4900 5650 60  0001 C CNN "farnell #"
-F 5 "dnp" H 300 -250 60  0001 C CNN "supplier"
-	1    4900 5650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4700 5650
 Wire Wire Line
 	750  1550 1450 1550
 $Comp
@@ -1955,4 +1941,18 @@ NoConn ~ 3350 4400
 Connection ~ 5900 3350
 Wire Wire Line
 	6500 3350 6500 3450
+NoConn ~ 4700 5650
+$Comp
+L CONN_01X01 P5
+U 1 1 5A3A7E68
+P 4900 5650
+F 0 "P5" H 4978 5691 50  0000 L CNN
+F 1 "CONN_01X01" H 4978 5600 50  0000 L CNN
+F 2 "raise_fp:MountingHole_5.5mm" H 4900 5650 50  0001 C CNN
+F 3 "" H 4900 5650 50  0000 C CNN
+F 4 "dnp" H 4900 5650 60  0001 C CNN "farnell #"
+F 5 "dnp" H 300 -250 60  0001 C CNN "supplier"
+	1    4900 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
