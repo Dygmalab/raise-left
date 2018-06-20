@@ -1200,44 +1200,44 @@ Wire Wire Line
 NoConn ~ 9500 3650
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
-Text Label 4100 6600 2    60   ~ 0
-CB1
-Text Label 4100 6700 2    60   ~ 0
-CB2
-Text Label 4100 6100 2    60   ~ 0
+Text Label 6050 6600 2    60   ~ 0
+CB7
+Text Label 6050 6700 2    60   ~ 0
+CB8
+Text Label 6050 6100 2    60   ~ 0
 CB4
-Text Label 4100 6200 2    60   ~ 0
+Text Label 6050 6200 2    60   ~ 0
 CB5
-Text Label 4100 6300 2    60   ~ 0
+Text Label 6050 6300 2    60   ~ 0
 CB6
 Wire Wire Line
-	4100 6100 3750 6100
+	6050 6100 5700 6100
 Wire Wire Line
-	3750 6200 4100 6200
+	5700 6200 6050 6200
 Wire Wire Line
-	4100 6300 3750 6300
+	6050 6300 5700 6300
 Wire Wire Line
-	4100 6600 3750 6600
+	6050 6600 5700 6600
 Wire Wire Line
-	3750 6700 4100 6700
+	5700 6700 6050 6700
 Text Notes 7650 850  2    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 7650 5800 2    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 750  5500 2    197  ~ 0
 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
-Text Notes 3550 5950 0    60   ~ 0
-for leds  j5 k5
-Text GLabel 3750 6100 0    60   Input ~ 0
+Text Notes 6400 6500 0    60   ~ 0
+for leds  62, 63 (o5, p5)\n\n
+Text GLabel 5700 6100 0    60   Input ~ 0
 cb4
-Text GLabel 3750 6200 0    60   Input ~ 0
+Text GLabel 5700 6200 0    60   Input ~ 0
 cb5
-Text GLabel 3750 6300 0    60   Input ~ 0
+Text GLabel 5700 6300 0    60   Input ~ 0
 cb6
-Text GLabel 3750 6600 0    60   Input ~ 0
-cb1
-Text GLabel 3750 6700 0    60   Input ~ 0
-cb2
+Text GLabel 5700 6600 0    60   Input ~ 0
+cb7
+Text GLabel 5700 6700 0    60   Input ~ 0
+cb8
 $Comp
 L Earth #PWR031
 U 1 1 59FC4712
@@ -1265,11 +1265,11 @@ F 7 "Value" H 2750 5100 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
-	5550 4750 5550 6300
+	7500 4750 7500 6300
 Wire Notes Line
-	5550 6300 4400 6300
+	7500 6300 6350 6300
 Wire Notes Line
-	5150 4750 5150 6250
+	7100 4750 7100 6250
 $Comp
 L rgbled rgb1
 U 1 1 5AD77AF6
