@@ -983,7 +983,7 @@ U 1 1 59B16B51
 P 1150 7450
 F 0 "P8" H 1150 7650 50  0000 C CNN
 F 1 "CONN_02X03" H 1150 7250 50  0000 C CNN
-F 2 "raise_fp:Tag-Connect_TC2030-IDC-NL" H 1150 6250 60  0001 C CNN
+F 2 "raise_fp:icsp-2.54-smt" H 1150 6250 60  0001 C CNN
 F 3 "" H 1150 6250 60  0000 C CNN
 F 4 "dnp" H 1150 7450 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1150 7450 60  0001 C CNN "supplier"
@@ -1079,7 +1079,7 @@ F 3 "" H 2000 6600 50  0000 C CNN
 	1    2000 6600
 	1    0    0    -1  
 $EndComp
-Text Notes 2600 6200 0    60   ~ 0
+Text Notes 2900 6050 0    60   ~ 0
 soft start
 $Comp
 L PWR_FLAG #FLG023
@@ -1331,7 +1331,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6900 3100 7000
 Wire Wire Line
-	2800 6600 2800 6650
+	2800 6250 2800 6650
 Connection ~ 2800 6600
 Wire Wire Line
 	2800 6950 2800 7050
@@ -1374,7 +1374,7 @@ $Comp
 L Q_PMOS_GSD Q1
 U 1 1 5A316B6D
 P 3100 6700
-F 0 "Q1" V 3443 6700 50  0000 C CNN
+F 0 "Q1" V 3300 6700 50  0000 C CNN
 F 1 "PMOS, -3.6A, 0.02R" V 3352 6700 50  0000 C CNN
 F 2 "raise_fp:SOT-23" H 3300 6800 50  0001 C CNN
 F 3 "" H 3100 6700 50  0001 C CNN
@@ -2028,4 +2028,26 @@ Text Label 2000 5850 0    60   ~ 0
 ansi
 Wire Wire Line
 	2000 5850 2000 5700
+$Comp
+L R R5
+U 1 1 5B2B8DEB
+P 3100 6250
+F 0 "R5" H 2950 6300 50  0000 L CNN
+F 1 "0R" H 2950 6200 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 3030 6250 50  0001 C CNN
+F 3 "" H 3100 6250 50  0000 C CNN
+F 4 "dnp" H 3100 6250 60  0001 C CNN "farnell #"
+F 5 "dnp" H 3100 6250 60  0001 C CNN "supplier"
+F 6 "Value" H 3100 6250 60  0001 C CNN "supplier PN"
+F 7 "Value" H 3100 6250 60  0001 C CNN "MOQ"
+F 8 "Value" H 3100 6250 60  0001 C CNN "leadtime"
+	1    3100 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 6250 2800 6250
+Wire Wire Line
+	3250 6250 3550 6250
+Wire Wire Line
+	3550 6250 3550 6600
 $EndSCHEMATC
