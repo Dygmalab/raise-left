@@ -224,10 +224,10 @@ $EndComp
 Text Notes 5050 900  0    118  ~ 0
 switch matrix
 $Comp
-L SW_PUSH SW20
+L SW_PUSH SW_ISO_20
 U 1 1 59959899
 P 5400 3450
-F 0 "SW20" H 5400 3705 50  0000 C CNN
+F 0 "SW_ISO_20" H 5400 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 5400 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5400 3450 50  0001 C CNN
 F 3 "" H 5400 3450 50  0000 C CNN
@@ -252,15 +252,18 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D20
+L D D_ISO_20
 U 1 1 599598A5
 P 5700 3600
-F 0 "D20" V 5746 3522 50  0000 R CNN
+F 0 "D_ISO_20" V 5746 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5655 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5700 3600 50  0001 C CNN
 F 3 "" H 5700 3600 50  0000 C CNN
 F 4 "2454043" H -300 -300 60  0001 C CNN "farnell #"
 F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
+F 6 "Value" H 5700 3600 60  0001 C CNN "supplier PN"
+F 7 "Value" H 5700 3600 60  0001 C CNN "MOQ"
+F 8 "Value" H 5700 3600 60  0001 C CNN "leadtime"
 	1    5700 3600
 	0    -1   -1   0   
 $EndComp
@@ -356,10 +359,10 @@ F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW21
+L SW_PUSH SW_ISO_21
 U 1 1 59959EA8
 P 6200 3450
-F 0 "SW21" H 6200 3705 50  0000 C CNN
+F 0 "SW_ISO_21" H 6200 3705 50  0000 C CNN
 F 1 "kailh hot plug sockets" H 6200 3614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6200 3450 50  0001 C CNN
 F 3 "" H 6200 3450 50  0000 C CNN
@@ -384,15 +387,18 @@ F 5 "CPG151101S11" H -300 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D21
+L D D_ANSI_ISO_21
 U 1 1 59959EB4
 P 6500 3600
-F 0 "D21" V 6546 3522 50  0000 R CNN
+F 0 "D_ANSI_ISO_21" V 6546 3522 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 6455 3522 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 6500 3600 50  0001 C CNN
 F 3 "" H 6500 3600 50  0000 C CNN
 F 4 "2454043" H -300 -300 60  0001 C CNN "farnell #"
 F 5 "any/open" H -300 -300 60  0001 C CNN "supplier"
+F 6 "Value" H 6500 3600 60  0001 C CNN "supplier PN"
+F 7 "Value" H 6500 3600 60  0001 C CNN "MOQ"
+F 8 "Value" H 6500 3600 60  0001 C CNN "leadtime"
 	1    6500 3600
 	0    -1   -1   0   
 $EndComp
@@ -1617,8 +1623,8 @@ F 1 "10k, 125mW, 5%" V 1150 8550 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 980 5500 50  0001 C CNN
 F 3 "" H 1050 5500 50  0000 C CNN
 F 4 "2447230" H 1050 5500 60  0001 C CNN "farnell #"
-F 5 "any/open" H 1050 5500 60  0001 C CNN "supplier"
-F 6 "Value" H 1050 5500 60  0001 C CNN "supplier PN"
+F 5 "dnp" H 1050 5500 60  0001 C CNN "supplier"
+F 6 "dnp" H 1050 5500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1050 5500 60  0001 C CNN "MOQ"
 F 8 "Value" H 1050 5500 60  0001 C CNN "leadtime"
 	1    1050 5500
@@ -1642,7 +1648,7 @@ $EndComp
 Wire Wire Line
 	1050 5850 1050 5650
 Text Notes 750  6150 0    60   ~ 0
-firmware pulls addr lines low,\nplace R to make high
+firmware pulls addr lines low,\nplace R to make high\ndo not place on left side
 $Comp
 L TEST TP4
 U 1 1 5AD7F77E
@@ -1998,10 +2004,10 @@ NoConn ~ 4700 6350
 Text Label 3350 2100 0    60   ~ 0
 ansi
 $Comp
-L R R4
+L R R_ANSI_1
 U 1 1 5B279B1C
 P 2000 5550
-F 0 "R4" H 2070 5596 50  0000 L CNN
+F 0 "R_ANSI_1" H 1900 6000 50  0000 L CNN
 F 1 "10k, 125mW, 5%" V 1800 5250 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1930 5550 50  0001 C CNN
 F 3 "" H 2000 5550 50  0000 C CNN
@@ -2038,7 +2044,7 @@ F 2 "raise_fp:R_0603" V 3030 6250 50  0001 C CNN
 F 3 "" H 3100 6250 50  0000 C CNN
 F 4 "dnp" H 3100 6250 60  0001 C CNN "farnell #"
 F 5 "dnp" H 3100 6250 60  0001 C CNN "supplier"
-F 6 "Value" H 3100 6250 60  0001 C CNN "supplier PN"
+F 6 "dnp" H 3100 6250 60  0001 C CNN "supplier PN"
 F 7 "Value" H 3100 6250 60  0001 C CNN "MOQ"
 F 8 "Value" H 3100 6250 60  0001 C CNN "leadtime"
 	1    3100 6250
