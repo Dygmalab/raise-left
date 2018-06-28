@@ -1497,51 +1497,6 @@ F 7 "Value" H 2350 3300 60  0001 C CNN "leadtime"
 	1    2350 3300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L rgbled rgb32
-U 1 1 5AD77B86
-P 2750 3300
-F 0 "rgb32" H 2581 3439 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2581 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2750 3300 60  0001 C CNN
-F 3 "" H 2750 3300 60  0001 C CNN
-F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
-F 5 "Value" H 2750 3300 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2750 3300 60  0001 C CNN "MOQ"
-F 7 "Value" H 2750 3300 60  0001 C CNN "leadtime"
-	1    2750 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb33
-U 1 1 5AD77B8D
-P 3150 3300
-F 0 "rgb33" H 2981 3439 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3150 3300 60  0001 C CNN
-F 3 "" H 3150 3300 60  0001 C CNN
-F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
-F 5 "Value" H 3150 3300 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3150 3300 60  0001 C CNN "MOQ"
-F 7 "Value" H 3150 3300 60  0001 C CNN "leadtime"
-	1    3150 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb34
-U 1 1 5AD77B94
-P 3550 3300
-F 0 "rgb34" H 3381 3439 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3550 3300 60  0001 C CNN
-F 3 "" H 3550 3300 60  0001 C CNN
-F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
-F 5 "Value" H 3550 3300 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3550 3300 60  0001 C CNN "MOQ"
-F 7 "Value" H 3550 3300 60  0001 C CNN "leadtime"
-	1    3550 3300
-	-1   0    0    -1  
-$EndComp
 Connection ~ 1750 2700
 Connection ~ 2150 2700
 Connection ~ 1750 3000
@@ -1667,4 +1622,71 @@ Connection ~ 4650 2200
 Wire Wire Line
 	4650 1950 4650 1900
 Connection ~ 4650 1900
+$Comp
+L rgbled rgb62
+U 1 1 5B34A670
+P 3550 5100
+F 0 "rgb62" H 3381 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3550 5100 60  0001 C CNN
+F 3 "" H 3550 5100 60  0001 C CNN
+F 4 "any/open" H 800 0   60  0001 C CNN "supplier"
+F 5 "Value" H 3550 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 5100 60  0001 C CNN "leadtime"
+	1    3550 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb63
+U 1 1 5B34A794
+P 3950 5100
+F 0 "rgb63" H 3781 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3781 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3950 5100 60  0001 C CNN
+F 3 "" H 3950 5100 60  0001 C CNN
+F 4 "any/open" H 1200 0   60  0001 C CNN "supplier"
+F 5 "Value" H 3950 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 5100 60  0001 C CNN "leadtime"
+	1    3950 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb64
+U 1 1 5B34A8B2
+P 4350 5100
+F 0 "rgb64" H 4181 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4181 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 4350 5100 60  0001 C CNN
+F 3 "" H 4350 5100 60  0001 C CNN
+F 4 "any/open" H 1600 0   60  0001 C CNN "supplier"
+F 5 "Value" H 4350 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 5100 60  0001 C CNN "leadtime"
+	1    4350 5100
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	4700 2900 7500 2900
+Wire Notes Line
+	7500 2900 7500 4550
+Wire Notes Line
+	7500 4550 4450 4550
+Wire Notes Line
+	4450 4550 4450 5350
+Wire Notes Line
+	4450 5350 1450 5350
+Wire Notes Line
+	1450 5350 1450 3800
+Wire Notes Line
+	1450 3800 4650 3800
+Wire Notes Line
+	4650 3800 4650 2900
+Text Notes 5050 3900 0    60   ~ 0
+normal mount\nunderglow
+Text Notes 1400 1300 0    60   ~ 0
+reverse mount\nkeys
+Text Notes 7000 4750 0    60   ~ 0
+reverse mount\nlow profile
 $EndSCHEMATC
