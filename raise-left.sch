@@ -1,5 +1,6 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
+LIBS:sled1735
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -1052,7 +1053,7 @@ L R R6
 U 1 1 59D15DC4
 P 2800 7200
 F 0 "R6" H 2870 7246 50  0000 L CNN
-F 1 "5.1k, 125mW, 1%" H 2870 7155 50  0000 L CNN
+F 1 "5.1k, 125mW, 5%" H 2870 7155 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 2730 7200 50  0001 C CNN
 F 3 "" H 2800 7200 50  0000 C CNN
 F 4 "2447404" H 2800 7200 60  0001 C CNN "farnell #"
@@ -1460,11 +1461,14 @@ L Ferrite_Bead L1
 U 1 1 5AD7487F
 P 7050 4850
 F 0 "L1" V 6776 4850 50  0000 C CNN
-F 1 "Ferrite_Bead" V 7200 4800 50  0000 C CNN
+F 1 "470R at 100M, 1A" V 7200 4800 50  0000 C CNN
 F 2 "raise_fp:R_0603" V 6980 4850 50  0001 C CNN
 F 3 "" H 7050 4850 50  0001 C CNN
 F 4 "1515745" H 0   0   60  0001 C CNN "farnell #"
-F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Murata" H 0   0   60  0001 C CNN "supplier"
+F 6 "BLM18PG471SN1D" H 7050 4850 60  0001 C CNN "supplier PN"
+F 7 "Value" H 7050 4850 60  0001 C CNN "MOQ"
+F 8 "Value" H 7050 4850 60  0001 C CNN "leadtime"
 	1    7050 4850
 	0    1    1    0   
 $EndComp
@@ -1561,7 +1565,7 @@ L R R3
 U 1 1 5AD7C1C8
 P 7550 5500
 F 0 "R3" H 7620 5546 50  0000 L CNN
-F 1 "5.1k, 125mW, 1%" H 7620 5455 50  0000 L CNN
+F 1 "5.1k, 125mW, 5%" H 7620 5455 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 7480 5500 50  0001 C CNN
 F 3 "" H 7550 5500 50  0000 C CNN
 F 4 "2447404" H 7550 5500 60  0001 C CNN "farnell #"
@@ -1977,8 +1981,8 @@ F 0 "F1" H 4978 6241 50  0000 L CNN
 F 1 "CONN_01X01" H 4978 6150 50  0000 L CNN
 F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 4900 6200 50  0001 C CNN
 F 3 "" H 4900 6200 50  0000 C CNN
-F 4 "Value" H 4900 6200 60  0001 C CNN "supplier"
-F 5 "Value" H 4900 6200 60  0001 C CNN "supplier PN"
+F 4 "dnp" H 4900 6200 60  0001 C CNN "supplier"
+F 5 "dnp" H 4900 6200 60  0001 C CNN "supplier PN"
 F 6 "Value" H 4900 6200 60  0001 C CNN "MOQ"
 F 7 "Value" H 4900 6200 60  0001 C CNN "leadtime"
 	1    4900 6200
@@ -1992,8 +1996,8 @@ F 0 "F2" H 4978 6391 50  0000 L CNN
 F 1 "CONN_01X01" H 4978 6300 50  0000 L CNN
 F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 4900 6350 50  0001 C CNN
 F 3 "" H 4900 6350 50  0000 C CNN
-F 4 "Value" H 4900 6350 60  0001 C CNN "supplier"
-F 5 "Value" H 4900 6350 60  0001 C CNN "supplier PN"
+F 4 "dnp" H 4900 6350 60  0001 C CNN "supplier"
+F 5 "dnp" H 4900 6350 60  0001 C CNN "supplier PN"
 F 6 "Value" H 4900 6350 60  0001 C CNN "MOQ"
 F 7 "Value" H 4900 6350 60  0001 C CNN "leadtime"
 	1    4900 6350

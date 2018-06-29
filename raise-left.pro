@@ -1,4 +1,4 @@
-update=Thu 14 Jun 2018 11:03:30 CEST
+update=Fri 29 Jun 2018 11:48:35 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,11 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=raise-left-rescue
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,9 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=raise-left-rescue
+LibName2=raise_libs/sled1735
