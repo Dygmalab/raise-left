@@ -527,7 +527,7 @@ AR Path="/59AF4F98" Ref="U58"  Part="1"
 AR Path="/59D12F0F/59AF4F98" Ref="U2"  Part="1" 
 F 0 "U2" H 10050 2987 60  0000 C CNN
 F 1 "sled1735" H 10050 2881 60  0000 C CNN
-F 2 "raise_fp:QFN-56_EP_4.5x6.5_Pitch0.4mm" H 9850 2250 60  0001 C CNN
+F 2 "raise_fp:QFN-46_EP_4.5x6.5_Pitch0.4mm" H 9850 2250 60  0001 C CNN
 F 3 "" H 9850 2250 60  0001 C CNN
 F 4 "sonix" H 0   0   60  0001 C CNN "supplier"
 F 5 "SLED1735J" H 0   0   60  0001 C CNN "supplier PN"

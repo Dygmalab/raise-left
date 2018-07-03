@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left.sch)
-    (date "Thu 28 Jun 2018 09:46:29 CEST")
+    (date "Tue 03 Jul 2018 11:27:33 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -640,7 +640,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 59D15DBC))
     (comp (ref R6)
-      (value "5.1k, 125mW, 1%")
+      (value "5.1k, 125mW, 5%")
       (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447404)
@@ -754,11 +754,14 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A3A7E60))
     (comp (ref L1)
-      (value Ferrite_Bead)
+      (value "470R at 100M, 1A")
       (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 1515745)
-        (field (name supplier) any/open))
+        (field (name supplier) Murata)
+        (field (name "supplier PN") BLM18PG471SN1D)
+        (field (name MOQ) Value)
+        (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part Ferrite_Bead))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7487F))
@@ -772,7 +775,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7508D))
     (comp (ref R3)
-      (value "5.1k, 125mW, 1%")
+      (value "5.1k, 125mW, 5%")
       (footprint raise_fp:R_0603)
       (fields
         (field (name "farnell #") 2447404)
@@ -936,8 +939,8 @@
       (value CONN_01X01)
       (footprint raise_fp:Fiducial_0.5mm_Dia_1mm_Outer)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) dnp)
+        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -947,8 +950,8 @@
       (value CONN_01X01)
       (footprint raise_fp:Fiducial_0.5mm_Dia_1mm_Outer)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) dnp)
+        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -979,7 +982,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5B2B8DEB))
     (comp (ref rgb6)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -990,7 +993,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83083))
     (comp (ref rgb7)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1001,7 +1004,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC889))
     (comp (ref rgb8)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1012,7 +1015,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC8B9))
     (comp (ref rgb9)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1023,7 +1026,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC8EB))
     (comp (ref rgb10)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1034,7 +1037,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC91F))
     (comp (ref rgb11)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1045,7 +1048,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC95D))
     (comp (ref rgb12)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1056,7 +1059,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEC995))
     (comp (ref rgb13)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1067,7 +1070,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8308A))
     (comp (ref rgb14)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1078,7 +1081,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AECA80))
     (comp (ref rgb_ISO_20)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1089,7 +1092,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8308C))
     (comp (ref rgb_ISO_21)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1100,7 +1103,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED4A7))
     (comp (ref rgb22)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1111,7 +1114,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED4EF))
     (comp (ref rgb23)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1122,7 +1125,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8308F))
     (comp (ref rgb24)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1133,7 +1136,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83090))
     (comp (ref rgb25)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1144,7 +1147,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83091))
     (comp (ref rgb26)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1155,7 +1158,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED705))
     (comp (ref rgb27)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1166,7 +1169,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED75B))
     (comp (ref rgb28)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1177,7 +1180,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AED7B3))
     (comp (ref rgb35)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1188,7 +1191,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83095))
     (comp (ref rgb36)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1199,7 +1202,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83096))
     (comp (ref rgb37)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1210,7 +1213,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83097))
     (comp (ref rgb38)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1221,7 +1224,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEDF2E))
     (comp (ref rgb39)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1232,7 +1235,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD83099))
     (comp (ref rgb40)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1243,7 +1246,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEE000))
     (comp (ref rgb41)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1254,7 +1257,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AEE06C))
     (comp (ref rgb42)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1265,7 +1268,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309C))
     (comp (ref rgb52)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1276,7 +1279,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309D))
     (comp (ref rgb53)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1287,7 +1290,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309E))
     (comp (ref rgb54)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1298,7 +1301,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD8309F))
     (comp (ref rgb55)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1309,7 +1312,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD830A0))
     (comp (ref rgb56)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1321,13 +1324,13 @@
       (tstamp 5AD830A1))
     (comp (ref U2)
       (value sled1735)
-      (footprint raise_fp:QFN-56_EP_4.5x6.5_Pitch0.4mm)
+      (footprint raise_fp:QFN-46_EP_4.5x6.5_Pitch0.4mm)
       (fields
         (field (name supplier) sonix)
         (field (name "supplier PN") SLED1735J)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
-      (libsource (lib raise-left-cache) (part sled1735-RESCUE-raise-left))
+      (libsource (lib sled1735) (part sled1735))
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AF4F98))
     (comp (ref C6)
@@ -1343,7 +1346,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59AF668F))
     (comp (ref rgb51)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1354,7 +1357,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C906))
     (comp (ref rgb50)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1365,7 +1368,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C90C))
     (comp (ref rgb49)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1376,7 +1379,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C912))
     (comp (ref rgb48)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1387,7 +1390,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C918))
     (comp (ref rgb47)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1398,7 +1401,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C91E))
     (comp (ref rgb46)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1409,7 +1412,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C924))
     (comp (ref rgb45)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1420,7 +1423,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C92A))
     (comp (ref rgb44)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1431,7 +1434,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C930))
     (comp (ref rgb43)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1442,7 +1445,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2C936))
     (comp (ref rgb57)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1453,7 +1456,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2CA0F))
     (comp (ref rgb58)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1464,7 +1467,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2CA15))
     (comp (ref rgb59)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1475,7 +1478,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 59D2CA1B))
     (comp (ref rgb60)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1486,7 +1489,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5A005335))
     (comp (ref rgb1)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1497,7 +1500,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77AF6))
     (comp (ref rgb2)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1508,7 +1511,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77AFD))
     (comp (ref rgb3)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1519,7 +1522,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B04))
     (comp (ref rgb4)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1530,7 +1533,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B0B))
     (comp (ref rgb5)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1541,7 +1544,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B25))
     (comp (ref rgb17)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1552,7 +1555,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B3E))
     (comp (ref rgb16)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1563,7 +1566,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B45))
     (comp (ref rgb15)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1574,7 +1577,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B4C))
     (comp (ref rgb18)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1585,7 +1588,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B63))
     (comp (ref rgb19)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1596,7 +1599,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B6A))
     (comp (ref rgb29)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1607,7 +1610,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B71))
     (comp (ref rgb30)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1618,7 +1621,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B78))
     (comp (ref rgb31)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1629,7 +1632,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AD77B7F))
     (comp (ref rgb61)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1640,7 +1643,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AE323BB))
     (comp (ref rgb_ANSI_21)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "reverse 4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p-rev)
       (fields
         (field (name supplier) any/open)
@@ -1651,7 +1654,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5AE32BA1))
     (comp (ref rgb62)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1662,7 +1665,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5B34A670))
     (comp (ref rgb63)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1673,7 +1676,7 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5B34A794))
     (comp (ref rgb64)
-      (value "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm.")
+      (value "4 pin RGB led, com anode")
       (footprint raise_fp:3528-4p)
       (fields
         (field (name supplier) any/open)
@@ -1869,10 +1872,10 @@
         (pin (num 4) (name G-) (type passive))
         (pin (num 5) (name R-) (type passive))
         (pin (num 6) (name B-) (type passive))))
-    (libpart (lib raise-left-cache) (part sled1735-RESCUE-raise-left)
+    (libpart (lib sled1735) (part sled1735)
       (fields
         (field (name Reference) U)
-        (field (name Value) sled1735-RESCUE-raise-left))
+        (field (name Value) sled1735))
       (pins
         (pin (num 1) (name nc) (type NotConnected))
         (pin (num 2) (name msel) (type input))
@@ -1922,6 +1925,8 @@
         (pin (num 46) (name CA9) (type BiDi))
         (pin (num 47) (name bottompad) (type power_in)))))
   (libraries
+    (library (logical sled1735)
+      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise_libs/sled1735.lib))
     (library (logical raise-left-cache)
       (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-cache.lib)))
   (nets
