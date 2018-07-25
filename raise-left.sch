@@ -1618,41 +1618,12 @@ Wire Wire Line
 	6750 5750 6750 5850
 Wire Wire Line
 	6750 5850 6900 5850
-$Comp
-L R R1
-U 1 1 5AD7EA25
-P 1050 5500
-F 0 "R1" H 1120 5546 50  0000 L CNN
-F 1 "10k, 125mW, 5%" V 1150 8550 50  0000 L CNN
-F 2 "raise_fp:R_0603" V 980 5500 50  0001 C CNN
-F 3 "" H 1050 5500 50  0000 C CNN
-F 4 "2447230" H 1050 5500 60  0001 C CNN "farnell #"
-F 5 "dnp" H 1050 5500 60  0001 C CNN "supplier"
-F 6 "dnp" H 1050 5500 60  0001 C CNN "supplier PN"
-F 7 "Value" H 1050 5500 60  0001 C CNN "MOQ"
-F 8 "Value" H 1050 5500 60  0001 C CNN "leadtime"
-	1    1050 5500
-	1    0    0    -1  
-$EndComp
 Text Label 3350 2000 0    60   ~ 0
 i2c_addr
-Text Label 1050 5850 0    60   ~ 0
+Text Label 900  5100 0    60   ~ 0
 i2c_addr
-$Comp
-L +5V #PWR010
-U 1 1 5AD7F156
-P 1050 5350
-F 0 "#PWR010" H 1050 5200 50  0001 C CNN
-F 1 "+5V" H 1065 5523 50  0000 C CNN
-F 2 "" H 1050 5350 50  0000 C CNN
-F 3 "" H 1050 5350 50  0000 C CNN
-	1    1050 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 5850 1050 5650
-Text Notes 750  6150 0    60   ~ 0
-firmware pulls addr lines low,\nplace R to make high\ndo not place on left side
+Text Notes 800  4950 0    60   ~ 0
+firmware pulls addr lines low. \nRight side uses pullup to set address.\ndo not place on left side
 $Comp
 L TEST TP4
 U 1 1 5AD7F77E
@@ -2060,4 +2031,5 @@ Wire Wire Line
 	3250 6250 3550 6250
 Wire Wire Line
 	3550 6250 3550 6600
+NoConn ~ 900  5100
 $EndSCHEMATC
