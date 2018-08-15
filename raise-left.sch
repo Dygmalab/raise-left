@@ -60,7 +60,6 @@ F 3 "" H 1400 1550 50  0000 C CNN
 	1    1400 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1450 1850
 Text Notes 2350 1000 0    118  ~ 0
 attiny88
 $Comp
@@ -1620,7 +1619,7 @@ Wire Wire Line
 	6750 5850 6900 5850
 Text Label 3350 2000 0    60   ~ 0
 i2c_addr
-Text Label 900  5100 0    60   ~ 0
+Text Label 900  5250 0    60   ~ 0
 i2c_addr
 Text Notes 800  4950 0    60   ~ 0
 firmware pulls addr lines low. \nRight side uses pullup to set address.\ndo not place on left side
@@ -2031,5 +2030,19 @@ Wire Wire Line
 	3250 6250 3550 6250
 Wire Wire Line
 	3550 6250 3550 6600
-NoConn ~ 900  5100
+Wire Wire Line
+	1450 1850 1400 1850
+Wire Wire Line
+	1400 1850 1400 1550
+$Comp
+L Earth #PWR?
+U 1 1 5B740B8C
+P 900 5250
+F 0 "#PWR?" H 900 5000 50  0001 C CNN
+F 1 "Earth" H 900 5100 50  0001 C CNN
+F 2 "" H 900 5250 60  0000 C CNN
+F 3 "" H 900 5250 60  0000 C CNN
+	1    900  5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
