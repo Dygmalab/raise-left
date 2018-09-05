@@ -1,6 +1,7 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
+LIBS:Device
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -515,9 +516,9 @@ F 7 "Value" H 7550 4200 60  0001 C CNN "leadtime"
 	1    7550 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 9150 1200 0    60   ~ 0
+Text Notes 9200 1000 0    60   ~ 0
 14 leds per row
-Text Notes 9150 1300 0    60   ~ 0
+Text Notes 9200 1100 0    60   ~ 0
 5 rows = 70RGBs\n
 $Comp
 L sled1735 U58
@@ -1690,4 +1691,44 @@ Text Notes 1400 1300 0    60   ~ 0
 reverse mount\nkeys
 Text Notes 7000 4750 0    60   ~ 0
 reverse mount\nlow profile
+$Comp
+L Earth #PWR024
+U 1 1 5B8FDE25
+P 8700 1700
+F 0 "#PWR024" H 8700 1450 50  0001 C CNN
+F 1 "Earth" H 8700 1550 50  0001 C CNN
+F 2 "" H 8700 1700 50  0000 C CNN
+F 3 "" H 8700 1700 50  0000 C CNN
+	1    8700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1300 8700 1400
+$Comp
+L CP C1
+U 1 1 5B8FDE31
+P 8700 1550
+F 0 "C1" H 8815 1596 50  0000 L CNN
+F 1 "47uF, tantalum, 6.3v, 10%, ESR 1.6R" H 8800 1700 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 8738 1400 50  0001 C CNN
+F 3 "" H 8700 1550 50  0000 C CNN
+F 4 "2333037RL" H 4700 -5300 60  0001 C CNN "farnell #"
+F 5 "AVX" H 8700 1550 60  0001 C CNN "supplier"
+F 6 "TAJA476K006RNJ" H 8700 1550 60  0001 C CNN "supplier PN"
+F 7 "Value" H 8700 1550 60  0001 C CNN "MOQ"
+F 8 "Value" H 8700 1550 60  0001 C CNN "leadtime"
+	1    8700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR036
+U 1 1 5B8FDE79
+P 8700 1300
+F 0 "#PWR036" H 8700 1150 50  0001 C CNN
+F 1 "+5V" H 8715 1473 50  0000 C CNN
+F 2 "" H 8700 1300 50  0000 C CNN
+F 3 "" H 8700 1300 50  0000 C CNN
+	1    8700 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

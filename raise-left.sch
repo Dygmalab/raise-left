@@ -1,6 +1,7 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
+LIBS:Device
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -1099,17 +1100,6 @@ F 3 "" H 3550 6600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Earth #PWR024
-U 1 1 59D15E0F
-P 4000 7000
-F 0 "#PWR024" H 4000 6750 50  0001 C CNN
-F 1 "Earth" H 4000 6850 50  0001 C CNN
-F 2 "" H 4000 7000 50  0000 C CNN
-F 3 "" H 4000 7000 50  0000 C CNN
-	1    4000 7000
-	1    0    0    -1  
-$EndComp
-$Comp
 L PWR_FLAG #FLG025
 U 1 1 59D15E15
 P 2200 6600
@@ -1346,8 +1336,6 @@ Connection ~ 3550 6600
 Connection ~ 3100 7000
 Wire Wire Line
 	3100 7000 2800 7000
-Wire Wire Line
-	4000 6600 4000 6700
 Text GLabel 10450 5750 0    60   Input ~ 0
 cb8
 Text GLabel 10450 5650 0    60   Input ~ 0
@@ -1724,22 +1712,6 @@ F 1 "PWR_FLAG" H 6750 4973 50  0000 C CNN
 F 2 "" H 6750 4750 50  0000 C CNN
 F 3 "" H 6750 4750 50  0000 C CNN
 	1    6750 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1
-U 1 1 5AD764DF
-P 4000 6850
-F 0 "C1" H 4115 6896 50  0000 L CNN
-F 1 "47uF, ceramic, 6v, 10%, x5r" H 4100 7000 50  0000 L CNN
-F 2 "raise_fp:C_1206" H 4038 6700 50  0001 C CNN
-F 3 "" H 4000 6850 50  0000 C CNN
-F 4 "any/open" H 4000 6850 60  0001 C CNN "supplier"
-F 5 "Value" H 4000 6850 60  0001 C CNN "supplier PN"
-F 6 "Value" H 4000 6850 60  0001 C CNN "MOQ"
-F 7 "Value" H 4000 6850 60  0001 C CNN "leadtime"
-F 8 "1907522" H 0   0   60  0001 C CNN "farnell #"
-	1    4000 6850
 	1    0    0    -1  
 $EndComp
 $Comp
