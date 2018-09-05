@@ -1135,7 +1135,6 @@ F 3 "" H 7200 4850 50  0000 C CNN
 	1    7200 4850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3350 1750
 NoConn ~ 3350 1850
 Text Label 10450 5850 2    60   ~ 0
 col6
@@ -1327,8 +1326,6 @@ Wire Wire Line
 	1400 7550 1500 7550
 Wire Wire Line
 	3350 1550 3700 1550
-Wire Wire Line
-	3350 1650 3700 1650
 Connection ~ 19100 4950
 Wire Wire Line
 	2000 6600 2900 6600
@@ -1460,7 +1457,7 @@ L Ferrite_Bead L1
 U 1 1 5AD7487F
 P 7050 4850
 F 0 "L1" V 6776 4850 50  0000 C CNN
-F 1 "470R at 100M, 1A" V 7200 4800 50  0000 C CNN
+F 1 "inductor 470R at 100M, 1A" V 7200 4800 50  0000 C CNN
 F 2 "raise_fp:R_0603" V 6980 4850 50  0001 C CNN
 F 3 "" H 7050 4850 50  0001 C CNN
 F 4 "1515745" H 0   0   60  0001 C CNN "farnell #"
@@ -1597,14 +1594,14 @@ cc
 $Comp
 L TEST TP1
 U 1 1 5AD7D968
-P 3700 1650
-F 0 "TP1" V 3654 1878 50  0000 L CNN
-F 1 "TEST" V 3745 1878 50  0000 L CNN
-F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3700 1650 50  0001 C CNN
-F 3 "" H 3700 1650 50  0001 C CNN
-F 4 "dnp" H 0   0   60  0001 C CNN "farnell #"
-F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
-	1    3700 1650
+P 3350 1750
+F 0 "TP1" V 3304 1978 50  0000 L CNN
+F 1 "TEST" V 3395 1978 50  0000 L CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3350 1750 50  0001 C CNN
+F 3 "" H 3350 1750 50  0001 C CNN
+F 4 "dnp" H -350 100 60  0001 C CNN "farnell #"
+F 5 "dnp" H -350 100 60  0001 C CNN "supplier"
+	1    3350 1750
 	0    1    1    0   
 $EndComp
 Text Notes 7750 5750 0    60   ~ 0
@@ -2035,14 +2032,15 @@ Wire Wire Line
 Wire Wire Line
 	1400 1850 1400 1550
 $Comp
-L Earth #PWR?
+L Earth #PWR010
 U 1 1 5B740B8C
 P 900 5250
-F 0 "#PWR?" H 900 5000 50  0001 C CNN
+F 0 "#PWR010" H 900 5000 50  0001 C CNN
 F 1 "Earth" H 900 5100 50  0001 C CNN
 F 2 "" H 900 5250 60  0000 C CNN
 F 3 "" H 900 5250 60  0000 C CNN
 	1    900  5250
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3350 1650
 $EndSCHEMATC
