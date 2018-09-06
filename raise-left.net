@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left.sch)
-    (date "Wed 05 Sep 2018 13:53:50 CEST")
+    (date "Thu 06 Sep 2018 11:31:58 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1663,12 +1663,12 @@
       (sheetpath (names /leds/) (tstamps /59D12F0F/))
       (tstamp 5B34A8B2))
     (comp (ref C1)
-      (value "47uF, tantalum, 6.3v, 10%, ESR 1.6R")
-      (footprint Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A)
+      (value "47uF, tantalum, 10v, 10%, ESR 1.6R")
+      (footprint Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B)
       (fields
-        (field (name "farnell #") 1907522)
+        (field (name "farnell #") 1432366)
         (field (name supplier) AVX)
-        (field (name "supplier PN") TAJA476K006RNJ)
+        (field (name "supplier PN") TAJB476K010RNJ)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib Device) (part CP))
@@ -1933,12 +1933,12 @@
         (pin (num 46) (name CA9) (type BiDi))
         (pin (num 47) (name bottompad) (type power_in)))))
   (libraries
-    (library (logical Device)
-      (uri /usr/share/kicad/library/Device.lib))
     (library (logical sled1735)
       (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise_libs/sled1735.lib))
     (library (logical raise-left-cache)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-cache.lib)))
+      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-cache.lib))
+    (library (logical Device)
+      (uri /usr/share/kicad/library/Device.lib)))
   (nets
     (net (code 1) (name "Net-(T3-Pad1)")
       (node (ref T3) (pin 1)))
