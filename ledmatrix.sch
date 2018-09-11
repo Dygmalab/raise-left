@@ -1202,44 +1202,44 @@ Wire Wire Line
 NoConn ~ 9500 3650
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
-Text Label 6050 6600 2    60   ~ 0
+Text Label 5750 7000 2    60   ~ 0
 CB7
-Text Label 6050 6700 2    60   ~ 0
+Text Label 5750 7100 2    60   ~ 0
 CB8
-Text Label 6050 6100 2    60   ~ 0
+Text Label 5750 6500 2    60   ~ 0
 CB4
-Text Label 6050 6200 2    60   ~ 0
+Text Label 5750 6600 2    60   ~ 0
 CB5
-Text Label 6050 6300 2    60   ~ 0
+Text Label 5750 6700 2    60   ~ 0
 CB6
 Wire Wire Line
-	6050 6100 5700 6100
+	5750 6500 5400 6500
 Wire Wire Line
-	5700 6200 6050 6200
+	5400 6600 5750 6600
 Wire Wire Line
-	6050 6300 5700 6300
+	5750 6700 5400 6700
 Wire Wire Line
-	6050 6600 5700 6600
+	5750 7000 5400 7000
 Wire Wire Line
-	5700 6700 6050 6700
+	5400 7100 5750 7100
 Text Notes 7650 850  2    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 7650 5800 2    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 750  5500 2    197  ~ 0
 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
-Text Notes 6400 6500 0    60   ~ 0
-for leds  62, 63 (o5, p5)\n\n
-Text GLabel 5700 6100 0    60   Input ~ 0
-cb4
-Text GLabel 5700 6200 0    60   Input ~ 0
-cb5
-Text GLabel 5700 6300 0    60   Input ~ 0
-cb6
-Text GLabel 5700 6600 0    60   Input ~ 0
-cb7
-Text GLabel 5700 6700 0    60   Input ~ 0
-cb8
+Text Notes 5050 7450 0    60   ~ 0
+3 LEDs for the LP: l5, o5 p5\n\n
+Text GLabel 5400 6500 0    60   Input ~ 0
+cb4-lp
+Text GLabel 5400 6600 0    60   Input ~ 0
+cb5-lp
+Text GLabel 5400 6700 0    60   Input ~ 0
+cb6-lp
+Text GLabel 5400 7000 0    60   Input ~ 0
+cb7-lp
+Text GLabel 5400 7100 0    60   Input ~ 0
+cb8-lp
 $Comp
 L Earth #PWR031
 U 1 1 59FC4712
@@ -1731,4 +1731,26 @@ F 3 "" H 8700 1300 50  0000 C CNN
 	1    8700 1300
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	5950 4700 5950 6300
+Wire Notes Line
+	5950 6300 6400 6300
+Wire Notes Line
+	5950 6250 4600 6250
+Wire Notes Line
+	4600 6250 4600 7600
+Wire Notes Line
+	4600 7600 6500 7600
+Wire Notes Line
+	6500 7600 6500 6350
+Wire Notes Line
+	6500 6350 6550 6350
+Text Notes 5850 4950 0    60   ~ 0
+normal mount\nunderglow\nlow profile
+Text Label 5750 6900 2    60   ~ 0
+CB3
+Wire Wire Line
+	5750 6900 5400 6900
+Text GLabel 5400 6900 0    60   Input ~ 0
+cb3-lp
 $EndSCHEMATC

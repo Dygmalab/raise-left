@@ -1337,15 +1337,15 @@ Connection ~ 3100 7000
 Wire Wire Line
 	3100 7000 2800 7000
 Text GLabel 10450 5750 0    60   Input ~ 0
-cb8
+cb8-lp
 Text GLabel 10450 5650 0    60   Input ~ 0
-cb7
+cb7-lp
 Text GLabel 10450 5350 0    60   Input ~ 0
-cb6
+cb6-lp
 Text GLabel 10450 5250 0    60   Input ~ 0
-cb5
+cb5-lp
 Text GLabel 10450 5150 0    60   Input ~ 0
-cb4
+cb4-lp
 NoConn ~ 4700 5800
 NoConn ~ 4700 5950
 $Comp
@@ -1838,17 +1838,6 @@ F 3 "" H 10450 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Earth #PWR034
-U 1 1 5ADF3596
-P 10450 5550
-F 0 "#PWR034" H 10450 5300 50  0001 C CNN
-F 1 "Earth" H 10450 5400 50  0001 C CNN
-F 2 "" H 10450 5550 50  0000 C CNN
-F 3 "" H 10450 5550 50  0000 C CNN
-	1    10450 5550
-	0    1    1    0   
-$EndComp
-$Comp
 L SW_PUSH SW_ANSI_21
 U 1 1 5AE31915
 P 6200 3350
@@ -2015,4 +2004,6 @@ F 3 "" H 900 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3350 1650
+Text GLabel 10450 5550 0    60   Input ~ 0
+cb3-lp
 $EndSCHEMATC
