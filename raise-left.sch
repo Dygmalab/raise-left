@@ -1179,22 +1179,6 @@ F 8 "Value" H 4900 5800 60  0001 C CNN "leadtime"
 	1    4900 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X01 T3
-U 1 1 59D3CA62
-P 4900 5950
-F 0 "T3" H 4978 5991 50  0000 L CNN
-F 1 "CONN_01X01" H 4978 5900 50  0000 L CNN
-F 2 "raise_fp:MountingHole_4.3mm" H 4900 5950 50  0001 C CNN
-F 3 "" H 4900 5950 50  0000 C CNN
-F 4 "dnp" H 4900 5950 60  0001 C CNN "farnell #"
-F 5 "dnp" H 1350 750 60  0001 C CNN "supplier"
-F 6 "Value" H 4900 5950 60  0001 C CNN "supplier PN"
-F 7 "Value" H 4900 5950 60  0001 C CNN "MOQ"
-F 8 "Value" H 4900 5950 60  0001 C CNN "leadtime"
-	1    4900 5950
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 8550 4950 1400 1350
 U 59D12F0F
@@ -1347,7 +1331,6 @@ cb5-lp
 Text GLabel 10450 5150 0    60   Input ~ 0
 cb4-lp
 NoConn ~ 4700 5800
-NoConn ~ 4700 5950
 $Comp
 L PWR_FLAG #FLG01
 U 1 1 5A0085FD
