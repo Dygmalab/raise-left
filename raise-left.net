@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left.sch)
-    (date "Wed 12 Sep 2018 16:33:29 CEST")
+    (date "Tue 18 Sep 2018 16:31:28 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -698,7 +698,7 @@
       (tstamp 5A316B6D))
     (comp (ref P1)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -707,7 +707,7 @@
       (tstamp 5A3A7E48))
     (comp (ref P2)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -719,7 +719,7 @@
       (tstamp 5A3A7E4F))
     (comp (ref P4)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -731,7 +731,7 @@
       (tstamp 5A3A7E56))
     (comp (ref P3)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -1652,7 +1652,7 @@
       (tstamp 5B34A8B2))
     (comp (ref C1)
       (value "47uF, tantalum, 10v, 10%, ESR 1.6R")
-      (footprint Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B)
+      (footprint raise_fp:CP_EIA-3528-21_Kemet-B)
       (fields
         (field (name "farnell #") 1432366)
         (field (name supplier) AVX)
@@ -1922,7 +1922,7 @@
         (pin (num 47) (name bottompad) (type power_in)))))
   (libraries
     (library (logical sled1735)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise_libs/sled1735.lib))
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/sled1735.lib))
     (library (logical raise-left-cache)
       (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-cache.lib))
     (library (logical Device)

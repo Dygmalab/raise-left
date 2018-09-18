@@ -1366,7 +1366,7 @@ U 1 1 5A3A7E48
 P 4900 4850
 F 0 "P1" H 4978 4891 50  0000 L CNN
 F 1 "CONN_01X01" H 4978 4800 50  0000 L CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 4900 4850 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.2mm_Pad" H 4900 4850 50  0001 C CNN
 F 3 "" H 4900 4850 50  0000 C CNN
 F 4 "dnp" H 4900 4850 60  0001 C CNN "farnell #"
 F 5 "dnp" H 300 -450 60  0001 C CNN "supplier"
@@ -1379,7 +1379,7 @@ U 1 1 5A3A7E4F
 P 4900 5000
 F 0 "P2" H 4978 5041 50  0000 L CNN
 F 1 "CONN_01X01" H 4978 4950 50  0000 L CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 4900 5000 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.2mm_Pad" H 4900 5000 50  0001 C CNN
 F 3 "" H 4900 5000 50  0000 C CNN
 F 4 "dnp" H 4900 5000 60  0001 C CNN "farnell #"
 F 5 "dnp" H 300 -450 60  0001 C CNN "supplier"
@@ -1395,7 +1395,7 @@ U 1 1 5A3A7E56
 P 4900 5300
 F 0 "P4" H 4978 5341 50  0000 L CNN
 F 1 "CONN_01X01" H 4978 5250 50  0000 L CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 4900 5300 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.2mm_Pad" H 4900 5300 50  0001 C CNN
 F 3 "" H 4900 5300 50  0000 C CNN
 F 4 "dnp" H 4900 5300 60  0001 C CNN "farnell #"
 F 5 "dnp" H 300 -450 60  0001 C CNN "supplier"
@@ -1411,7 +1411,7 @@ U 1 1 5A3A7E60
 P 4900 5150
 F 0 "P3" H 4978 5191 50  0000 L CNN
 F 1 "CONN_01X01" H 4978 5100 50  0000 L CNN
-F 2 "raise_fp:MountingHole_2.7mm_Pad" H 4900 5150 50  0001 C CNN
+F 2 "raise_fp:MountingHole_2.2mm_Pad" H 4900 5150 50  0001 C CNN
 F 3 "" H 4900 5150 50  0000 C CNN
 F 4 "dnp" H 4900 5150 60  0001 C CNN "farnell #"
 F 5 "dnp" H 300 -450 60  0001 C CNN "supplier"
