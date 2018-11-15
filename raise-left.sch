@@ -1,7 +1,6 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
-LIBS:Device
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -1037,7 +1036,7 @@ L C C5
 U 1 1 59D15DBC
 P 2800 6800
 F 0 "C5" H 2915 6846 50  0000 L CNN
-F 1 "10uF, ceramic, 6v, 10%, x5r" H 1600 6700 50  0000 L CNN
+F 1 "10uF, ceramic, 6v, 10%, x5r" H 3700 6600 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 2838 6650 50  0001 C CNN
 F 3 "" H 2800 6800 50  0000 C CNN
 F 4 "1288201" H 2800 6800 60  0001 C CNN "farnell #"
@@ -1989,4 +1988,230 @@ $EndComp
 NoConn ~ 3350 1650
 Text GLabel 10450 5550 0    60   Input ~ 0
 cb3-lp
+$Comp
+L C C3
+U 1 1 5BED65CF
+P 2500 6750
+F 0 "C3" H 2615 6796 50  0000 L CNN
+F 1 "100pF ceramic, 100v, 10%" H 2450 7250 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 2538 6600 50  0001 C CNN
+F 3 "" H 2500 6750 50  0000 C CNN
+F 4 "2821263" H 2500 6750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 2500 6750 60  0001 C CNN "supplier"
+F 6 "Value" H 2500 6750 60  0001 C CNN "supplier PN"
+F 7 "Value" H 2500 6750 60  0001 C CNN "MOQ"
+F 8 "Value" H 2500 6750 60  0001 C CNN "leadtime"
+	1    2500 6750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 6600
+$Comp
+L Earth #PWR034
+U 1 1 5BED684B
+P 2500 6900
+F 0 "#PWR034" H 2500 6650 50  0001 C CNN
+F 1 "Earth" H 2500 6750 50  0001 C CNN
+F 2 "" H 2500 6900 50  0000 C CNN
+F 3 "" H 2500 6900 50  0000 C CNN
+	1    2500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP10
+U 1 1 5BED870B
+P 5900 1200
+F 0 "TP10" V 6115 1294 50  0000 C CNN
+F 1 "TEST" V 6024 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 5900 1200 50  0001 C CNN
+F 3 "" H 5900 1200 50  0001 C CNN
+F 4 "dnp" H 2000 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 2000 -4050 60  0001 C CNN "supplier"
+	1    5900 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP9
+U 1 1 5BED89E7
+P 5100 1200
+F 0 "TP9" V 5315 1294 50  0000 C CNN
+F 1 "TEST" V 5224 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 5100 1200 50  0001 C CNN
+F 3 "" H 5100 1200 50  0001 C CNN
+F 4 "dnp" H 1200 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 1200 -4050 60  0001 C CNN "supplier"
+	1    5100 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP11
+U 1 1 5BED8D3A
+P 6700 1200
+F 0 "TP11" V 6915 1294 50  0000 C CNN
+F 1 "TEST" V 6824 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 6700 1200 50  0001 C CNN
+F 3 "" H 6700 1200 50  0001 C CNN
+F 4 "dnp" H 2800 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 2800 -4050 60  0001 C CNN "supplier"
+	1    6700 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP12
+U 1 1 5BED8E2E
+P 7500 1200
+F 0 "TP12" V 7715 1294 50  0000 C CNN
+F 1 "TEST" V 7624 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 7500 1200 50  0001 C CNN
+F 3 "" H 7500 1200 50  0001 C CNN
+F 4 "dnp" H 3600 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 3600 -4050 60  0001 C CNN "supplier"
+	1    7500 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP13
+U 1 1 5BED8F24
+P 8300 1200
+F 0 "TP13" V 8515 1294 50  0000 C CNN
+F 1 "TEST" V 8424 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 8300 1200 50  0001 C CNN
+F 3 "" H 8300 1200 50  0001 C CNN
+F 4 "dnp" H 4400 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 4400 -4050 60  0001 C CNN "supplier"
+	1    8300 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP14
+U 1 1 5BED901E
+P 9100 1200
+F 0 "TP14" V 9315 1294 50  0000 C CNN
+F 1 "TEST" V 9224 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 9100 1200 50  0001 C CNN
+F 3 "" H 9100 1200 50  0001 C CNN
+F 4 "dnp" H 5200 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 5200 -4050 60  0001 C CNN "supplier"
+	1    9100 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP15
+U 1 1 5BED9311
+P 9900 1200
+F 0 "TP15" V 10115 1294 50  0000 C CNN
+F 1 "TEST" V 10024 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 9900 1200 50  0001 C CNN
+F 3 "" H 9900 1200 50  0001 C CNN
+F 4 "dnp" H 6000 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 6000 -4050 60  0001 C CNN "supplier"
+	1    9900 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP17
+U 1 1 5BED9415
+P 4600 1900
+F 0 "TP17" V 4815 1994 50  0000 C CNN
+F 1 "TEST" V 4724 1994 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0001 C CNN
+F 4 "dnp" H 700 -3350 60  0001 C CNN "farnell #"
+F 5 "dnp" H 700 -3350 60  0001 C CNN "supplier"
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP18
+U 1 1 5BED95DC
+P 4600 2550
+F 0 "TP18" V 4815 2644 50  0000 C CNN
+F 1 "TEST" V 4724 2644 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4600 2550 50  0001 C CNN
+F 3 "" H 4600 2550 50  0001 C CNN
+F 4 "dnp" H 700 -2700 60  0001 C CNN "farnell #"
+F 5 "dnp" H 700 -2700 60  0001 C CNN "supplier"
+	1    4600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP19
+U 1 1 5BED9976
+P 4600 3200
+F 0 "TP19" V 4815 3294 50  0000 C CNN
+F 1 "TEST" V 4724 3294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4600 3200 50  0001 C CNN
+F 3 "" H 4600 3200 50  0001 C CNN
+F 4 "dnp" H 700 -2050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 700 -2050 60  0001 C CNN "supplier"
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP20
+U 1 1 5BED9A7C
+P 4600 3750
+F 0 "TP20" V 4815 3844 50  0000 C CNN
+F 1 "TEST" V 4724 3844 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4600 3750 50  0001 C CNN
+F 3 "" H 4600 3750 50  0001 C CNN
+F 4 "dnp" H 700 -1500 60  0001 C CNN "farnell #"
+F 5 "dnp" H 700 -1500 60  0001 C CNN "supplier"
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP21
+U 1 1 5BED9CD4
+P 4600 4400
+F 0 "TP21" V 4815 4494 50  0000 C CNN
+F 1 "TEST" V 4724 4494 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4600 4400 50  0001 C CNN
+F 3 "" H 4600 4400 50  0001 C CNN
+F 4 "dnp" H 700 -850 60  0001 C CNN "farnell #"
+F 5 "dnp" H 700 -850 60  0001 C CNN "supplier"
+	1    4600 4400
+	1    0    0    -1  
+$EndComp
+Text Label 10800 1200 0    60   ~ 0
+col7
+$Comp
+L TEST TP16
+U 1 1 5BEDA851
+P 10800 1200
+F 0 "TP16" V 11015 1294 50  0000 C CNN
+F 1 "TEST" V 10924 1294 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 10800 1200 50  0001 C CNN
+F 3 "" H 10800 1200 50  0001 C CNN
+F 4 "dnp" H 6900 -4050 60  0001 C CNN "farnell #"
+F 5 "dnp" H 6900 -4050 60  0001 C CNN "supplier"
+	1    10800 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5BEE3CD6
+P 1400 2000
+F 0 "C?" H 1515 2046 50  0000 L CNN
+F 1 "10uF, ceramic, 6v, 10%, x5r" H 450 2500 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 1438 1850 50  0001 C CNN
+F 3 "" H 1400 2000 50  0000 C CNN
+F 4 "1288201" H 1400 2000 60  0001 C CNN "farnell #"
+F 5 "any/open" H 1400 2000 60  0001 C CNN "supplier"
+F 6 "Value" H 1400 2000 60  0001 C CNN "supplier PN"
+F 7 "Value" H 1400 2000 60  0001 C CNN "MOQ"
+F 8 "Value" H 1400 2000 60  0001 C CNN "leadtime"
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 5BEE3DE5
+P 1400 2150
+F 0 "#PWR?" H 1400 1900 50  0001 C CNN
+F 1 "Earth" H 1400 2000 50  0001 C CNN
+F 2 "" H 1400 2150 50  0000 C CNN
+F 3 "" H 1400 2150 50  0000 C CNN
+	1    1400 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
