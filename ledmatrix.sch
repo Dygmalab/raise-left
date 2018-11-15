@@ -1,7 +1,6 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
-LIBS:Device
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
