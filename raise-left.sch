@@ -2188,10 +2188,10 @@ F 5 "dnp" H 6900 -4050 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C?
+L C C7
 U 1 1 5C128A86
 P 750 2400
-F 0 "C?" H 865 2446 50  0000 L CNN
+F 0 "C7" H 865 2446 50  0000 L CNN
 F 1 "1uF, ceramic, 6v, 10%, x5r" H 150 2700 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 788 2250 50  0001 C CNN
 F 3 "" H 750 2400 50  0000 C CNN
@@ -2204,10 +2204,10 @@ F 8 "Value" H 750 2400 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR?
+L Earth #PWR037
 U 1 1 5C128F00
 P 750 2550
-F 0 "#PWR?" H 750 2300 50  0001 C CNN
+F 0 "#PWR037" H 750 2300 50  0001 C CNN
 F 1 "Earth" H 750 2400 50  0001 C CNN
 F 2 "" H 750 2550 50  0000 C CNN
 F 3 "" H 750 2550 50  0000 C CNN
@@ -2217,4 +2217,34 @@ $EndComp
 Wire Wire Line
 	1400 2250 750  2250
 Connection ~ 1400 1850
+$Comp
+L TEST TP22
+U 1 1 5C12ACE3
+P 8900 5550
+F 0 "TP22" V 9115 5644 50  0000 C CNN
+F 1 "TEST" V 9024 5644 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 8900 5550 50  0001 C CNN
+F 3 "" H 8900 5550 50  0001 C CNN
+F 4 "dnp" H 5000 -500 60  0001 C CNN "farnell #"
+F 5 "dnp" H 5000 -500 60  0001 C CNN "supplier"
+	1    8900 5550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8900 5550 2    60   Input ~ 0
+SHUTDOWN
+$Comp
+L TEST TP23
+U 1 1 5C12AEB9
+P 8900 5650
+F 0 "TP23" V 9115 5744 50  0000 C CNN
+F 1 "TEST" V 9024 5744 50  0000 C CNN
+F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 8900 5650 50  0001 C CNN
+F 3 "" H 8900 5650 50  0001 C CNN
+F 4 "dnp" H 5000 -400 60  0001 C CNN "farnell #"
+F 5 "dnp" H 5000 -400 60  0001 C CNN "supplier"
+	1    8900 5650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8900 5650 2    60   Input ~ 0
+SLED_CS
 $EndSCHEMATC
