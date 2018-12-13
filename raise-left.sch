@@ -1973,7 +1973,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1850 1400 1850
 Wire Wire Line
-	1400 1850 1400 1550
+	1400 1550 1400 2250
 $Comp
 L Earth #PWR010
 U 1 1 5B740B8C
@@ -2189,29 +2189,32 @@ F 5 "dnp" H 6900 -4050 60  0001 C CNN "supplier"
 $EndComp
 $Comp
 L C C?
-U 1 1 5BEE3CD6
-P 1400 2000
-F 0 "C?" H 1515 2046 50  0000 L CNN
-F 1 "10uF, ceramic, 6v, 10%, x5r" H 450 2500 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 1438 1850 50  0001 C CNN
-F 3 "" H 1400 2000 50  0000 C CNN
-F 4 "1288201" H 1400 2000 60  0001 C CNN "farnell #"
-F 5 "any/open" H 1400 2000 60  0001 C CNN "supplier"
-F 6 "Value" H 1400 2000 60  0001 C CNN "supplier PN"
-F 7 "Value" H 1400 2000 60  0001 C CNN "MOQ"
-F 8 "Value" H 1400 2000 60  0001 C CNN "leadtime"
-	1    1400 2000
+U 1 1 5C128A86
+P 750 2400
+F 0 "C?" H 865 2446 50  0000 L CNN
+F 1 "1uF, ceramic, 6v, 10%, x5r" H 150 2700 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 788 2250 50  0001 C CNN
+F 3 "" H 750 2400 50  0000 C CNN
+F 4 "1865556" H 750 2400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 750 2400 60  0001 C CNN "supplier"
+F 6 "Value" H 750 2400 60  0001 C CNN "supplier PN"
+F 7 "Value" H 750 2400 60  0001 C CNN "MOQ"
+F 8 "Value" H 750 2400 60  0001 C CNN "leadtime"
+	1    750  2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Earth #PWR?
-U 1 1 5BEE3DE5
-P 1400 2150
-F 0 "#PWR?" H 1400 1900 50  0001 C CNN
-F 1 "Earth" H 1400 2000 50  0001 C CNN
-F 2 "" H 1400 2150 50  0000 C CNN
-F 3 "" H 1400 2150 50  0000 C CNN
-	1    1400 2150
+U 1 1 5C128F00
+P 750 2550
+F 0 "#PWR?" H 750 2300 50  0001 C CNN
+F 1 "Earth" H 750 2400 50  0001 C CNN
+F 2 "" H 750 2550 50  0000 C CNN
+F 3 "" H 750 2550 50  0000 C CNN
+	1    750  2550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1400 2250 750  2250
+Connection ~ 1400 1850
 $EndSCHEMATC

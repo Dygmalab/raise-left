@@ -1,4 +1,4 @@
-update=Wed 05 Sep 2018 13:51:11 CEST
+update=Tue 20 Nov 2018 13:22:02 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -41,4 +41,3 @@ LibDir=
 [eeschema/libraries]
 LibName1=raise-left-rescue
 LibName2=raise_libs/sled1735
-LibName3=Device
