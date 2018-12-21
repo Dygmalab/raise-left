@@ -6722,7 +6722,7 @@
     (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
     (tags marker)
     (path /5B23A10A)
-    (attr virtual)
+    (attr smd)
     (fp_text reference F1 (at 0 1.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
@@ -6743,7 +6743,7 @@
     (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
     (tags marker)
     (path /5B23A368)
-    (attr virtual)
+    (attr smd)
     (fp_text reference F2 (at 0 1.5) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
