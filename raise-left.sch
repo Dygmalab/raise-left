@@ -1,6 +1,13 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
+LIBS:test-jig
+LIBS:regulator
+LIBS:ferrite_bead
+LIBS:attiny88-a
+LIBS:usb_c_16pin
+LIBS:rgbled
+LIBS:usblc6-4
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -2247,4 +2254,45 @@ F 5 "dnp" H 5000 -400 60  0001 C CNN "supplier"
 $EndComp
 Text GLabel 8900 5650 2    60   Input ~ 0
 SLED_CS
+$Comp
+L usblc6-4 U1
+U 1 1 5C62F74C
+P 1200 6450
+F 0 "U1" H 1200 6797 60  0000 C CNN
+F 1 "usblc6-4" H 1200 6691 60  0000 C CNN
+F 2 "raise_fp:SOT-23-6" H 1200 6450 60  0001 C CNN
+F 3 "" H 1200 6450 60  0001 C CNN
+	1    1200 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 6350 2    60   Input ~ 0
+sda
+Text GLabel 1550 6550 2    60   Input ~ 0
+scl
+Text Label 850  6350 2    60   ~ 0
+reset
+Text Label 850  6550 2    60   ~ 0
+cc
+$Comp
+L +5V #PWR038
+U 1 1 5C630992
+P 1550 6450
+F 0 "#PWR038" H 1550 6300 50  0001 C CNN
+F 1 "+5V" H 1550 6590 50  0000 C CNN
+F 2 "" H 1550 6450 60  0000 C CNN
+F 3 "" H 1550 6450 60  0000 C CNN
+	1    1550 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR039
+U 1 1 5C630AED
+P 850 6450
+F 0 "#PWR039" H 850 6200 50  0001 C CNN
+F 1 "Earth" H 850 6300 50  0001 C CNN
+F 2 "" H 850 6450 60  0000 C CNN
+F 3 "" H 850 6450 60  0000 C CNN
+	1    850  6450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

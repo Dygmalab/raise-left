@@ -1,4 +1,4 @@
-update=Tue 15 Jan 2019 11:06:00 CET
+update=Tue 12 Feb 2019 16:12:22 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,12 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=raise-left-rescue
-LibName2=raise_libs/sled1735
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -41,3 +35,16 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=raise-left-rescue
+LibName2=raise_libs/sled1735
+LibName3=raise_libs/test-jig
+LibName4=raise_libs/regulator
+LibName5=raise_libs/ferrite_bead
+LibName6=raise_libs/attiny88-a
+LibName7=raise_libs/usb_c_16pin
+LibName8=raise_libs/rgbled
+LibName9=raise_libs/usblc6-4
