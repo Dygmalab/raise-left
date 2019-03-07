@@ -1,13 +1,8 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
-LIBS:test-jig
-LIBS:regulator
-LIBS:ferrite_bead
-LIBS:attiny88-a
 LIBS:usb_c_16pin
 LIBS:rgbled
-LIBS:usblc6-4
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -1759,4 +1754,31 @@ Wire Wire Line
 	5750 6900 5400 6900
 Text GLabel 5400 6900 0    60   Input ~ 0
 cb3-lp
+$Comp
+L C C10
+U 1 1 5C80DF35
+P 9050 2100
+F 0 "C10" H 9165 2146 50  0000 L CNN
+F 1 "100pF ceramic, 100v, 10%" H 8800 1800 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 9088 1950 50  0001 C CNN
+F 3 "" H 9050 2100 50  0000 C CNN
+F 4 "2821263" H 9050 2100 60  0001 C CNN "farnell #"
+F 5 "any/open" H 9050 2100 60  0001 C CNN "supplier"
+F 6 "Value" H 9050 2100 60  0001 C CNN "supplier PN"
+F 7 "Value" H 9050 2100 60  0001 C CNN "MOQ"
+F 8 "Value" H 9050 2100 60  0001 C CNN "leadtime"
+	1    9050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR040
+U 1 1 5C80DF3C
+P 9050 2250
+F 0 "#PWR040" H 9050 2000 50  0001 C CNN
+F 1 "Earth" H 9050 2100 50  0001 C CNN
+F 2 "" H 9050 2250 50  0000 C CNN
+F 3 "" H 9050 2250 50  0000 C CNN
+	1    9050 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
