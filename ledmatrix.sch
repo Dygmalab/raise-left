@@ -1,8 +1,13 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
+LIBS:test-jig
+LIBS:regulator
+LIBS:ferrite_bead
+LIBS:attiny88-a
 LIBS:usb_c_16pin
 LIBS:rgbled
+LIBS:usblc6-4
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END

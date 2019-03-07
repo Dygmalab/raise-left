@@ -1,8 +1,13 @@
 EESchema Schematic File Version 3
 LIBS:raise-left-rescue
 LIBS:sled1735
+LIBS:test-jig
+LIBS:regulator
+LIBS:ferrite_bead
+LIBS:attiny88-a
 LIBS:usb_c_16pin
 LIBS:rgbled
+LIBS:usblc6-4
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -130,7 +135,7 @@ U 1 1 591D5DCC
 P 2400 2950
 F 0 "IC1" H 2400 4707 50  0000 C CNN
 F 1 "ATTINY88-A" H 2400 4616 50  0000 C CNN
-F 2 "raise_fp:LQFP-32_7x7mm_Pitch0.8mm" H 2400 4525 50  0001 C CIN
+F 2 "raise_fp:QFN-32_5x5mm_Pitch0.5mm" H 2400 4525 50  0001 C CIN
 F 3 "" H 2400 2950 50  0000 C CNN
 F 4 "1704570" H 2400 2950 60  0001 C CNN "farnell #"
 F 5 "microchip" H -300 -200 60  0001 C CNN "supplier"
@@ -975,17 +980,6 @@ F 3 "" H 1500 7550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR08
-U 1 1 59B16B4B
-P 1400 7350
-F 0 "#PWR08" H 1400 7200 50  0001 C CNN
-F 1 "+5V" H 1400 7490 50  0000 C CNN
-F 2 "" H 1400 7350 60  0000 C CNN
-F 3 "" H 1400 7350 60  0000 C CNN
-	1    1400 7350
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_02X03 P8
 U 1 1 59B16B51
 P 1150 7450
@@ -1002,10 +996,6 @@ F 8 "Value" H 1150 7450 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3350 2700
-Text GLabel 3350 3250 2    60   Input ~ 0
-sda
-Text GLabel 3350 3350 2    60   Input ~ 0
-scl
 Text GLabel 1400 7450 2    60   Input ~ 0
 MOSI
 Text GLabel 900  7450 0    60   Input ~ 0
@@ -1515,10 +1505,6 @@ F 3 "" H 7550 5650 50  0000 C CNN
 $EndComp
 Text Notes 6900 5200 0    60   ~ 0
 pull down shows the socket is a sink
-Text Label 7550 5350 0    60   ~ 0
-cc
-Text Label 3700 1550 0    60   ~ 0
-cc
 $Comp
 L TEST TP1
 U 1 1 5AD7D968
@@ -2334,7 +2320,7 @@ U 1 1 5C80CB0D
 P -600 6650
 F 0 "D20" V -554 6572 50  0000 R CNN
 F 1 "small signal diode, 100mA" V -645 6572 50  0000 R CNN
-F 2 "raise_fp:D_SOD-123" H -600 6650 50  0001 C CNN
+F 2 "Diodes_SMD:D_0805" H -600 6650 50  0001 C CNN
 F 3 "" H -600 6650 50  0000 C CNN
 F 4 "2454043" H -6600 2750 60  0001 C CNN "farnell #"
 F 5 "any/open" H -6600 2750 60  0001 C CNN "supplier"
@@ -2361,7 +2347,7 @@ U 1 1 5C80CFCD
 P 550 6700
 F 0 "D21" V 596 6622 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 505 6622 50  0000 R CNN
-F 2 "raise_fp:D_SOD-123" H 550 6700 50  0001 C CNN
+F 2 "Diodes_SMD:D_0805" H 550 6700 50  0001 C CNN
 F 3 "" H 550 6700 50  0000 C CNN
 F 4 "2454043" H -5450 2800 60  0001 C CNN "farnell #"
 F 5 "any/open" H -5450 2800 60  0001 C CNN "supplier"
@@ -2452,4 +2438,104 @@ F 8 "Value" H 6250 7800 60  0001 C CNN "leadtime"
 $EndComp
 Wire Wire Line
 	6250 7950 6250 8050
+Text GLabel -600 5550 2    60   Input ~ 0
+cc
+$Comp
+L R R8
+U 1 1 5C80A7C8
+P -750 5550
+F 0 "R8" H -680 5596 50  0000 L CNN
+F 1 "100R, 125mW, 5%" V -950 5250 50  0000 L CNN
+F 2 "raise_fp:R_0603" V -820 5550 50  0001 C CNN
+F 3 "" H -750 5550 50  0000 C CNN
+F 4 "2447230" H -750 5550 60  0001 C CNN "farnell #"
+F 5 "any/open" H -750 5550 60  0001 C CNN "supplier"
+F 6 "Value" H -750 5550 60  0001 C CNN "supplier PN"
+F 7 "Value" H -750 5550 60  0001 C CNN "MOQ"
+F 8 "Value" H -750 5550 60  0001 C CNN "leadtime"
+	1    -750 5550
+	0    1    1    0   
+$EndComp
+Text Label -900 5550 2    60   ~ 0
+cc-filt
+$Comp
+L C C13
+U 1 1 5C80A7D4
+P -900 5700
+F 0 "C13" H -785 5746 50  0000 L CNN
+F 1 "100pF ceramic, 100v, 10%" H -1150 5400 50  0000 L CNN
+F 2 "raise_fp:C_0603" H -862 5550 50  0001 C CNN
+F 3 "" H -900 5700 50  0000 C CNN
+F 4 "2821263" H -900 5700 60  0001 C CNN "farnell #"
+F 5 "any/open" H -900 5700 60  0001 C CNN "supplier"
+F 6 "Value" H -900 5700 60  0001 C CNN "supplier PN"
+F 7 "Value" H -900 5700 60  0001 C CNN "MOQ"
+F 8 "Value" H -900 5700 60  0001 C CNN "leadtime"
+	1    -900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR041
+U 1 1 5C80A7DA
+P -900 5850
+F 0 "#PWR041" H -900 5600 50  0001 C CNN
+F 1 "Earth" H -900 5700 50  0001 C CNN
+F 2 "" H -900 5850 60  0000 C CNN
+F 3 "" H -900 5850 60  0000 C CNN
+	1    -900 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D32
+U 1 1 5C80A7E5
+P -600 5700
+F 0 "D32" V -554 5622 50  0000 R CNN
+F 1 "small signal diode, 100mA" V -645 5622 50  0000 R CNN
+F 2 "Diodes_SMD:D_0805" H -600 5700 50  0001 C CNN
+F 3 "" H -600 5700 50  0000 C CNN
+F 4 "2454043" H -6600 1800 60  0001 C CNN "farnell #"
+F 5 "any/open" H -6600 1800 60  0001 C CNN "supplier"
+F 6 "Value" H -600 5700 60  0001 C CNN "supplier PN"
+F 7 "Value" H -600 5700 60  0001 C CNN "MOQ"
+F 8 "Value" H -600 5700 60  0001 C CNN "leadtime"
+	1    -600 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR042
+U 1 1 5C80A7EB
+P -600 5850
+F 0 "#PWR042" H -600 5600 50  0001 C CNN
+F 1 "Earth" H -600 5700 50  0001 C CNN
+F 2 "" H -600 5850 60  0000 C CNN
+F 3 "" H -600 5850 60  0000 C CNN
+	1    -600 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7550 5350 2    60   Input ~ 0
+cc
+Text Label 3700 1550 0    60   ~ 0
+cc-filt
+$Comp
+L Earth #PWR043
+U 1 1 5C80CC8E
+P 1950 4600
+F 0 "#PWR043" H 1950 4350 50  0001 C CNN
+F 1 "Earth" H 1950 4450 50  0001 C CNN
+F 2 "" H 1950 4600 50  0000 C CNN
+F 3 "" H 1950 4600 50  0000 C CNN
+	1    1950 4600
+	1    0    0    -1  
+$EndComp
+Text Label 5850 7650 2    60   ~ 0
+shld-prefilt
+Text Label 6350 7650 0    60   ~ 0
+gnd-prefilt
+Text Label 6750 4850 0    60   ~ 0
+vbus-prefilt
+Text Label 3350 3350 0    60   ~ 0
+scl-filt
+Text Label 3350 3250 0    60   ~ 0
+sda-filt
+NoConn ~ 1400 7350
 $EndSCHEMATC
