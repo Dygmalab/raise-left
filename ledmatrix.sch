@@ -1786,4 +1786,33 @@ F 3 "" H 9050 2250 50  0000 C CNN
 	1    9050 2250
 	1    0    0    -1  
 $EndComp
+Text GLabel 8700 3300 2    60   Input ~ 0
+SHUTDOWN
+$Comp
+L R R7
+U 1 1 5C812388
+P 8700 3450
+F 0 "R7" H 8770 3496 50  0000 L CNN
+F 1 "10k, 125mW, 5%" V 8550 3100 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 8630 3450 50  0001 C CNN
+F 3 "" H 8700 3450 50  0000 C CNN
+F 4 "2447230" H 8700 3450 60  0001 C CNN "farnell #"
+F 5 "any/open" H 8700 3450 60  0001 C CNN "supplier"
+F 6 "Value" H 8700 3450 60  0001 C CNN "supplier PN"
+F 7 "Value" H 8700 3450 60  0001 C CNN "MOQ"
+F 8 "Value" H 8700 3450 60  0001 C CNN "leadtime"
+	1    8700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR08
+U 1 1 5C81238F
+P 8700 3600
+F 0 "#PWR08" H 8700 3350 50  0001 C CNN
+F 1 "Earth" H 8700 3450 50  0001 C CNN
+F 2 "" H 8700 3600 50  0000 C CNN
+F 3 "" H 8700 3600 50  0000 C CNN
+	1    8700 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
