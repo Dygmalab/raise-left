@@ -1,4 +1,4 @@
-update=Mon 11 Mar 2019 08:42:17 CET
+update=Mon 11 Mar 2019 18:07:47 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -48,3 +48,4 @@ LibName6=raise_libs/attiny88-a
 LibName7=raise_libs/usb_c_16pin
 LibName8=raise_libs/rgbled
 LibName9=raise_libs/usblc6-4
+LibName10=raise_libs/bidrectional-tvs

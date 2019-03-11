@@ -414,6 +414,22 @@ X SHIELD S4 0 -1600 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# bidrectional-tvs
+#
+DEF bidrectional-tvs TVS 0 40 Y Y 1 F N
+F0 "TVS" -400 100 60 H V C CNN
+F1 "bidrectional-tvs" -450 200 60 H V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+DRAW
+P 2 0 1 0 -50 150 50 150 N
+P 4 0 1 0 -50 250 50 250 0 150 -50 250 N
+P 4 0 1 0 0 150 -50 50 50 50 0 150 N
+X ~ 1 0 350 100 D 50 50 1 1 B
+X ~ 2 0 -50 100 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # rgbled
 #
 DEF rgbled U 0 40 Y Y 1 F N
