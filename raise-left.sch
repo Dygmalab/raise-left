@@ -8,7 +8,7 @@ LIBS:attiny88-a
 LIBS:usb_c_16pin
 LIBS:rgbled
 LIBS:usblc6-4
-LIBS:attiny88-qfn
+LIBS:bidrectional-tvs
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -2270,57 +2270,25 @@ F 3 "" H 1950 10350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D20
-U 1 1 5C80CB0D
-P 2250 10200
-F 0 "D20" V 2250 10400 50  0000 R CNN
-F 1 "small signal diode, 100mA" V 2650 10450 50  0000 R CNN
-F 2 "Diodes_SMD:D_0805" H 2250 10200 50  0001 C CNN
-F 3 "" H 2250 10200 50  0000 C CNN
-F 4 "2454043" H -3750 6300 60  0001 C CNN "farnell #"
-F 5 "any/open" H -3750 6300 60  0001 C CNN "supplier"
-F 6 "Value" H 2250 10200 60  0001 C CNN "supplier PN"
-F 7 "Value" H 2250 10200 60  0001 C CNN "MOQ"
-F 8 "Value" H 2250 10200 60  0001 C CNN "leadtime"
-	1    2250 10200
-	0    1    1    0   
-$EndComp
-$Comp
 L Earth #PWR015
 U 1 1 5C80CED3
-P 2250 10350
-F 0 "#PWR015" H 2250 10100 50  0001 C CNN
-F 1 "Earth" H 2250 10200 50  0001 C CNN
-F 2 "" H 2250 10350 60  0000 C CNN
-F 3 "" H 2250 10350 60  0000 C CNN
-	1    2250 10350
+P 2250 10450
+F 0 "#PWR015" H 2250 10200 50  0001 C CNN
+F 1 "Earth" H 2250 10300 50  0001 C CNN
+F 2 "" H 2250 10450 60  0000 C CNN
+F 3 "" H 2250 10450 60  0000 C CNN
+	1    2250 10450
 	1    0    0    -1  
-$EndComp
-$Comp
-L D D21
-U 1 1 5C80CFCD
-P 2200 8200
-F 0 "D21" V 2200 7750 50  0000 R CNN
-F 1 "small signal diode, 100mA" V 2650 8450 50  0000 R CNN
-F 2 "Diodes_SMD:D_0805" H 2200 8200 50  0001 C CNN
-F 3 "" H 2200 8200 50  0000 C CNN
-F 4 "2454043" H -3800 4300 60  0001 C CNN "farnell #"
-F 5 "any/open" H -3800 4300 60  0001 C CNN "supplier"
-F 6 "Value" H 2200 8200 60  0001 C CNN "supplier PN"
-F 7 "Value" H 2200 8200 60  0001 C CNN "MOQ"
-F 8 "Value" H 2200 8200 60  0001 C CNN "leadtime"
-	1    2200 8200
-	0    1    1    0   
 $EndComp
 $Comp
 L Earth #PWR038
 U 1 1 5C80D0E4
-P 2200 8350
-F 0 "#PWR038" H 2200 8100 50  0001 C CNN
-F 1 "Earth" H 2200 8200 50  0001 C CNN
-F 2 "" H 2200 8350 60  0000 C CNN
-F 3 "" H 2200 8350 60  0000 C CNN
-	1    2200 8350
+P 2200 8450
+F 0 "#PWR038" H 2200 8200 50  0001 C CNN
+F 1 "Earth" H 2200 8300 50  0001 C CNN
+F 2 "" H 2200 8450 60  0000 C CNN
+F 3 "" H 2200 8450 60  0000 C CNN
+	1    2200 8450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2441,30 +2409,14 @@ F 3 "" H 1950 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D32
-U 1 1 5C80A7E5
-P 2250 9250
-F 0 "D32" V 2250 9450 50  0000 R CNN
-F 1 "small signal diode, 100mA" V 2650 9500 50  0000 R CNN
-F 2 "Diodes_SMD:D_0805" H 2250 9250 50  0001 C CNN
-F 3 "" H 2250 9250 50  0000 C CNN
-F 4 "2454043" H -3750 5350 60  0001 C CNN "farnell #"
-F 5 "any/open" H -3750 5350 60  0001 C CNN "supplier"
-F 6 "Value" H 2250 9250 60  0001 C CNN "supplier PN"
-F 7 "Value" H 2250 9250 60  0001 C CNN "MOQ"
-F 8 "Value" H 2250 9250 60  0001 C CNN "leadtime"
-	1    2250 9250
-	0    1    1    0   
-$EndComp
-$Comp
 L Earth #PWR042
 U 1 1 5C80A7EB
-P 2250 9400
-F 0 "#PWR042" H 2250 9150 50  0001 C CNN
-F 1 "Earth" H 2250 9250 50  0001 C CNN
-F 2 "" H 2250 9400 60  0000 C CNN
-F 3 "" H 2250 9400 60  0000 C CNN
-	1    2250 9400
+P 2250 9500
+F 0 "#PWR042" H 2250 9250 50  0001 C CNN
+F 1 "Earth" H 2250 9350 50  0001 C CNN
+F 2 "" H 2250 9500 60  0000 C CNN
+F 3 "" H 2250 9500 60  0000 C CNN
+	1    2250 9500
 	1    0    0    -1  
 $EndComp
 Text GLabel 12650 6450 2    60   Input ~ 0
@@ -2584,14 +2536,81 @@ USB C connector for power and I2C
 Text Notes 1150 7550 0    118  ~ 0
 i2c and cc filter/ESD
 $Comp
-L ATTINY48-QFN IC?
+L ATTINY48-QFN IC1
 U 1 1 5C86222E
 P 3650 3250
-F 0 "IC?" H 3650 5008 50  0000 C CNN
+F 0 "IC1" H 3650 5008 50  0000 C CNN
 F 1 "ATTINY48-QFN" H 3650 4917 50  0000 C CNN
-F 2 "TQFP32" H 3650 4826 50  0000 C CIN
+F 2 "raise_fp:QFN-32_5x5mm_Pitch0.5mm" H 3650 4826 50  0000 C CIN
 F 3 "" H 3650 3250 50  0000 C CNN
 	1    3650 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L bidrectional-tvs TVS2
+U 1 1 5C86BEAC
+P 2250 9450
+F 0 "TVS2" H 2378 9603 60  0000 L CNN
+F 1 "bidrectional-tvs" H 2378 9497 60  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-323" H 2250 9400 60  0001 C CNN
+F 3 "" H 2250 9400 60  0001 C CNN
+F 4 "bourns" H 0   0   60  0001 C CNN "supplier"
+F 5 "CDSOD323-T05LC" H 0   0   60  0001 C CNN "supplier PN"
+F 6 "1824861" H 0   0   60  0001 C CNN "farnell #"
+	1    2250 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L bidrectional-tvs TVS4
+U 1 1 5C86CCB4
+P 2250 10400
+F 0 "TVS4" H 2378 10553 60  0000 L CNN
+F 1 "bidrectional-tvs" H 2378 10447 60  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-323" H 2250 10350 60  0001 C CNN
+F 3 "" H 2250 10350 60  0001 C CNN
+F 4 "bourns" H 0   0   60  0001 C CNN "supplier"
+F 5 "CDSOD323-T05LC" H 0   0   60  0001 C CNN "supplier PN"
+F 6 "1824861" H 0   0   60  0001 C CNN "farnell #"
+	1    2250 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bidrectional-tvs TVS1
+U 1 1 5C86CDF2
+P 2200 8400
+F 0 "TVS1" H 2328 8553 60  0000 L CNN
+F 1 "bidrectional-tvs" H 2328 8447 60  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-323" H 2200 8350 60  0001 C CNN
+F 3 "" H 2200 8350 60  0001 C CNN
+F 4 "bourns" H 0   0   60  0001 C CNN "supplier"
+F 5 "CDSOD323-T05LC" H 0   0   60  0001 C CNN "supplier PN"
+F 6 "1824861" H 0   0   60  0001 C CNN "farnell #"
+	1    2200 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bidrectional-tvs TVS3
+U 1 1 5C86EEC4
+P 8350 10100
+F 0 "TVS3" H 8478 10253 60  0000 L CNN
+F 1 "bidrectional-tvs" H 8478 10147 60  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-323" H 8350 10050 60  0001 C CNN
+F 3 "" H 8350 10050 60  0001 C CNN
+F 4 "bourns" H 0   0   60  0001 C CNN "supplier"
+F 5 "CDSOD323-T05LC" H 0   0   60  0001 C CNN "supplier PN"
+F 6 "1824861" H 0   0   60  0001 C CNN "farnell #"
+	1    8350 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR030
+U 1 1 5C86F6D2
+P 8350 10150
+F 0 "#PWR030" H 8350 9900 50  0001 C CNN
+F 1 "Earth" H 8350 10000 50  0001 C CNN
+F 2 "" H 8350 10150 50  0000 C CNN
+F 3 "" H 8350 10150 50  0000 C CNN
+	1    8350 10150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
