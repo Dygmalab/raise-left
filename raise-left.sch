@@ -8,6 +8,7 @@ LIBS:attiny88-a
 LIBS:usb_c_16pin
 LIBS:rgbled
 LIBS:usblc6-4
+LIBS:attiny88-qfn
 LIBS:raise-left-cache
 EELAYER 26 0
 EELAYER END
@@ -129,22 +130,6 @@ Text Notes 3650 9800 0    118  ~ 0
 programming header
 Text Label 4600 3450 0    60   ~ 0
 row3
-$Comp
-L ATTINY88-A IC1
-U 1 1 591D5DCC
-P 3650 3250
-F 0 "IC1" H 3650 5007 50  0000 C CNN
-F 1 "ATTINY88-A" H 3650 4916 50  0000 C CNN
-F 2 "raise_fp:QFN-32_5x5mm_Pitch0.5mm" H 3650 4825 50  0001 C CIN
-F 3 "" H 3650 3250 50  0000 C CNN
-F 4 "1704570" H 3650 3250 60  0001 C CNN "farnell #"
-F 5 "microchip" H 950 100 60  0001 C CNN "supplier"
-F 6 "attiny88-au" H 950 100 60  0001 C CNN "supplier PN"
-F 7 "Value" H 3650 3250 60  0001 C CNN "MOQ"
-F 8 "Value" H 3650 3250 60  0001 C CNN "leadtime"
-	1    3650 3250
-	1    0    0    -1  
-$EndComp
 Text Label 4600 3850 0    60   ~ 0
 row7
 $Comp
@@ -2598,4 +2583,15 @@ Text Notes 10050 5500 0    118  ~ 0
 USB C connector for power and I2C
 Text Notes 1150 7550 0    118  ~ 0
 i2c and cc filter/ESD
+$Comp
+L ATTINY48-QFN IC?
+U 1 1 5C86222E
+P 3650 3250
+F 0 "IC?" H 3650 5008 50  0000 C CNN
+F 1 "ATTINY48-QFN" H 3650 4917 50  0000 C CNN
+F 2 "TQFP32" H 3650 4826 50  0000 C CIN
+F 3 "" H 3650 3250 50  0000 C CNN
+	1    3650 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
