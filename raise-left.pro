@@ -1,4 +1,4 @@
-update=Mon 11 Mar 2019 18:07:47 CET
+update=Wed 13 Mar 2019 18:19:48 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -49,3 +49,5 @@ LibName7=raise_libs/usb_c_16pin
 LibName8=raise_libs/rgbled
 LibName9=raise_libs/usblc6-4
 LibName10=raise_libs/bidrectional-tvs
+LibName11=raise_libs/r_pack04
+LibName12=raise_libs/c_pack04
