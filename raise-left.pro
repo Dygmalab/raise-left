@@ -1,4 +1,4 @@
-update=Wed 13 Mar 2019 18:19:48 CET
+update=Fri 15 Mar 2019 10:00:00 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -51,3 +51,4 @@ LibName9=raise_libs/usblc6-4
 LibName10=raise_libs/bidrectional-tvs
 LibName11=raise_libs/r_pack04
 LibName12=raise_libs/c_pack04
+LibName13=raise_libs/emi_filter_ll
