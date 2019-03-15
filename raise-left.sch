@@ -1935,9 +1935,9 @@ F 5 "dnp" H 3650 1800 60  0001 C CNN "supplier"
 $EndComp
 Text GLabel 7550 7850 2    60   Input ~ 0
 SLED_CS
-Text GLabel 1350 8550 0    60   Input ~ 0
+Text GLabel 1450 8550 0    60   Input ~ 0
 sda
-Text GLabel 1350 8450 0    60   Input ~ 0
+Text GLabel 1450 8450 0    60   Input ~ 0
 scl
 Text Label 4150 6650 2    60   ~ 0
 reset
@@ -2004,7 +2004,7 @@ F 8 "Value" H 11050 8900 60  0001 C CNN "leadtime"
 	1    11050 8900
 	-1   0    0    1   
 $EndComp
-Text GLabel 1350 8650 0    60   Input ~ 0
+Text GLabel 1450 8650 0    60   Input ~ 0
 cc
 Text Label 2200 8650 0    60   ~ 0
 cc-filt
@@ -2072,7 +2072,7 @@ L R R13
 U 1 1 5C89BB22
 P 6750 3000
 F 0 "R13" V 6600 3050 50  0000 L CNN
-F 1 "0R" V 6600 2900 50  0000 L CNN
+F 1 "10R" V 6600 2900 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 6680 3000 50  0001 C CNN
 F 3 "" H 6750 3000 50  0000 C CNN
 F 4 "dnp" H 6750 3000 60  0001 C CNN "farnell #"
@@ -2142,21 +2142,6 @@ F 3 "" H 6850 4850 50  0000 C CNN
 $EndComp
 Text Label 6450 3700 2    60   ~ 0
 row0_f
-$Comp
-L R_Pack04 RN6
-U 1 1 5C8B4397
-P 1550 8650
-F 0 "RN6" V 1133 8650 50  0000 C CNN
-F 1 "10R" V 1224 8650 50  0000 C CNN
-F 2 "raise_fp:R_Array_Convex_4x0402" V 1825 8650 50  0001 C CNN
-F 3 "" H 1550 8650 50  0001 C CNN
-F 4 "Value" H 1550 8650 60  0001 C CNN "supplier"
-F 5 "Value" H 1550 8650 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1550 8650 60  0001 C CNN "MOQ"
-F 7 "Value" H 1550 8650 60  0001 C CNN "leadtime"
-	1    1550 8650
-	0    -1   1    0   
-$EndComp
 Text GLabel 13000 7850 2    60   Input ~ 0
 scl
 Text GLabel 13000 7650 2    60   Input ~ 0
@@ -2196,11 +2181,8 @@ F 3 "" H 12050 7750 50  0000 C CNN
 	1    12050 7750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1350 8750
-NoConn ~ 1800 8850
 Text Notes 6150 1050 0    118  ~ 0
 scan matrix filter
-NoConn ~ 1750 8750
 $Comp
 L Earth #PWR038
 U 1 1 5C8B89A5
@@ -2757,4 +2739,52 @@ Wire Wire Line
 	2100 8450 2100 9600
 Wire Wire Line
 	1900 8650 1900 9600
+$Comp
+L R R1
+U 1 1 5C8BDFAE
+P 1600 8450
+F 0 "R1" V 1450 8500 50  0000 L CNN
+F 1 "10R" V 1450 8350 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 1530 8450 50  0001 C CNN
+F 3 "" H 1600 8450 50  0000 C CNN
+F 4 "dnp" H 1600 8450 60  0001 C CNN "farnell #"
+F 5 "dnp" H 1600 8450 60  0001 C CNN "supplier"
+F 6 "dnp" H 1600 8450 60  0001 C CNN "supplier PN"
+F 7 "Value" H 1600 8450 60  0001 C CNN "MOQ"
+F 8 "Value" H 1600 8450 60  0001 C CNN "leadtime"
+	1    1600 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5C8BEB53
+P 1600 8550
+F 0 "R4" V 1450 8600 50  0000 L CNN
+F 1 "10R" V 1450 8450 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 1530 8550 50  0001 C CNN
+F 3 "" H 1600 8550 50  0000 C CNN
+F 4 "dnp" H 1600 8550 60  0001 C CNN "farnell #"
+F 5 "dnp" H 1600 8550 60  0001 C CNN "supplier"
+F 6 "dnp" H 1600 8550 60  0001 C CNN "supplier PN"
+F 7 "Value" H 1600 8550 60  0001 C CNN "MOQ"
+F 8 "Value" H 1600 8550 60  0001 C CNN "leadtime"
+	1    1600 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R8
+U 1 1 5C8BEC6D
+P 1600 8650
+F 0 "R8" V 1450 8700 50  0000 L CNN
+F 1 "10R" V 1450 8550 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 1530 8650 50  0001 C CNN
+F 3 "" H 1600 8650 50  0000 C CNN
+F 4 "dnp" H 1600 8650 60  0001 C CNN "farnell #"
+F 5 "dnp" H 1600 8650 60  0001 C CNN "supplier"
+F 6 "dnp" H 1600 8650 60  0001 C CNN "supplier PN"
+F 7 "Value" H 1600 8650 60  0001 C CNN "MOQ"
+F 8 "Value" H 1600 8650 60  0001 C CNN "leadtime"
+	1    1600 8650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
