@@ -2050,6 +2050,11 @@ F 0 "IC1" H 3650 5008 50  0000 C CNN
 F 1 "ATTINY48-QFN" H 3650 4917 50  0000 C CNN
 F 2 "raise_fp:QFN-32_5x5mm_Pitch0.5mm" H 3650 4826 50  0000 C CIN
 F 3 "" H 3650 3250 50  0000 C CNN
+F 4 "1748549" H 3650 3250 60  0001 C CNN "farnell #"
+F 5 "Value" H 3650 3250 60  0001 C CNN "supplier"
+F 6 "Value" H 3650 3250 60  0001 C CNN "supplier PN"
+F 7 "Value" H 3650 3250 60  0001 C CNN "MOQ"
+F 8 "Value" H 3650 3250 60  0001 C CNN "leadtime"
 	1    3650 3250
 	1    0    0    -1  
 $EndComp
@@ -2203,6 +2208,11 @@ F 0 "FL1" H 12800 6328 50  0000 C CNN
 F 1 "EMI_Filter_CommonMode" H 12800 6237 50  0000 C CNN
 F 2 "raise_fp:choke" V 12800 6090 50  0001 C CNN
 F 3 "~" V 12800 6090 50  0000 C CNN
+F 4 "2458108" H 12800 6050 60  0001 C CNN "farnell #"
+F 5 "Value" H 12800 6050 60  0001 C CNN "supplier"
+F 6 "Value" H 12800 6050 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12800 6050 60  0001 C CNN "MOQ"
+F 8 "Value" H 12800 6050 60  0001 C CNN "leadtime"
 	1    12800 6050
 	1    0    0    1   
 $EndComp
@@ -2788,4 +2798,6 @@ F 8 "Value" H 1600 8650 60  0001 C CNN "leadtime"
 	1    1600 8650
 	0    1    1    0   
 $EndComp
+Text Notes 6050 9300 0    60   ~ 0
+RC = 0.05s
 $EndSCHEMATC
