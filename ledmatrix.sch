@@ -1892,7 +1892,7 @@ F 1 "1nF ceramic, 100v, 10%" V 12300 7450 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12588 8050 50  0001 C CNN
 F 3 "" H 12550 8200 50  0000 C CNN
 F 4 "2896415" H 12550 8200 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12550 8200 60  0001 C CNN "supplier"
+F 5 "dnp" H 12550 8200 60  0001 C CNN "supplier"
 F 6 "Value" H 12550 8200 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12550 8200 60  0001 C CNN "MOQ"
 F 8 "Value" H 12550 8200 60  0001 C CNN "leadtime"
@@ -1919,7 +1919,7 @@ L R_Pack04 RN3
 U 1 1 5C89BB7A
 P 12400 2000
 F 0 "RN3" V 12725 2000 50  0000 C CNN
-F 1 "1R, 125mW, 5%" V 12634 2000 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 12634 2000 50  0000 C CNN
 F 2 "raise_fp:R_Array_Convex_4x0402" V 12675 2000 50  0001 C CNN
 F 3 "" H 12400 2000 50  0001 C CNN
 F 4 "Value" H 12400 2000 60  0001 C CNN "supplier"
@@ -1947,7 +1947,7 @@ L R_Pack04 RN4
 U 1 1 5C89C43C
 P 12450 3500
 F 0 "RN4" V 12775 3500 50  0000 C CNN
-F 1 "1R, 125mW, 5%" V 12684 3500 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 12684 3500 50  0000 C CNN
 F 2 "raise_fp:R_Array_Convex_4x0402" V 12725 3500 50  0001 C CNN
 F 3 "" H 12450 3500 50  0001 C CNN
 F 4 "Value" H 12450 3500 60  0001 C CNN "supplier"
@@ -1975,7 +1975,7 @@ L R_Pack04 RN2
 U 1 1 5C89CC34
 P 14450 1900
 F 0 "RN2" V 14775 1900 50  0000 C CNN
-F 1 "1R, 125mW, 5%" V 14684 1900 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 14684 1900 50  0000 C CNN
 F 2 "raise_fp:R_Array_Convex_4x0402" V 14725 1900 50  0001 C CNN
 F 3 "" H 14450 1900 50  0001 C CNN
 F 4 "Value" H 14450 1900 60  0001 C CNN "supplier"
@@ -2003,7 +2003,7 @@ L R_Pack04 RN5
 U 1 1 5C89CE31
 P 14550 3600
 F 0 "RN5" V 14875 3600 50  0000 C CNN
-F 1 "1R, 125mW, 5%" V 14784 3600 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 14784 3600 50  0000 C CNN
 F 2 "raise_fp:R_Array_Convex_4x0402" V 14825 3600 50  0001 C CNN
 F 3 "" H 14550 3600 50  0001 C CNN
 F 4 "Value" H 14550 3600 60  0001 C CNN "supplier"
@@ -2096,7 +2096,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11600 4200 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12338 4550 50  0001 C CNN
 F 3 "" H 12300 4700 50  0000 C CNN
 F 4 "2896415" H 12300 4700 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12300 4700 60  0001 C CNN "supplier"
+F 5 "dnp" H 12300 4700 60  0001 C CNN "supplier"
 F 6 "Value" H 12300 4700 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12300 4700 60  0001 C CNN "MOQ"
 F 8 "Value" H 12300 4700 60  0001 C CNN "leadtime"
@@ -2112,7 +2112,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11800 4200 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12538 4550 50  0001 C CNN
 F 3 "" H 12500 4700 50  0000 C CNN
 F 4 "2896415" H 12500 4700 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12500 4700 60  0001 C CNN "supplier"
+F 5 "dnp" H 12500 4700 60  0001 C CNN "supplier"
 F 6 "Value" H 12500 4700 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12500 4700 60  0001 C CNN "MOQ"
 F 8 "Value" H 12500 4700 60  0001 C CNN "leadtime"
@@ -2128,7 +2128,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11700 4200 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12438 4800 50  0001 C CNN
 F 3 "" H 12400 4950 50  0000 C CNN
 F 4 "2896415" H 12400 4950 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12400 4950 60  0001 C CNN "supplier"
+F 5 "dnp" H 12400 4950 60  0001 C CNN "supplier"
 F 6 "Value" H 12400 4950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12400 4950 60  0001 C CNN "MOQ"
 F 8 "Value" H 12400 4950 60  0001 C CNN "leadtime"
@@ -2144,7 +2144,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11900 4200 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12638 4800 50  0001 C CNN
 F 3 "" H 12600 4950 50  0000 C CNN
 F 4 "2896415" H 12600 4950 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12600 4950 60  0001 C CNN "supplier"
+F 5 "dnp" H 12600 4950 60  0001 C CNN "supplier"
 F 6 "Value" H 12600 4950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12600 4950 60  0001 C CNN "MOQ"
 F 8 "Value" H 12600 4950 60  0001 C CNN "leadtime"
@@ -2192,7 +2192,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11550 5600 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12288 5950 50  0001 C CNN
 F 3 "" H 12250 6100 50  0000 C CNN
 F 4 "2896415" H 12250 6100 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12250 6100 60  0001 C CNN "supplier"
+F 5 "dnp" H 12250 6100 60  0001 C CNN "supplier"
 F 6 "Value" H 12250 6100 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12250 6100 60  0001 C CNN "MOQ"
 F 8 "Value" H 12250 6100 60  0001 C CNN "leadtime"
@@ -2208,7 +2208,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11750 5600 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12488 5950 50  0001 C CNN
 F 3 "" H 12450 6100 50  0000 C CNN
 F 4 "2896415" H 12450 6100 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12450 6100 60  0001 C CNN "supplier"
+F 5 "dnp" H 12450 6100 60  0001 C CNN "supplier"
 F 6 "Value" H 12450 6100 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12450 6100 60  0001 C CNN "MOQ"
 F 8 "Value" H 12450 6100 60  0001 C CNN "leadtime"
@@ -2224,7 +2224,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11650 5600 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12388 6200 50  0001 C CNN
 F 3 "" H 12350 6350 50  0000 C CNN
 F 4 "2896415" H 12350 6350 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12350 6350 60  0001 C CNN "supplier"
+F 5 "dnp" H 12350 6350 60  0001 C CNN "supplier"
 F 6 "Value" H 12350 6350 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12350 6350 60  0001 C CNN "MOQ"
 F 8 "Value" H 12350 6350 60  0001 C CNN "leadtime"
@@ -2240,7 +2240,7 @@ F 1 "1nF ceramic, 100v, 10%" V 11850 5600 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 12588 6200 50  0001 C CNN
 F 3 "" H 12550 6350 50  0000 C CNN
 F 4 "2896415" H 12550 6350 60  0001 C CNN "farnell #"
-F 5 "any/open" H 12550 6350 60  0001 C CNN "supplier"
+F 5 "dnp" H 12550 6350 60  0001 C CNN "supplier"
 F 6 "Value" H 12550 6350 60  0001 C CNN "supplier PN"
 F 7 "Value" H 12550 6350 60  0001 C CNN "MOQ"
 F 8 "Value" H 12550 6350 60  0001 C CNN "leadtime"
@@ -2288,7 +2288,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13350 5550 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14088 5900 50  0001 C CNN
 F 3 "" H 14050 6050 50  0000 C CNN
 F 4 "2896415" H 14050 6050 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14050 6050 60  0001 C CNN "supplier"
+F 5 "dnp" H 14050 6050 60  0001 C CNN "supplier"
 F 6 "Value" H 14050 6050 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14050 6050 60  0001 C CNN "MOQ"
 F 8 "Value" H 14050 6050 60  0001 C CNN "leadtime"
@@ -2304,7 +2304,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13550 5550 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14288 5900 50  0001 C CNN
 F 3 "" H 14250 6050 50  0000 C CNN
 F 4 "2896415" H 14250 6050 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14250 6050 60  0001 C CNN "supplier"
+F 5 "dnp" H 14250 6050 60  0001 C CNN "supplier"
 F 6 "Value" H 14250 6050 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14250 6050 60  0001 C CNN "MOQ"
 F 8 "Value" H 14250 6050 60  0001 C CNN "leadtime"
@@ -2320,7 +2320,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13450 5550 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14188 6150 50  0001 C CNN
 F 3 "" H 14150 6300 50  0000 C CNN
 F 4 "2896415" H 14150 6300 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14150 6300 60  0001 C CNN "supplier"
+F 5 "dnp" H 14150 6300 60  0001 C CNN "supplier"
 F 6 "Value" H 14150 6300 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14150 6300 60  0001 C CNN "MOQ"
 F 8 "Value" H 14150 6300 60  0001 C CNN "leadtime"
@@ -2336,7 +2336,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13650 5550 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14388 6150 50  0001 C CNN
 F 3 "" H 14350 6300 50  0000 C CNN
 F 4 "2896415" H 14350 6300 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14350 6300 60  0001 C CNN "supplier"
+F 5 "dnp" H 14350 6300 60  0001 C CNN "supplier"
 F 6 "Value" H 14350 6300 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14350 6300 60  0001 C CNN "MOQ"
 F 8 "Value" H 14350 6300 60  0001 C CNN "leadtime"
@@ -2384,7 +2384,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13400 4150 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14138 4500 50  0001 C CNN
 F 3 "" H 14100 4650 50  0000 C CNN
 F 4 "2896415" H 14100 4650 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14100 4650 60  0001 C CNN "supplier"
+F 5 "dnp" H 14100 4650 60  0001 C CNN "supplier"
 F 6 "Value" H 14100 4650 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14100 4650 60  0001 C CNN "MOQ"
 F 8 "Value" H 14100 4650 60  0001 C CNN "leadtime"
@@ -2400,7 +2400,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13600 4150 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14338 4500 50  0001 C CNN
 F 3 "" H 14300 4650 50  0000 C CNN
 F 4 "2896415" H 14300 4650 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14300 4650 60  0001 C CNN "supplier"
+F 5 "dnp" H 14300 4650 60  0001 C CNN "supplier"
 F 6 "Value" H 14300 4650 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14300 4650 60  0001 C CNN "MOQ"
 F 8 "Value" H 14300 4650 60  0001 C CNN "leadtime"
@@ -2416,7 +2416,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13500 4150 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14238 4750 50  0001 C CNN
 F 3 "" H 14200 4900 50  0000 C CNN
 F 4 "2896415" H 14200 4900 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14200 4900 60  0001 C CNN "supplier"
+F 5 "dnp" H 14200 4900 60  0001 C CNN "supplier"
 F 6 "Value" H 14200 4900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14200 4900 60  0001 C CNN "MOQ"
 F 8 "Value" H 14200 4900 60  0001 C CNN "leadtime"
@@ -2432,7 +2432,7 @@ F 1 "1nF ceramic, 100v, 10%" V 13700 4150 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 14438 4750 50  0001 C CNN
 F 3 "" H 14400 4900 50  0000 C CNN
 F 4 "2896415" H 14400 4900 60  0001 C CNN "farnell #"
-F 5 "any/open" H 14400 4900 60  0001 C CNN "supplier"
+F 5 "dnp" H 14400 4900 60  0001 C CNN "supplier"
 F 6 "Value" H 14400 4900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14400 4900 60  0001 C CNN "MOQ"
 F 8 "Value" H 14400 4900 60  0001 C CNN "leadtime"

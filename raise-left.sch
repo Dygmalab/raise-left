@@ -19,7 +19,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 2
 Title "Raise Left"
-Date "2019-03-07"
+Date "2019-04-01"
 Rev "v4.9"
 Comp "Dygma"
 Comment1 "Matt Venn"
@@ -2101,7 +2101,7 @@ F 1 "1nF ceramic, 100v, 10%" V 6800 2250 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 7088 2850 50  0001 C CNN
 F 3 "" H 7050 3000 50  0000 C CNN
 F 4 "2896415" H 7050 3000 60  0001 C CNN "farnell #"
-F 5 "any/open" H 7050 3000 60  0001 C CNN "supplier"
+F 5 "dnp" H 7050 3000 60  0001 C CNN "supplier"
 F 6 "Value" H 7050 3000 60  0001 C CNN "supplier PN"
 F 7 "Value" H 7050 3000 60  0001 C CNN "MOQ"
 F 8 "Value" H 7050 3000 60  0001 C CNN "leadtime"
@@ -2124,7 +2124,7 @@ L R_Pack04 RN1
 U 1 1 5C89529F
 P 6650 3900
 F 0 "RN1" V 6233 3900 50  0000 C CNN
-F 1 "1R, 125mW, 5%" V 6324 3900 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 6324 3900 50  0000 C CNN
 F 2 "raise_fp:R_Array_Convex_4x0402" V 6925 3900 50  0001 C CNN
 F 3 "" H 6650 3900 50  0001 C CNN
 F 4 "Value" H 6650 3900 60  0001 C CNN "supplier"
@@ -2299,7 +2299,7 @@ F 1 "1nF ceramic, 100v, 10%" V 6200 3750 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 6938 4100 50  0001 C CNN
 F 3 "" H 6900 4250 50  0000 C CNN
 F 4 "2896415" H 6900 4250 60  0001 C CNN "farnell #"
-F 5 "any/open" H 6900 4250 60  0001 C CNN "supplier"
+F 5 "dnp" H 6900 4250 60  0001 C CNN "supplier"
 F 6 "Value" H 6900 4250 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6900 4250 60  0001 C CNN "MOQ"
 F 8 "Value" H 6900 4250 60  0001 C CNN "leadtime"
@@ -2315,7 +2315,7 @@ F 1 "1nF ceramic, 100v, 10%" V 6400 3750 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 7138 4100 50  0001 C CNN
 F 3 "" H 7100 4250 50  0000 C CNN
 F 4 "2896415" H 7100 4250 60  0001 C CNN "farnell #"
-F 5 "any/open" H 7100 4250 60  0001 C CNN "supplier"
+F 5 "dnp" H 7100 4250 60  0001 C CNN "supplier"
 F 6 "Value" H 7100 4250 60  0001 C CNN "supplier PN"
 F 7 "Value" H 7100 4250 60  0001 C CNN "MOQ"
 F 8 "Value" H 7100 4250 60  0001 C CNN "leadtime"
@@ -2331,7 +2331,7 @@ F 1 "1nF ceramic, 100v, 10%" V 6300 3750 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 7038 4350 50  0001 C CNN
 F 3 "" H 7000 4500 50  0000 C CNN
 F 4 "2896415" H 7000 4500 60  0001 C CNN "farnell #"
-F 5 "any/open" H 7000 4500 60  0001 C CNN "supplier"
+F 5 "dnp" H 7000 4500 60  0001 C CNN "supplier"
 F 6 "Value" H 7000 4500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 7000 4500 60  0001 C CNN "MOQ"
 F 8 "Value" H 7000 4500 60  0001 C CNN "leadtime"
@@ -2347,7 +2347,7 @@ F 1 "1nF ceramic, 100v, 10%" V 6500 3750 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 7238 4350 50  0001 C CNN
 F 3 "" H 7200 4500 50  0000 C CNN
 F 4 "2896415" H 7200 4500 60  0001 C CNN "farnell #"
-F 5 "any/open" H 7200 4500 60  0001 C CNN "supplier"
+F 5 "dnp" H 7200 4500 60  0001 C CNN "supplier"
 F 6 "Value" H 7200 4500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 7200 4500 60  0001 C CNN "MOQ"
 F 8 "Value" H 7200 4500 60  0001 C CNN "leadtime"
@@ -2696,7 +2696,7 @@ F 1 "1nF ceramic, 100v, 10%" V 1400 9000 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 2138 9600 50  0001 C CNN
 F 3 "" H 2100 9750 50  0000 C CNN
 F 4 "2896415" H 2100 9750 60  0001 C CNN "farnell #"
-F 5 "any/open" H 2100 9750 60  0001 C CNN "supplier"
+F 5 "dnp" H 2100 9750 60  0001 C CNN "supplier"
 F 6 "Value" H 2100 9750 60  0001 C CNN "supplier PN"
 F 7 "Value" H 2100 9750 60  0001 C CNN "MOQ"
 F 8 "Value" H 2100 9750 60  0001 C CNN "leadtime"
@@ -2712,7 +2712,7 @@ F 1 "1nF ceramic, 100v, 10%" V 1200 9000 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 1938 9600 50  0001 C CNN
 F 3 "" H 1900 9750 50  0000 C CNN
 F 4 "2896415" H 1900 9750 60  0001 C CNN "farnell #"
-F 5 "any/open" H 1900 9750 60  0001 C CNN "supplier"
+F 5 "dnp" H 1900 9750 60  0001 C CNN "supplier"
 F 6 "Value" H 1900 9750 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1900 9750 60  0001 C CNN "MOQ"
 F 8 "Value" H 1900 9750 60  0001 C CNN "leadtime"
@@ -2728,7 +2728,7 @@ F 1 "1nF ceramic, 100v, 10%" V 1300 9000 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 2038 9350 50  0001 C CNN
 F 3 "" H 2000 9500 50  0000 C CNN
 F 4 "2896415" H 2000 9500 60  0001 C CNN "farnell #"
-F 5 "any/open" H 2000 9500 60  0001 C CNN "supplier"
+F 5 "dnp" H 2000 9500 60  0001 C CNN "supplier"
 F 6 "Value" H 2000 9500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 2000 9500 60  0001 C CNN "MOQ"
 F 8 "Value" H 2000 9500 60  0001 C CNN "leadtime"
