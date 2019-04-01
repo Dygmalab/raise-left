@@ -555,31 +555,29 @@ Text Label 13050 2100 0    60   ~ 0
 CA3
 Text Label 13050 2200 0    60   ~ 0
 CA4
-Text Label 13100 3400 0    60   ~ 0
+Text Label 13100 4050 0    60   ~ 0
 CA5
-Text Label 13100 3500 0    60   ~ 0
+Text Label 13100 4150 0    60   ~ 0
 CA6
-Text Label 13100 3600 0    60   ~ 0
+Text Label 13100 4250 0    60   ~ 0
 CA7
-Text Label 13100 3700 0    60   ~ 0
+Text Label 13100 4350 0    60   ~ 0
 CA8
-Text Label 14050 5900 1    60   ~ 0
-CA9
-Text Label 15100 1800 0    60   ~ 0
-CB1
 Text Label 15100 1900 0    60   ~ 0
-CB2
+CB1
 Text Label 15100 2000 0    60   ~ 0
-CB3
+CB2
 Text Label 15100 2100 0    60   ~ 0
+CB3
+Text Label 15100 2200 0    60   ~ 0
 CB4
-Text Label 15200 3500 0    60   ~ 0
+Text Label 15150 4050 0    60   ~ 0
 CB5
-Text Label 15200 3600 0    60   ~ 0
+Text Label 15150 4150 0    60   ~ 0
 CB6
-Text Label 15200 3700 0    60   ~ 0
+Text Label 15150 4250 0    60   ~ 0
 CB7
-Text Label 15200 3800 0    60   ~ 0
+Text Label 15150 4350 0    60   ~ 0
 CB8
 NoConn ~ 11150 3950
 NoConn ~ 10050 3750
@@ -645,6 +643,1085 @@ F 3 "" H 9600 1950 50  0000 C CNN
 $EndComp
 Text Notes 8200 5450 2    197  ~ 0
 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
+$Comp
+L rgbled rgb51
+U 1 1 59D2C906
+P 4750 4200
+F 0 "rgb51" H 4581 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 4581 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 4750 4200 60  0001 C CNN
+F 3 "" H 4750 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 4750 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4750 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 4750 4200 60  0001 C CNN "leadtime"
+	1    4750 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb50
+U 1 1 59D2C90C
+P 4350 4200
+F 0 "rgb50" H 4181 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 4181 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 4350 4200 60  0001 C CNN
+F 3 "" H 4350 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 4350 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 4200 60  0001 C CNN "leadtime"
+	1    4350 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb49
+U 1 1 59D2C912
+P 3950 4200
+F 0 "rgb49" H 3781 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 3781 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3950 4200 60  0001 C CNN
+F 3 "" H 3950 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 3950 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 4200 60  0001 C CNN "leadtime"
+	1    3950 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb48
+U 1 1 59D2C918
+P 3550 4200
+F 0 "rgb48" H 3381 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 3381 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3550 4200 60  0001 C CNN
+F 3 "" H 3550 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 3550 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 4200 60  0001 C CNN "leadtime"
+	1    3550 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb47
+U 1 1 59D2C91E
+P 3150 4200
+F 0 "rgb47" H 2981 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 2981 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3150 4200 60  0001 C CNN
+F 3 "" H 3150 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 3150 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 4200 60  0001 C CNN "leadtime"
+	1    3150 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb46
+U 1 1 59D2C924
+P 2750 4200
+F 0 "rgb46" H 2581 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 2581 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 2750 4200 60  0001 C CNN
+F 3 "" H 2750 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 2750 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 4200 60  0001 C CNN "leadtime"
+	1    2750 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb45
+U 1 1 59D2C92A
+P 2350 4200
+F 0 "rgb45" H 2181 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 2181 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 2350 4200 60  0001 C CNN
+F 3 "" H 2350 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 2350 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 4200 60  0001 C CNN "leadtime"
+	1    2350 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb44
+U 1 1 59D2C930
+P 1950 4200
+F 0 "rgb44" H 1781 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 1781 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 1950 4200 60  0001 C CNN
+F 3 "" H 1950 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 1950 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 4200 60  0001 C CNN "leadtime"
+	1    1950 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb43
+U 1 1 59D2C936
+P 1550 4200
+F 0 "rgb43" H 1381 4339 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 1381 4233 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 1550 4200 60  0001 C CNN
+F 3 "" H 1550 4200 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 1550 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 4200 60  0001 C CNN "leadtime"
+	1    1550 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb57
+U 1 1 59D2CA0F
+P 1550 5100
+F 0 "rgb57" H 1381 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 1381 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 1550 5100 60  0001 C CNN
+F 3 "" H 1550 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 1550 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 5100 60  0001 C CNN "leadtime"
+	1    1550 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb58
+U 1 1 59D2CA15
+P 1950 5100
+F 0 "rgb58" H 1781 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 1781 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 1950 5100 60  0001 C CNN
+F 3 "" H 1950 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 1950 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 5100 60  0001 C CNN "leadtime"
+	1    1950 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb59
+U 1 1 59D2CA1B
+P 2350 5100
+F 0 "rgb59" H 2181 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 2181 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 2350 5100 60  0001 C CNN
+F 3 "" H 2350 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 2350 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 5100 60  0001 C CNN "leadtime"
+	1    2350 5100
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 10050 3650
+Text Notes 2200 300  0    197  ~ 0
+common anode type 3 matrix
+Text Label 5750 7000 2    60   ~ 0
+CB7
+Text Label 5750 7100 2    60   ~ 0
+CB8
+Text Label 5750 6500 2    60   ~ 0
+CB4
+Text Label 5750 6600 2    60   ~ 0
+CB5
+Text Label 5750 6700 2    60   ~ 0
+CB6
+Text Notes 7650 850  2    236  ~ 0
+A B C D E F G H I J K L M N O P
+Text Notes 7650 5800 2    236  ~ 0
+A B C D E F G H I J K L M N O P
+Text Notes 750  5500 2    197  ~ 0
+1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
+Text Notes 5050 7450 0    60   ~ 0
+3 LEDs for the LP: l5, o5 p5\n\n
+Text GLabel 5400 6500 0    60   Input ~ 0
+cb4-lp
+Text GLabel 5400 6600 0    60   Input ~ 0
+cb5-lp
+Text GLabel 5400 6700 0    60   Input ~ 0
+cb6-lp
+Text GLabel 5400 7000 0    60   Input ~ 0
+cb7-lp
+Text GLabel 5400 7100 0    60   Input ~ 0
+cb8-lp
+$Comp
+L Earth #PWR031
+U 1 1 59FC4712
+P 10600 5200
+F 0 "#PWR031" H 10600 4950 50  0001 C CNN
+F 1 "Earth" H 10600 5050 50  0001 C CNN
+F 2 "" H 10600 5200 50  0000 C CNN
+F 3 "" H 10600 5200 50  0000 C CNN
+	1    10600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb60
+U 1 1 5A005335
+P 2750 5100
+F 0 "rgb60" H 2581 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 2581 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 2750 5100 60  0001 C CNN
+F 3 "" H 2750 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 2750 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 5100 60  0001 C CNN "leadtime"
+	1    2750 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb1
+U 1 1 5AD77AF6
+P 2350 1500
+F 0 "rgb1" H 2182 1639 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 2182 1533 60  0001 R CNN
+F 2 "raise_fp:3528-4p-rev" H 2350 1500 60  0001 C CNN
+F 3 "" H 2350 1500 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 2350 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 1500 60  0001 C CNN "leadtime"
+	1    2350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb2
+U 1 1 5AD77AFD
+P 2750 1500
+F 0 "rgb2" H 2825 2087 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 2825 1981 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2750 1500 60  0001 C CNN
+F 3 "" H 2750 1500 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 2750 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 1500 60  0001 C CNN "leadtime"
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb3
+U 1 1 5AD77B04
+P 3150 1500
+F 0 "rgb3" H 3225 2087 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 3225 1981 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3150 1500 60  0001 C CNN
+F 3 "" H 3150 1500 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 3150 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 1500 60  0001 C CNN "leadtime"
+	1    3150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb4
+U 1 1 5AD77B0B
+P 3550 1500
+F 0 "rgb4" H 3625 2087 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 3625 1981 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3550 1500 60  0001 C CNN
+F 3 "" H 3550 1500 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 3550 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 1500 60  0001 C CNN "leadtime"
+	1    3550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb5
+U 1 1 5AD77B25
+P 3950 1500
+F 0 "rgb5" H 4025 2087 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 4025 1981 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3950 1500 60  0001 C CNN
+F 3 "" H 3950 1500 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 3950 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 1500 60  0001 C CNN "leadtime"
+	1    3950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb17
+U 1 1 5AD77B3E
+P 2350 2400
+F 0 "rgb17" H 2181 2539 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 2181 2433 60  0000 R CNN
+F 2 "raise_fp:3528-4p-rev" H 2350 2400 60  0001 C CNN
+F 3 "" H 2350 2400 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 2350 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 2400 60  0001 C CNN "leadtime"
+	1    2350 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb16
+U 1 1 5AD77B45
+P 1950 2400
+F 0 "rgb16" H 1781 2539 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 1781 2433 60  0000 R CNN
+F 2 "raise_fp:3528-4p-rev" H 1950 2400 60  0001 C CNN
+F 3 "" H 1950 2400 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 1950 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 2400 60  0001 C CNN "leadtime"
+	1    1950 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb15
+U 1 1 5AD77B4C
+P 1550 2400
+F 0 "rgb15" H 1381 2539 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 1381 2433 60  0000 R CNN
+F 2 "raise_fp:3528-4p-rev" H 1550 2400 60  0001 C CNN
+F 3 "" H 1550 2400 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 1550 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 2400 60  0001 C CNN "leadtime"
+	1    1550 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb18
+U 1 1 5AD77B63
+P 3550 2400
+F 0 "rgb18" H 3625 2987 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 3625 2881 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3550 2400 60  0001 C CNN
+F 3 "" H 3550 2400 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 3550 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 2400 60  0001 C CNN "leadtime"
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb19
+U 1 1 5AD77B6A
+P 3950 2400
+F 0 "rgb19" H 4025 2987 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 4025 2881 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3950 2400 60  0001 C CNN
+F 3 "" H 3950 2400 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 3950 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 2400 60  0001 C CNN "leadtime"
+	1    3950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb29
+U 1 1 5AD77B71
+P 1550 3300
+F 0 "rgb29" H 1381 3439 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 1381 3333 60  0000 R CNN
+F 2 "raise_fp:3528-4p-rev" H 1550 3300 60  0001 C CNN
+F 3 "" H 1550 3300 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 1550 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 3300 60  0001 C CNN "leadtime"
+	1    1550 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb30
+U 1 1 5AD77B78
+P 1950 3300
+F 0 "rgb30" H 1781 3439 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 1781 3333 60  0000 R CNN
+F 2 "raise_fp:3528-4p-rev" H 1950 3300 60  0001 C CNN
+F 3 "" H 1950 3300 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 1950 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 3300 60  0001 C CNN "leadtime"
+	1    1950 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb31
+U 1 1 5AD77B7F
+P 2350 3300
+F 0 "rgb31" H 2181 3439 60  0000 R CNN
+F 1 "reverse 4 pin RGB led, com anode" H 2181 3333 60  0000 R CNN
+F 2 "raise_fp:3528-4p-rev" H 2350 3300 60  0001 C CNN
+F 3 "" H 2350 3300 60  0001 C CNN
+F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 2350 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 3300 60  0001 C CNN "leadtime"
+	1    2350 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb61
+U 1 1 5AE323BB
+P 3150 5100
+F 0 "rgb61" H 2981 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 2981 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3150 5100 60  0001 C CNN
+F 3 "" H 3150 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 400 0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 3150 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 5100 60  0001 C CNN "leadtime"
+	1    3150 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb_ANSI_21
+U 1 1 5AE32BA1
+P 4650 2450
+F 0 "rgb_ANSI_21" H 4725 3037 60  0000 C CNN
+F 1 "reverse 4 pin RGB led, com anode" H 4725 2931 60  0000 C CNN
+F 2 "raise_fp:3528-4p-rev" H 4650 2450 60  0001 C CNN
+F 3 "" H 4650 2450 60  0001 C CNN
+F 4 "Honghua Wei" H 300 50  60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1024" H 4650 2450 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4650 2450 60  0001 C CNN "MOQ"
+F 7 "Value" H 4650 2450 60  0001 C CNN "leadtime"
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb62
+U 1 1 5B34A670
+P 3550 5100
+F 0 "rgb62" H 3381 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 3381 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3550 5100 60  0001 C CNN
+F 3 "" H 3550 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 800 0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 3550 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 5100 60  0001 C CNN "leadtime"
+	1    3550 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb63
+U 1 1 5B34A794
+P 3950 5100
+F 0 "rgb63" H 3781 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 3781 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 3950 5100 60  0001 C CNN
+F 3 "" H 3950 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 1200 0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 3950 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 5100 60  0001 C CNN "leadtime"
+	1    3950 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb64
+U 1 1 5B34A8B2
+P 4350 5100
+F 0 "rgb64" H 4181 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode" H 4181 5133 60  0000 R CNN
+F 2 "raise_fp:3528-4p" H 4350 5100 60  0001 C CNN
+F 3 "" H 4350 5100 60  0001 C CNN
+F 4 "Honghua Wei" H 1600 0   60  0001 C CNN "supplier"
+F 5 "3528-4RGB-1026" H 4350 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 5100 60  0001 C CNN "leadtime"
+	1    4350 5100
+	-1   0    0    -1  
+$EndComp
+Text Notes 5050 3900 0    60   ~ 0
+normal mount\nunderglow
+Text Notes 1400 1300 0    60   ~ 0
+reverse mount\nkeys
+Text Notes 7000 4750 0    60   ~ 0
+reverse mount\nlow profile
+$Comp
+L Earth #PWR024
+U 1 1 5B8FDE25
+P 9250 1700
+F 0 "#PWR024" H 9250 1450 50  0001 C CNN
+F 1 "Earth" H 9250 1550 50  0001 C CNN
+F 2 "" H 9250 1700 50  0000 C CNN
+F 3 "" H 9250 1700 50  0000 C CNN
+	1    9250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 5B8FDE31
+P 9250 1550
+F 0 "C1" H 9365 1596 50  0000 L CNN
+F 1 "47uF, tantalum, 10v, 10%, ESR 1.6R" H 9350 1700 50  0000 L CNN
+F 2 "raise_fp:CP_EIA-3528-21_Kemet-B" H 9288 1400 50  0001 C CNN
+F 3 "" H 9250 1550 50  0000 C CNN
+F 4 "1432366" H 5250 -5300 60  0001 C CNN "farnell #"
+F 5 "AVX" H 9250 1550 60  0001 C CNN "supplier"
+F 6 "TAJB476K010RNJ" H 9250 1550 60  0001 C CNN "supplier PN"
+F 7 "Value" H 9250 1550 60  0001 C CNN "MOQ"
+F 8 "Value" H 9250 1550 60  0001 C CNN "leadtime"
+	1    9250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR036
+U 1 1 5B8FDE79
+P 9250 1300
+F 0 "#PWR036" H 9250 1150 50  0001 C CNN
+F 1 "+5V" H 9265 1473 50  0000 C CNN
+F 2 "" H 9250 1300 50  0000 C CNN
+F 3 "" H 9250 1300 50  0000 C CNN
+	1    9250 1300
+	1    0    0    -1  
+$EndComp
+Text Notes 5850 4950 0    60   ~ 0
+normal mount\nunderglow\nlow profile
+Text Label 5750 6900 2    60   ~ 0
+CB3
+Text GLabel 5400 6900 0    60   Input ~ 0
+cb3-lp
+$Comp
+L Earth #PWR040
+U 1 1 5C80DF3C
+P 9600 2250
+F 0 "#PWR040" H 9600 2000 50  0001 C CNN
+F 1 "Earth" H 9600 2100 50  0001 C CNN
+F 2 "" H 9600 2250 50  0000 C CNN
+F 3 "" H 9600 2250 50  0000 C CNN
+	1    9600 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 3300 2    60   Input ~ 0
+SHUTDOWN
+$Comp
+L R R7
+U 1 1 5C812388
+P 9250 3450
+F 0 "R7" H 9320 3496 50  0000 L CNN
+F 1 "10k, 125mW, 5%" V 9100 3100 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 9180 3450 50  0001 C CNN
+F 3 "" H 9250 3450 50  0000 C CNN
+F 4 "2447230" H 9250 3450 60  0001 C CNN "farnell #"
+F 5 "any/open" H 9250 3450 60  0001 C CNN "supplier"
+F 6 "Value" H 9250 3450 60  0001 C CNN "supplier PN"
+F 7 "Value" H 9250 3450 60  0001 C CNN "MOQ"
+F 8 "Value" H 9250 3450 60  0001 C CNN "leadtime"
+	1    9250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR08
+U 1 1 5C81238F
+P 9250 3600
+F 0 "#PWR08" H 9250 3350 50  0001 C CNN
+F 1 "Earth" H 9250 3450 50  0001 C CNN
+F 2 "" H 9250 3600 50  0000 C CNN
+F 3 "" H 9250 3600 50  0000 C CNN
+	1    9250 3600
+	1    0    0    -1  
+$EndComp
+Text Label 11150 2150 0    60   ~ 0
+ca1_f
+Text Label 11150 2250 0    60   ~ 0
+ca2_f
+Text Label 11150 2350 0    60   ~ 0
+ca3_f
+Text Label 11150 2450 0    60   ~ 0
+ca4_f
+Text Label 11150 2550 0    60   ~ 0
+ca5_f
+Text Label 11150 2650 0    60   ~ 0
+ca6_f
+Text Label 11150 2750 0    60   ~ 0
+ca7_f
+Text Label 11150 2850 0    60   ~ 0
+ca8_f
+Text Label 11150 2950 0    60   ~ 0
+ca9_f
+Text Label 11150 3150 0    60   ~ 0
+cb1_f
+Text Label 11150 3250 0    60   ~ 0
+cb2_f
+Text Label 11150 3350 0    60   ~ 0
+cb3_f
+Text Label 11150 3450 0    60   ~ 0
+cb4_f
+Text Label 11150 3550 0    60   ~ 0
+cb5_f
+Text Label 11150 3650 0    60   ~ 0
+cb6_f
+Text Label 11150 3750 0    60   ~ 0
+cb7_f
+Text Label 11150 3850 0    60   ~ 0
+cb8_f
+Text Label 12200 1900 2    60   ~ 0
+ca1_f
+Text Label 12200 2000 2    60   ~ 0
+ca2_f
+Text Label 12200 2100 2    60   ~ 0
+ca3_f
+Text Label 12250 4050 2    60   ~ 0
+ca5_f
+Text Label 12250 4250 2    60   ~ 0
+ca7_f
+Text Label 12250 4350 2    60   ~ 0
+ca8_f
+Text Label 12200 6550 2    60   ~ 0
+ca9_f
+Text Label 14250 1900 2    60   ~ 0
+cb1_f
+Text Label 14250 2000 2    60   ~ 0
+cb2_f
+Text Label 14250 2100 2    60   ~ 0
+cb3_f
+Text Label 14250 2200 2    60   ~ 0
+cb4_f
+Text Label 14300 4050 2    60   ~ 0
+cb5_f
+Text Label 14300 4150 2    60   ~ 0
+cb6_f
+Text Label 14300 4250 2    60   ~ 0
+cb7_f
+Text Label 14300 4350 2    60   ~ 0
+cb8_f
+$Comp
+L R R30
+U 1 1 5C8A3CEA
+P 12350 6550
+F 0 "R30" V 12250 6500 50  0000 L CNN
+F 1 "0R,  125mW, 5%" V 12050 6300 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 12280 6550 50  0001 C CNN
+F 3 "" H 12350 6550 50  0000 C CNN
+F 4 "dnp" H 12350 6550 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12350 6550 60  0001 C CNN "supplier"
+F 6 "dnp" H 12350 6550 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12350 6550 60  0001 C CNN "MOQ"
+F 8 "Value" H 12350 6550 60  0001 C CNN "leadtime"
+	1    12350 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C35
+U 1 1 5C8A3CF5
+P 14750 4900
+F 0 "C35" V 14600 4900 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14450 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 14788 4750 50  0001 C CNN
+F 3 "" H 14750 4900 50  0000 C CNN
+F 4 "2896415" H 14750 4900 60  0001 C CNN "farnell #"
+F 5 "dnp" H 14750 4900 60  0001 C CNN "supplier"
+F 6 "Value" H 14750 4900 60  0001 C CNN "supplier PN"
+F 7 "Value" H 14750 4900 60  0001 C CNN "MOQ"
+F 8 "Value" H 14750 4900 60  0001 C CNN "leadtime"
+	1    14750 4900
+	1    0    0    1   
+$EndComp
+Text Label 12200 2200 2    60   ~ 0
+ca4_f
+Text Label 12250 4150 2    60   ~ 0
+ca6_f
+$Comp
+L R_Pack04 RN3
+U 1 1 5C89BB7A
+P 12400 2000
+F 0 "RN3" V 12725 2000 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 12634 2000 50  0000 C CNN
+F 2 "raise_fp:R_Array_Convex_4x0402" V 12675 2000 50  0001 C CNN
+F 3 "" H 12400 2000 50  0001 C CNN
+F 4 "Value" H 12400 2000 60  0001 C CNN "supplier"
+F 5 "Value" H 12400 2000 60  0001 C CNN "supplier PN"
+F 6 "Value" H 12400 2000 60  0001 C CNN "MOQ"
+F 7 "Value" H 12400 2000 60  0001 C CNN "leadtime"
+F 8 "2060029" H 0   0   60  0001 C CNN "farnell #"
+	1    12400 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L R_Pack04 RN4
+U 1 1 5C89C43C
+P 12450 4150
+F 0 "RN4" V 12775 4150 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 12684 4150 50  0000 C CNN
+F 2 "raise_fp:R_Array_Convex_4x0402" V 12725 4150 50  0001 C CNN
+F 3 "" H 12450 4150 50  0001 C CNN
+F 4 "Value" H 12450 4150 60  0001 C CNN "supplier"
+F 5 "Value" H 12450 4150 60  0001 C CNN "supplier PN"
+F 6 "Value" H 12450 4150 60  0001 C CNN "MOQ"
+F 7 "Value" H 12450 4150 60  0001 C CNN "leadtime"
+F 8 "2060029" H 0   650 60  0001 C CNN "farnell #"
+	1    12450 4150
+	0    1    -1   0   
+$EndComp
+$Comp
+L R_Pack04 RN2
+U 1 1 5C89CC34
+P 14450 2000
+F 0 "RN2" V 14775 2000 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 14684 2000 50  0000 C CNN
+F 2 "raise_fp:R_Array_Convex_4x0402" V 14725 2000 50  0001 C CNN
+F 3 "" H 14450 2000 50  0001 C CNN
+F 4 "Value" H 14450 2000 60  0001 C CNN "supplier"
+F 5 "Value" H 14450 2000 60  0001 C CNN "supplier PN"
+F 6 "Value" H 14450 2000 60  0001 C CNN "MOQ"
+F 7 "Value" H 14450 2000 60  0001 C CNN "leadtime"
+F 8 "2060029" H 0   100 60  0001 C CNN "farnell #"
+	1    14450 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L R_Pack04 RN5
+U 1 1 5C89CE31
+P 14500 4150
+F 0 "RN5" V 14825 4150 50  0000 C CNN
+F 1 "0R, 125mW, 5%" V 14734 4150 50  0000 C CNN
+F 2 "raise_fp:R_Array_Convex_4x0402" V 14775 4150 50  0001 C CNN
+F 3 "" H 14500 4150 50  0001 C CNN
+F 4 "Value" H 14500 4150 60  0001 C CNN "supplier"
+F 5 "Value" H 14500 4150 60  0001 C CNN "supplier PN"
+F 6 "Value" H 14500 4150 60  0001 C CNN "MOQ"
+F 7 "Value" H 14500 4150 60  0001 C CNN "leadtime"
+F 8 "2060029" H -50 550 60  0001 C CNN "farnell #"
+	1    14500 4150
+	0    1    -1   0   
+$EndComp
+Text Label 12500 6550 0    60   ~ 0
+CA9
+$Comp
+L C C10
+U 1 1 5C8BC172
+P 9600 2100
+F 0 "C10" H 9715 2146 50  0000 L CNN
+F 1 "0.1uF, ceramic, 10v, 10%, x5r" H 8650 1700 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 9638 1950 50  0001 C CNN
+F 3 "" H 9600 2100 50  0000 C CNN
+F 4 "2896426" H 9600 2100 60  0001 C CNN "farnell #"
+F 5 "any/open" H 900 0   60  0001 C CNN "supplier"
+F 6 "Value" H 9600 2100 60  0001 C CNN "supplier PN"
+F 7 "Value" H 9600 2100 60  0001 C CNN "MOQ"
+F 8 "Value" H 9600 2100 60  0001 C CNN "leadtime"
+	1    9600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR039
+U 1 1 5C8BD8B2
+P 13000 3350
+F 0 "#PWR039" H 13000 3100 50  0001 C CNN
+F 1 "Earth" H 13000 3200 50  0001 C CNN
+F 2 "" H 13000 3350 50  0000 C CNN
+F 3 "" H 13000 3350 50  0000 C CNN
+	1    13000 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C21
+U 1 1 5C8BD8BD
+P 12950 2750
+F 0 "C21" V 12800 2750 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12250 2400 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12988 2600 50  0001 C CNN
+F 3 "" H 12950 2750 50  0000 C CNN
+F 4 "2896415" H 12950 2750 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12950 2750 60  0001 C CNN "supplier"
+F 6 "Value" H 12950 2750 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12950 2750 60  0001 C CNN "MOQ"
+F 8 "Value" H 12950 2750 60  0001 C CNN "leadtime"
+	1    12950 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L C C22
+U 1 1 5C8BD8C9
+P 12750 2750
+F 0 "C22" V 12600 2750 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12050 2400 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12788 2600 50  0001 C CNN
+F 3 "" H 12750 2750 50  0000 C CNN
+F 4 "2896415" H 12750 2750 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12750 2750 60  0001 C CNN "supplier"
+F 6 "Value" H 12750 2750 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12750 2750 60  0001 C CNN "MOQ"
+F 8 "Value" H 12750 2750 60  0001 C CNN "leadtime"
+	1    12750 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L C C23
+U 1 1 5C8BD8D5
+P 12850 3000
+F 0 "C23" V 12700 3000 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12150 2400 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12888 2850 50  0001 C CNN
+F 3 "" H 12850 3000 50  0000 C CNN
+F 4 "2896415" H 12850 3000 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12850 3000 60  0001 C CNN "supplier"
+F 6 "Value" H 12850 3000 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12850 3000 60  0001 C CNN "MOQ"
+F 8 "Value" H 12850 3000 60  0001 C CNN "leadtime"
+	1    12850 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L C C24
+U 1 1 5C8BD8E1
+P 12650 3000
+F 0 "C24" V 12500 3000 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 11950 2400 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12688 2850 50  0001 C CNN
+F 3 "" H 12650 3000 50  0000 C CNN
+F 4 "2896415" H 12650 3000 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12650 3000 60  0001 C CNN "supplier"
+F 6 "Value" H 12650 3000 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12650 3000 60  0001 C CNN "MOQ"
+F 8 "Value" H 12650 3000 60  0001 C CNN "leadtime"
+	1    12650 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L Earth #PWR041
+U 1 1 5C8BEAF5
+P 13050 5500
+F 0 "#PWR041" H 13050 5250 50  0001 C CNN
+F 1 "Earth" H 13050 5350 50  0001 C CNN
+F 2 "" H 13050 5500 50  0000 C CNN
+F 3 "" H 13050 5500 50  0000 C CNN
+	1    13050 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C25
+U 1 1 5C8BEB00
+P 13000 4900
+F 0 "C25" V 12850 4900 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12300 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 13038 4750 50  0001 C CNN
+F 3 "" H 13000 4900 50  0000 C CNN
+F 4 "2896415" H 13000 4900 60  0001 C CNN "farnell #"
+F 5 "dnp" H 13000 4900 60  0001 C CNN "supplier"
+F 6 "Value" H 13000 4900 60  0001 C CNN "supplier PN"
+F 7 "Value" H 13000 4900 60  0001 C CNN "MOQ"
+F 8 "Value" H 13000 4900 60  0001 C CNN "leadtime"
+	1    13000 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L C C26
+U 1 1 5C8BEB0B
+P 12800 4900
+F 0 "C26" V 12650 4900 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12100 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12838 4750 50  0001 C CNN
+F 3 "" H 12800 4900 50  0000 C CNN
+F 4 "2896415" H 12800 4900 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12800 4900 60  0001 C CNN "supplier"
+F 6 "Value" H 12800 4900 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12800 4900 60  0001 C CNN "MOQ"
+F 8 "Value" H 12800 4900 60  0001 C CNN "leadtime"
+	1    12800 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L C C29
+U 1 1 5C8BEB16
+P 12900 5150
+F 0 "C29" V 12750 5150 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12200 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12938 5000 50  0001 C CNN
+F 3 "" H 12900 5150 50  0000 C CNN
+F 4 "2896415" H 12900 5150 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12900 5150 60  0001 C CNN "supplier"
+F 6 "Value" H 12900 5150 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12900 5150 60  0001 C CNN "MOQ"
+F 8 "Value" H 12900 5150 60  0001 C CNN "leadtime"
+	1    12900 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L C C30
+U 1 1 5C8BEB21
+P 12700 5150
+F 0 "C30" V 12550 5150 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12000 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12738 5000 50  0001 C CNN
+F 3 "" H 12700 5150 50  0000 C CNN
+F 4 "2896415" H 12700 5150 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12700 5150 60  0001 C CNN "supplier"
+F 6 "Value" H 12700 5150 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12700 5150 60  0001 C CNN "MOQ"
+F 8 "Value" H 12700 5150 60  0001 C CNN "leadtime"
+	1    12700 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L Earth #PWR042
+U 1 1 5C8C0E13
+P 15150 3450
+F 0 "#PWR042" H 15150 3200 50  0001 C CNN
+F 1 "Earth" H 15150 3300 50  0001 C CNN
+F 2 "" H 15150 3450 50  0000 C CNN
+F 3 "" H 15150 3450 50  0000 C CNN
+	1    15150 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 5C8C0E1E
+P 12900 6800
+F 0 "C27" V 12750 6800 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 12600 6400 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 12938 6650 50  0001 C CNN
+F 3 "" H 12900 6800 50  0000 C CNN
+F 4 "2896415" H 12900 6800 60  0001 C CNN "farnell #"
+F 5 "dnp" H 12900 6800 60  0001 C CNN "supplier"
+F 6 "Value" H 12900 6800 60  0001 C CNN "supplier PN"
+F 7 "Value" H 12900 6800 60  0001 C CNN "MOQ"
+F 8 "Value" H 12900 6800 60  0001 C CNN "leadtime"
+	1    12900 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C28
+U 1 1 5C8C0E29
+P 14900 2850
+F 0 "C28" V 14750 2850 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14200 2450 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 14938 2700 50  0001 C CNN
+F 3 "" H 14900 2850 50  0000 C CNN
+F 4 "2896415" H 14900 2850 60  0001 C CNN "farnell #"
+F 5 "dnp" H 14900 2850 60  0001 C CNN "supplier"
+F 6 "Value" H 14900 2850 60  0001 C CNN "supplier PN"
+F 7 "Value" H 14900 2850 60  0001 C CNN "MOQ"
+F 8 "Value" H 14900 2850 60  0001 C CNN "leadtime"
+	1    14900 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L C C31
+U 1 1 5C8C0E34
+P 15000 3100
+F 0 "C31" V 14850 3100 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14300 2450 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 15038 2950 50  0001 C CNN
+F 3 "" H 15000 3100 50  0000 C CNN
+F 4 "2896415" H 15000 3100 60  0001 C CNN "farnell #"
+F 5 "dnp" H 15000 3100 60  0001 C CNN "supplier"
+F 6 "Value" H 15000 3100 60  0001 C CNN "supplier PN"
+F 7 "Value" H 15000 3100 60  0001 C CNN "MOQ"
+F 8 "Value" H 15000 3100 60  0001 C CNN "leadtime"
+	1    15000 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L C C32
+U 1 1 5C8C0E3F
+P 14800 3100
+F 0 "C32" V 14650 3100 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14100 2450 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 14838 2950 50  0001 C CNN
+F 3 "" H 14800 3100 50  0000 C CNN
+F 4 "2896415" H 14800 3100 60  0001 C CNN "farnell #"
+F 5 "dnp" H 14800 3100 60  0001 C CNN "supplier"
+F 6 "Value" H 14800 3100 60  0001 C CNN "supplier PN"
+F 7 "Value" H 14800 3100 60  0001 C CNN "MOQ"
+F 8 "Value" H 14800 3100 60  0001 C CNN "leadtime"
+	1    14800 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L Earth #PWR034
+U 1 1 5C8C1777
+P 15200 5500
+F 0 "#PWR034" H 15200 5250 50  0001 C CNN
+F 1 "Earth" H 15200 5350 50  0001 C CNN
+F 2 "" H 15200 5500 50  0000 C CNN
+F 3 "" H 15200 5500 50  0000 C CNN
+	1    15200 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5C8C1782
+P 14700 2850
+F 0 "C16" V 14550 2850 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14000 2450 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 14738 2700 50  0001 C CNN
+F 3 "" H 14700 2850 50  0000 C CNN
+F 4 "2896415" H 14700 2850 60  0001 C CNN "farnell #"
+F 5 "dnp" H 14700 2850 60  0001 C CNN "supplier"
+F 6 "Value" H 14700 2850 60  0001 C CNN "supplier PN"
+F 7 "Value" H 14700 2850 60  0001 C CNN "MOQ"
+F 8 "Value" H 14700 2850 60  0001 C CNN "leadtime"
+	1    14700 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L C C17
+U 1 1 5C8C178D
+P 14950 4900
+F 0 "C17" V 14800 4900 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14250 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 14988 4750 50  0001 C CNN
+F 3 "" H 14950 4900 50  0000 C CNN
+F 4 "2896415" H 14950 4900 60  0001 C CNN "farnell #"
+F 5 "dnp" H 14950 4900 60  0001 C CNN "supplier"
+F 6 "Value" H 14950 4900 60  0001 C CNN "supplier PN"
+F 7 "Value" H 14950 4900 60  0001 C CNN "MOQ"
+F 8 "Value" H 14950 4900 60  0001 C CNN "leadtime"
+	1    14950 4900
+	1    0    0    1   
+$EndComp
+$Comp
+L C C19
+U 1 1 5C8C1798
+P 15050 5150
+F 0 "C19" V 14900 5150 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14350 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 15088 5000 50  0001 C CNN
+F 3 "" H 15050 5150 50  0000 C CNN
+F 4 "2896415" H 15050 5150 60  0001 C CNN "farnell #"
+F 5 "dnp" H 15050 5150 60  0001 C CNN "supplier"
+F 6 "Value" H 15050 5150 60  0001 C CNN "supplier PN"
+F 7 "Value" H 15050 5150 60  0001 C CNN "MOQ"
+F 8 "Value" H 15050 5150 60  0001 C CNN "leadtime"
+	1    15050 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L C C20
+U 1 1 5C8C17A3
+P 14850 5150
+F 0 "C20" V 14700 5150 50  0000 L CNN
+F 1 "1nF ceramic, 100v, 10%" V 14150 4550 50  0000 L CNN
+F 2 "raise_fp:C_0603" H 14888 5000 50  0001 C CNN
+F 3 "" H 14850 5150 50  0000 C CNN
+F 4 "2896415" H 14850 5150 60  0001 C CNN "farnell #"
+F 5 "dnp" H 14850 5150 60  0001 C CNN "supplier"
+F 6 "Value" H 14850 5150 60  0001 C CNN "supplier PN"
+F 7 "Value" H 14850 5150 60  0001 C CNN "MOQ"
+F 8 "Value" H 14850 5150 60  0001 C CNN "leadtime"
+	1    14850 5150
+	1    0    0    1   
+$EndComp
 Wire Wire Line
 	1000 1000 7550 1000
 Wire Wire Line
@@ -1023,205 +2100,12 @@ Connection ~ 2550 4800
 Connection ~ 7150 4600
 Connection ~ 7150 4900
 Connection ~ 7150 5200
-$Comp
-L rgbled rgb51
-U 1 1 59D2C906
-P 4750 4200
-F 0 "rgb51" H 4581 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 4581 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 4750 4200 60  0001 C CNN
-F 3 "" H 4750 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 4750 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 4750 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 4750 4200 60  0001 C CNN "leadtime"
-	1    4750 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb50
-U 1 1 59D2C90C
-P 4350 4200
-F 0 "rgb50" H 4181 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 4181 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 4350 4200 60  0001 C CNN
-F 3 "" H 4350 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 4350 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 4350 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 4350 4200 60  0001 C CNN "leadtime"
-	1    4350 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb49
-U 1 1 59D2C912
-P 3950 4200
-F 0 "rgb49" H 3781 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 3781 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3950 4200 60  0001 C CNN
-F 3 "" H 3950 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 3950 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3950 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 3950 4200 60  0001 C CNN "leadtime"
-	1    3950 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb48
-U 1 1 59D2C918
-P 3550 4200
-F 0 "rgb48" H 3381 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 3381 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3550 4200 60  0001 C CNN
-F 3 "" H 3550 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 3550 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3550 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 3550 4200 60  0001 C CNN "leadtime"
-	1    3550 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb47
-U 1 1 59D2C91E
-P 3150 4200
-F 0 "rgb47" H 2981 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 2981 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3150 4200 60  0001 C CNN
-F 3 "" H 3150 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 3150 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3150 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 3150 4200 60  0001 C CNN "leadtime"
-	1    3150 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb46
-U 1 1 59D2C924
-P 2750 4200
-F 0 "rgb46" H 2581 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 2581 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2750 4200 60  0001 C CNN
-F 3 "" H 2750 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 2750 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2750 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 2750 4200 60  0001 C CNN "leadtime"
-	1    2750 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb45
-U 1 1 59D2C92A
-P 2350 4200
-F 0 "rgb45" H 2181 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 2181 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2350 4200 60  0001 C CNN
-F 3 "" H 2350 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 2350 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2350 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 2350 4200 60  0001 C CNN "leadtime"
-	1    2350 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb44
-U 1 1 59D2C930
-P 1950 4200
-F 0 "rgb44" H 1781 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 1781 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1950 4200 60  0001 C CNN
-F 3 "" H 1950 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 1950 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1950 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 1950 4200 60  0001 C CNN "leadtime"
-	1    1950 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb43
-U 1 1 59D2C936
-P 1550 4200
-F 0 "rgb43" H 1381 4339 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 1381 4233 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1550 4200 60  0001 C CNN
-F 3 "" H 1550 4200 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 1550 4200 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1550 4200 60  0001 C CNN "MOQ"
-F 7 "Value" H 1550 4200 60  0001 C CNN "leadtime"
-	1    1550 4200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb57
-U 1 1 59D2CA0F
-P 1550 5100
-F 0 "rgb57" H 1381 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 1381 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1550 5100 60  0001 C CNN
-F 3 "" H 1550 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 1550 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1550 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 1550 5100 60  0001 C CNN "leadtime"
-	1    1550 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb58
-U 1 1 59D2CA15
-P 1950 5100
-F 0 "rgb58" H 1781 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 1781 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1950 5100 60  0001 C CNN
-F 3 "" H 1950 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 1950 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1950 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 1950 5100 60  0001 C CNN "leadtime"
-	1    1950 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb59
-U 1 1 59D2CA1B
-P 2350 5100
-F 0 "rgb59" H 2181 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 2181 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2350 5100 60  0001 C CNN
-F 3 "" H 2350 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 2350 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2350 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 2350 5100 60  0001 C CNN "leadtime"
-	1    2350 5100
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 3400 7550 3400
 Wire Wire Line
 	4150 1200 4150 5400
 Wire Wire Line
 	4950 1200 4950 5400
-NoConn ~ 10050 3650
-Text Notes 2200 300  0    197  ~ 0
-common anode type 3 matrix
-Text Label 5750 7000 2    60   ~ 0
-CB7
-Text Label 5750 7100 2    60   ~ 0
-CB8
-Text Label 5750 6500 2    60   ~ 0
-CB4
-Text Label 5750 6600 2    60   ~ 0
-CB5
-Text Label 5750 6700 2    60   ~ 0
-CB6
 Wire Wire Line
 	5750 6500 5400 6500
 Wire Wire Line
@@ -1232,137 +2116,18 @@ Wire Wire Line
 	5750 7000 5400 7000
 Wire Wire Line
 	5400 7100 5750 7100
-Text Notes 7650 850  2    236  ~ 0
-A B C D E F G H I J K L M N O P
-Text Notes 7650 5800 2    236  ~ 0
-A B C D E F G H I J K L M N O P
-Text Notes 750  5500 2    197  ~ 0
-1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
-Text Notes 5050 7450 0    60   ~ 0
-3 LEDs for the LP: l5, o5 p5\n\n
-Text GLabel 5400 6500 0    60   Input ~ 0
-cb4-lp
-Text GLabel 5400 6600 0    60   Input ~ 0
-cb5-lp
-Text GLabel 5400 6700 0    60   Input ~ 0
-cb6-lp
-Text GLabel 5400 7000 0    60   Input ~ 0
-cb7-lp
-Text GLabel 5400 7100 0    60   Input ~ 0
-cb8-lp
-$Comp
-L Earth #PWR031
-U 1 1 59FC4712
-P 10600 5200
-F 0 "#PWR031" H 10600 4950 50  0001 C CNN
-F 1 "Earth" H 10600 5050 50  0001 C CNN
-F 2 "" H 10600 5200 50  0000 C CNN
-F 3 "" H 10600 5200 50  0000 C CNN
-	1    10600 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb60
-U 1 1 5A005335
-P 2750 5100
-F 0 "rgb60" H 2581 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 2581 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2750 5100 60  0001 C CNN
-F 3 "" H 2750 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 2750 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2750 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 2750 5100 60  0001 C CNN "leadtime"
-	1    2750 5100
-	-1   0    0    -1  
-$EndComp
 Wire Notes Line
 	7500 4750 7500 6300
 Wire Notes Line
 	7500 6300 6350 6300
 Wire Notes Line
 	7100 4750 7100 6250
-$Comp
-L rgbled rgb1
-U 1 1 5AD77AF6
-P 2350 1500
-F 0 "rgb1" H 2182 1639 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 2182 1533 60  0001 R CNN
-F 2 "raise_fp:3528-4p-rev" H 2350 1500 60  0001 C CNN
-F 3 "" H 2350 1500 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 2350 1500 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2350 1500 60  0001 C CNN "MOQ"
-F 7 "Value" H 2350 1500 60  0001 C CNN "leadtime"
-	1    2350 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb2
-U 1 1 5AD77AFD
-P 2750 1500
-F 0 "rgb2" H 2825 2087 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 2825 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 2750 1500 60  0001 C CNN
-F 3 "" H 2750 1500 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 2750 1500 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2750 1500 60  0001 C CNN "MOQ"
-F 7 "Value" H 2750 1500 60  0001 C CNN "leadtime"
-	1    2750 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb3
-U 1 1 5AD77B04
-P 3150 1500
-F 0 "rgb3" H 3225 2087 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 3225 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 3150 1500 60  0001 C CNN
-F 3 "" H 3150 1500 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 3150 1500 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3150 1500 60  0001 C CNN "MOQ"
-F 7 "Value" H 3150 1500 60  0001 C CNN "leadtime"
-	1    3150 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb4
-U 1 1 5AD77B0B
-P 3550 1500
-F 0 "rgb4" H 3625 2087 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 3625 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 3550 1500 60  0001 C CNN
-F 3 "" H 3550 1500 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 3550 1500 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3550 1500 60  0001 C CNN "MOQ"
-F 7 "Value" H 3550 1500 60  0001 C CNN "leadtime"
-	1    3550 1500
-	1    0    0    -1  
-$EndComp
 Connection ~ 2550 1500
 Connection ~ 2550 1800
 Connection ~ 2950 1500
 Connection ~ 2950 1800
 Connection ~ 3350 1500
 Connection ~ 3350 1800
-$Comp
-L rgbled rgb5
-U 1 1 5AD77B25
-P 3950 1500
-F 0 "rgb5" H 4025 2087 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 4025 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 3950 1500 60  0001 C CNN
-F 3 "" H 3950 1500 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 3950 1500 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3950 1500 60  0001 C CNN "MOQ"
-F 7 "Value" H 3950 1500 60  0001 C CNN "leadtime"
-	1    3950 1500
-	1    0    0    -1  
-$EndComp
 Connection ~ 3750 1500
 Connection ~ 3750 1800
 Connection ~ 4150 1500
@@ -1377,51 +2142,6 @@ Connection ~ 3550 1300
 Connection ~ 3550 1600
 Connection ~ 3950 1600
 Connection ~ 3950 1300
-$Comp
-L rgbled rgb17
-U 1 1 5AD77B3E
-P 2350 2400
-F 0 "rgb17" H 2181 2539 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 2181 2433 60  0000 R CNN
-F 2 "raise_fp:3528-4p-rev" H 2350 2400 60  0001 C CNN
-F 3 "" H 2350 2400 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 2350 2400 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2350 2400 60  0001 C CNN "MOQ"
-F 7 "Value" H 2350 2400 60  0001 C CNN "leadtime"
-	1    2350 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb16
-U 1 1 5AD77B45
-P 1950 2400
-F 0 "rgb16" H 1781 2539 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 1781 2433 60  0000 R CNN
-F 2 "raise_fp:3528-4p-rev" H 1950 2400 60  0001 C CNN
-F 3 "" H 1950 2400 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 1950 2400 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1950 2400 60  0001 C CNN "MOQ"
-F 7 "Value" H 1950 2400 60  0001 C CNN "leadtime"
-	1    1950 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb15
-U 1 1 5AD77B4C
-P 1550 2400
-F 0 "rgb15" H 1381 2539 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 1381 2433 60  0000 R CNN
-F 2 "raise_fp:3528-4p-rev" H 1550 2400 60  0001 C CNN
-F 3 "" H 1550 2400 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 1550 2400 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1550 2400 60  0001 C CNN "MOQ"
-F 7 "Value" H 1550 2400 60  0001 C CNN "leadtime"
-	1    1550 2400
-	-1   0    0    -1  
-$EndComp
 Connection ~ 2150 2100
 Connection ~ 2150 2400
 Connection ~ 1750 2400
@@ -1434,81 +2154,6 @@ Connection ~ 1550 2200
 Connection ~ 1550 2500
 Connection ~ 1950 2500
 Connection ~ 2350 2500
-$Comp
-L rgbled rgb18
-U 1 1 5AD77B63
-P 3550 2400
-F 0 "rgb18" H 3625 2987 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 3625 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 3550 2400 60  0001 C CNN
-F 3 "" H 3550 2400 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 3550 2400 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3550 2400 60  0001 C CNN "MOQ"
-F 7 "Value" H 3550 2400 60  0001 C CNN "leadtime"
-	1    3550 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb19
-U 1 1 5AD77B6A
-P 3950 2400
-F 0 "rgb19" H 4025 2987 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 4025 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 3950 2400 60  0001 C CNN
-F 3 "" H 3950 2400 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 3950 2400 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3950 2400 60  0001 C CNN "MOQ"
-F 7 "Value" H 3950 2400 60  0001 C CNN "leadtime"
-	1    3950 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb29
-U 1 1 5AD77B71
-P 1550 3300
-F 0 "rgb29" H 1381 3439 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 1381 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p-rev" H 1550 3300 60  0001 C CNN
-F 3 "" H 1550 3300 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 1550 3300 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1550 3300 60  0001 C CNN "MOQ"
-F 7 "Value" H 1550 3300 60  0001 C CNN "leadtime"
-	1    1550 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb30
-U 1 1 5AD77B78
-P 1950 3300
-F 0 "rgb30" H 1781 3439 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 1781 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p-rev" H 1950 3300 60  0001 C CNN
-F 3 "" H 1950 3300 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 1950 3300 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1950 3300 60  0001 C CNN "MOQ"
-F 7 "Value" H 1950 3300 60  0001 C CNN "leadtime"
-	1    1950 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb31
-U 1 1 5AD77B7F
-P 2350 3300
-F 0 "rgb31" H 2181 3439 60  0000 R CNN
-F 1 "reverse 4 pin RGB led, com anode" H 2181 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p-rev" H 2350 3300 60  0001 C CNN
-F 3 "" H 2350 3300 60  0001 C CNN
-F 4 "Honghua Wei" H 0   0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 2350 3300 60  0001 C CNN "supplier PN"
-F 6 "Value" H 2350 3300 60  0001 C CNN "MOQ"
-F 7 "Value" H 2350 3300 60  0001 C CNN "leadtime"
-	1    2350 3300
-	-1   0    0    -1  
-$EndComp
 Connection ~ 1750 2700
 Connection ~ 2150 2700
 Connection ~ 1750 3000
@@ -1568,36 +2213,6 @@ Connection ~ 2950 3600
 Connection ~ 2550 3600
 Connection ~ 2150 3600
 Connection ~ 1750 3600
-$Comp
-L rgbled rgb61
-U 1 1 5AE323BB
-P 3150 5100
-F 0 "rgb61" H 2981 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 2981 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3150 5100 60  0001 C CNN
-F 3 "" H 3150 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 400 0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 3150 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3150 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 3150 5100 60  0001 C CNN "leadtime"
-	1    3150 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb_ANSI_21
-U 1 1 5AE32BA1
-P 4650 2450
-F 0 "rgb_ANSI_21" H 4725 3037 60  0000 C CNN
-F 1 "reverse 4 pin RGB led, com anode" H 4725 2931 60  0000 C CNN
-F 2 "raise_fp:3528-4p-rev" H 4650 2450 60  0001 C CNN
-F 3 "" H 4650 2450 60  0001 C CNN
-F 4 "Honghua Wei" H 300 50  60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1024" H 4650 2450 60  0001 C CNN "supplier PN"
-F 6 "Value" H 4650 2450 60  0001 C CNN "MOQ"
-F 7 "Value" H 4650 2450 60  0001 C CNN "leadtime"
-	1    4650 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 2250 4300 2200
 Connection ~ 4300 2200
@@ -1634,51 +2249,6 @@ Connection ~ 4650 2200
 Wire Wire Line
 	4650 1950 4650 1900
 Connection ~ 4650 1900
-$Comp
-L rgbled rgb62
-U 1 1 5B34A670
-P 3550 5100
-F 0 "rgb62" H 3381 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 3381 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3550 5100 60  0001 C CNN
-F 3 "" H 3550 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 800 0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 3550 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3550 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 3550 5100 60  0001 C CNN "leadtime"
-	1    3550 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb63
-U 1 1 5B34A794
-P 3950 5100
-F 0 "rgb63" H 3781 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 3781 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3950 5100 60  0001 C CNN
-F 3 "" H 3950 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 1200 0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 3950 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 3950 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 3950 5100 60  0001 C CNN "leadtime"
-	1    3950 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb64
-U 1 1 5B34A8B2
-P 4350 5100
-F 0 "rgb64" H 4181 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode" H 4181 5133 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 4350 5100 60  0001 C CNN
-F 3 "" H 4350 5100 60  0001 C CNN
-F 4 "Honghua Wei" H 1600 0   60  0001 C CNN "supplier"
-F 5 "3528-4RGB-1026" H 4350 5100 60  0001 C CNN "supplier PN"
-F 6 "Value" H 4350 5100 60  0001 C CNN "MOQ"
-F 7 "Value" H 4350 5100 60  0001 C CNN "leadtime"
-	1    4350 5100
-	-1   0    0    -1  
-$EndComp
 Wire Notes Line
 	4700 2900 7500 2900
 Wire Notes Line
@@ -1695,52 +2265,8 @@ Wire Notes Line
 	1450 3800 4650 3800
 Wire Notes Line
 	4650 3800 4650 2900
-Text Notes 5050 3900 0    60   ~ 0
-normal mount\nunderglow
-Text Notes 1400 1300 0    60   ~ 0
-reverse mount\nkeys
-Text Notes 7000 4750 0    60   ~ 0
-reverse mount\nlow profile
-$Comp
-L Earth #PWR024
-U 1 1 5B8FDE25
-P 9250 1700
-F 0 "#PWR024" H 9250 1450 50  0001 C CNN
-F 1 "Earth" H 9250 1550 50  0001 C CNN
-F 2 "" H 9250 1700 50  0000 C CNN
-F 3 "" H 9250 1700 50  0000 C CNN
-	1    9250 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9250 1300 9250 1400
-$Comp
-L CP C1
-U 1 1 5B8FDE31
-P 9250 1550
-F 0 "C1" H 9365 1596 50  0000 L CNN
-F 1 "47uF, tantalum, 10v, 10%, ESR 1.6R" H 9350 1700 50  0000 L CNN
-F 2 "raise_fp:CP_EIA-3528-21_Kemet-B" H 9288 1400 50  0001 C CNN
-F 3 "" H 9250 1550 50  0000 C CNN
-F 4 "1432366" H 5250 -5300 60  0001 C CNN "farnell #"
-F 5 "AVX" H 9250 1550 60  0001 C CNN "supplier"
-F 6 "TAJB476K010RNJ" H 9250 1550 60  0001 C CNN "supplier PN"
-F 7 "Value" H 9250 1550 60  0001 C CNN "MOQ"
-F 8 "Value" H 9250 1550 60  0001 C CNN "leadtime"
-	1    9250 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR036
-U 1 1 5B8FDE79
-P 9250 1300
-F 0 "#PWR036" H 9250 1150 50  0001 C CNN
-F 1 "+5V" H 9265 1473 50  0000 C CNN
-F 2 "" H 9250 1300 50  0000 C CNN
-F 3 "" H 9250 1300 50  0000 C CNN
-	1    9250 1300
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	5950 4700 5950 6300
 Wire Notes Line
@@ -1755,181 +2281,8 @@ Wire Notes Line
 	6500 7600 6500 6350
 Wire Notes Line
 	6500 6350 6550 6350
-Text Notes 5850 4950 0    60   ~ 0
-normal mount\nunderglow\nlow profile
-Text Label 5750 6900 2    60   ~ 0
-CB3
 Wire Wire Line
 	5750 6900 5400 6900
-Text GLabel 5400 6900 0    60   Input ~ 0
-cb3-lp
-$Comp
-L Earth #PWR040
-U 1 1 5C80DF3C
-P 9600 2250
-F 0 "#PWR040" H 9600 2000 50  0001 C CNN
-F 1 "Earth" H 9600 2100 50  0001 C CNN
-F 2 "" H 9600 2250 50  0000 C CNN
-F 3 "" H 9600 2250 50  0000 C CNN
-	1    9600 2250
-	1    0    0    -1  
-$EndComp
-Text GLabel 9250 3300 2    60   Input ~ 0
-SHUTDOWN
-$Comp
-L R R7
-U 1 1 5C812388
-P 9250 3450
-F 0 "R7" H 9320 3496 50  0000 L CNN
-F 1 "10k, 125mW, 5%" V 9100 3100 50  0000 L CNN
-F 2 "raise_fp:R_0603" V 9180 3450 50  0001 C CNN
-F 3 "" H 9250 3450 50  0000 C CNN
-F 4 "2447230" H 9250 3450 60  0001 C CNN "farnell #"
-F 5 "any/open" H 9250 3450 60  0001 C CNN "supplier"
-F 6 "Value" H 9250 3450 60  0001 C CNN "supplier PN"
-F 7 "Value" H 9250 3450 60  0001 C CNN "MOQ"
-F 8 "Value" H 9250 3450 60  0001 C CNN "leadtime"
-	1    9250 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR08
-U 1 1 5C81238F
-P 9250 3600
-F 0 "#PWR08" H 9250 3350 50  0001 C CNN
-F 1 "Earth" H 9250 3450 50  0001 C CNN
-F 2 "" H 9250 3600 50  0000 C CNN
-F 3 "" H 9250 3600 50  0000 C CNN
-	1    9250 3600
-	1    0    0    -1  
-$EndComp
-Text Label 11150 2150 0    60   ~ 0
-ca1_f
-Text Label 11150 2250 0    60   ~ 0
-ca2_f
-Text Label 11150 2350 0    60   ~ 0
-ca3_f
-Text Label 11150 2450 0    60   ~ 0
-ca4_f
-Text Label 11150 2550 0    60   ~ 0
-ca5_f
-Text Label 11150 2650 0    60   ~ 0
-ca6_f
-Text Label 11150 2750 0    60   ~ 0
-ca7_f
-Text Label 11150 2850 0    60   ~ 0
-ca8_f
-Text Label 11150 2950 0    60   ~ 0
-ca9_f
-Text Label 11150 3150 0    60   ~ 0
-cb1_f
-Text Label 11150 3250 0    60   ~ 0
-cb2_f
-Text Label 11150 3350 0    60   ~ 0
-cb3_f
-Text Label 11150 3450 0    60   ~ 0
-cb4_f
-Text Label 11150 3550 0    60   ~ 0
-cb5_f
-Text Label 11150 3650 0    60   ~ 0
-cb6_f
-Text Label 11150 3750 0    60   ~ 0
-cb7_f
-Text Label 11150 3850 0    60   ~ 0
-cb8_f
-Text Label 12200 1900 2    60   ~ 0
-ca1_f
-Text Label 12200 2000 2    60   ~ 0
-ca2_f
-Text Label 12200 2100 2    60   ~ 0
-ca3_f
-Text Label 12250 3400 2    60   ~ 0
-ca5_f
-Text Label 12250 3600 2    60   ~ 0
-ca7_f
-Text Label 12250 3700 2    60   ~ 0
-ca8_f
-Text Label 12400 7600 2    60   ~ 0
-ca9_f
-Text Label 14250 1800 2    60   ~ 0
-cb1_f
-Text Label 14250 1900 2    60   ~ 0
-cb2_f
-Text Label 14250 2000 2    60   ~ 0
-cb3_f
-Text Label 14250 2100 2    60   ~ 0
-cb4_f
-Text Label 14350 3500 2    60   ~ 0
-cb5_f
-Text Label 14350 3600 2    60   ~ 0
-cb6_f
-Text Label 14350 3700 2    60   ~ 0
-cb7_f
-Text Label 14350 3800 2    60   ~ 0
-cb8_f
-$Comp
-L R R30
-U 1 1 5C8A3CEA
-P 12550 7600
-F 0 "R30" V 12400 7650 50  0000 L CNN
-F 1 "1R,  125mW, 5%" V 12400 7500 50  0000 L CNN
-F 2 "raise_fp:R_0603" V 12480 7600 50  0001 C CNN
-F 3 "" H 12550 7600 50  0000 C CNN
-F 4 "dnp" H 12550 7600 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12550 7600 60  0001 C CNN "supplier"
-F 6 "dnp" H 12550 7600 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12550 7600 60  0001 C CNN "MOQ"
-F 8 "Value" H 12550 7600 60  0001 C CNN "leadtime"
-	1    12550 7600
-	0    1    1    0   
-$EndComp
-$Comp
-L C C35
-U 1 1 5C8A3CF5
-P 12550 8200
-F 0 "C35" V 12400 8200 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 12300 7450 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12588 8050 50  0001 C CNN
-F 3 "" H 12550 8200 50  0000 C CNN
-F 4 "2896415" H 12550 8200 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12550 8200 60  0001 C CNN "supplier"
-F 6 "Value" H 12550 8200 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12550 8200 60  0001 C CNN "MOQ"
-F 8 "Value" H 12550 8200 60  0001 C CNN "leadtime"
-	1    12550 8200
-	0    1    1    0   
-$EndComp
-$Comp
-L Earth #PWR055
-U 1 1 5C8A3CFB
-P 12700 8200
-F 0 "#PWR055" H 12700 7950 50  0001 C CNN
-F 1 "Earth" H 12700 8050 50  0001 C CNN
-F 2 "" H 12700 8200 50  0000 C CNN
-F 3 "" H 12700 8200 50  0000 C CNN
-	1    12700 8200
-	0    -1   -1   0   
-$EndComp
-Text Label 12200 2200 2    60   ~ 0
-ca4_f
-Text Label 12250 3500 2    60   ~ 0
-ca6_f
-$Comp
-L R_Pack04 RN3
-U 1 1 5C89BB7A
-P 12400 2000
-F 0 "RN3" V 12725 2000 50  0000 C CNN
-F 1 "0R, 125mW, 5%" V 12634 2000 50  0000 C CNN
-F 2 "raise_fp:R_Array_Convex_4x0402" V 12675 2000 50  0001 C CNN
-F 3 "" H 12400 2000 50  0001 C CNN
-F 4 "Value" H 12400 2000 60  0001 C CNN "supplier"
-F 5 "Value" H 12400 2000 60  0001 C CNN "supplier PN"
-F 6 "Value" H 12400 2000 60  0001 C CNN "MOQ"
-F 7 "Value" H 12400 2000 60  0001 C CNN "leadtime"
-F 8 "2060029" H 0   0   60  0001 C CNN "farnell #"
-	1    12400 2000
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	12600 2200 13050 2200
 Wire Wire Line
@@ -1942,522 +2295,163 @@ Connection ~ 12850 2000
 Connection ~ 12950 1900
 Connection ~ 12750 2100
 Connection ~ 12650 2200
-$Comp
-L R_Pack04 RN4
-U 1 1 5C89C43C
-P 12450 3500
-F 0 "RN4" V 12775 3500 50  0000 C CNN
-F 1 "0R, 125mW, 5%" V 12684 3500 50  0000 C CNN
-F 2 "raise_fp:R_Array_Convex_4x0402" V 12725 3500 50  0001 C CNN
-F 3 "" H 12450 3500 50  0001 C CNN
-F 4 "Value" H 12450 3500 60  0001 C CNN "supplier"
-F 5 "Value" H 12450 3500 60  0001 C CNN "supplier PN"
-F 6 "Value" H 12450 3500 60  0001 C CNN "MOQ"
-F 7 "Value" H 12450 3500 60  0001 C CNN "leadtime"
-F 8 "2060029" H 0   0   60  0001 C CNN "farnell #"
-	1    12450 3500
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
-	12650 3700 13100 3700
+	12650 4350 13100 4350
 Wire Wire Line
-	12650 3600 13100 3600
+	12650 4250 13100 4250
 Wire Wire Line
-	12650 3500 13100 3500
+	12650 4150 13100 4150
 Wire Wire Line
-	12650 3400 13100 3400
-Connection ~ 12900 3500
-Connection ~ 13000 3400
-Connection ~ 12800 3600
-Connection ~ 12700 3700
-$Comp
-L R_Pack04 RN2
-U 1 1 5C89CC34
-P 14450 1900
-F 0 "RN2" V 14775 1900 50  0000 C CNN
-F 1 "0R, 125mW, 5%" V 14684 1900 50  0000 C CNN
-F 2 "raise_fp:R_Array_Convex_4x0402" V 14725 1900 50  0001 C CNN
-F 3 "" H 14450 1900 50  0001 C CNN
-F 4 "Value" H 14450 1900 60  0001 C CNN "supplier"
-F 5 "Value" H 14450 1900 60  0001 C CNN "supplier PN"
-F 6 "Value" H 14450 1900 60  0001 C CNN "MOQ"
-F 7 "Value" H 14450 1900 60  0001 C CNN "leadtime"
-F 8 "2060029" H 0   0   60  0001 C CNN "farnell #"
-	1    14450 1900
-	0    1    -1   0   
-$EndComp
+	12650 4050 13100 4050
+Connection ~ 12900 4150
+Connection ~ 13000 4050
+Connection ~ 12800 4250
+Connection ~ 12700 4350
+Wire Wire Line
+	14650 2200 15100 2200
 Wire Wire Line
 	14650 2100 15100 2100
 Wire Wire Line
 	14650 2000 15100 2000
 Wire Wire Line
 	14650 1900 15100 1900
+Connection ~ 14900 2000
+Connection ~ 15000 1900
+Connection ~ 14800 2100
+Connection ~ 14700 2200
 Wire Wire Line
-	14650 1800 15100 1800
-Connection ~ 14900 1900
-Connection ~ 15000 1800
-Connection ~ 14800 2000
-Connection ~ 14700 2100
+	14700 4350 15150 4350
+Wire Wire Line
+	14700 4250 15150 4250
+Wire Wire Line
+	14700 4150 15150 4150
+Wire Wire Line
+	14700 4050 15150 4050
+Connection ~ 14950 4150
+Connection ~ 15050 4050
+Connection ~ 14850 4250
+Connection ~ 14750 4350
+Wire Wire Line
+	12650 3200 13000 3200
+Connection ~ 12900 3200
+Connection ~ 12800 3200
+Wire Wire Line
+	13000 3200 13000 3350
+Wire Wire Line
+	12950 2900 12950 3200
+Connection ~ 12950 3200
+Wire Wire Line
+	12850 3150 12850 3200
+Connection ~ 12850 3200
+Wire Wire Line
+	12650 3200 12650 3150
+Wire Wire Line
+	12750 2900 12750 3200
+Connection ~ 12750 3200
+Wire Wire Line
+	12850 2000 12850 2850
+Wire Wire Line
+	12650 2200 12650 2850
+Wire Wire Line
+	12700 5350 13050 5350
+Connection ~ 12950 5350
+Connection ~ 12850 5350
+Wire Wire Line
+	13050 5350 13050 5500
+Wire Wire Line
+	13000 5050 13000 5350
+Connection ~ 13000 5350
+Wire Wire Line
+	12900 5300 12900 5350
+Connection ~ 12900 5350
+Wire Wire Line
+	12700 5350 12700 5300
+Wire Wire Line
+	12800 5050 12800 5350
+Connection ~ 12800 5350
+Wire Wire Line
+	12900 4150 12900 5000
+Wire Wire Line
+	12700 4350 12700 5000
+Wire Wire Line
+	14700 3300 15150 3300
+Connection ~ 15050 3300
+Connection ~ 14950 3300
+Wire Wire Line
+	15150 3300 15150 3450
+Wire Wire Line
+	12900 6950 12900 7250
+Connection ~ 15100 3300
+Wire Wire Line
+	15000 3250 15000 3300
+Connection ~ 15000 3300
+Wire Wire Line
+	14800 3300 14800 3250
+Wire Wire Line
+	14900 3000 14900 3300
+Connection ~ 14900 3300
+Wire Wire Line
+	15000 1900 15000 2950
+Wire Wire Line
+	14800 2100 14800 2950
+Wire Wire Line
+	14750 5350 15200 5350
+Connection ~ 15100 5350
+Connection ~ 15000 5350
+Wire Wire Line
+	15200 5350 15200 5500
+Wire Wire Line
+	14700 3300 14700 3000
+Connection ~ 15150 5350
+Wire Wire Line
+	15050 5300 15050 5350
+Connection ~ 15050 5350
+Wire Wire Line
+	14850 5350 14850 5300
+Wire Wire Line
+	14950 5050 14950 5350
+Connection ~ 14950 5350
+Wire Wire Line
+	15050 4050 15050 5000
+Wire Wire Line
+	14850 4250 14850 5000
+Connection ~ 14800 3300
+Wire Wire Line
+	12750 2600 12750 2100
+Wire Wire Line
+	12950 1900 12950 2600
+Wire Wire Line
+	14700 2700 14700 2200
+Wire Wire Line
+	14900 2700 14900 2000
+Wire Wire Line
+	12800 4250 12800 4750
+Wire Wire Line
+	13000 4050 13000 4750
+Wire Wire Line
+	14750 5350 14750 5050
+Connection ~ 14850 5350
+Wire Wire Line
+	14750 4750 14750 4350
+Wire Wire Line
+	14950 4750 14950 4150
+Wire Wire Line
+	12500 6550 12900 6550
+Wire Wire Line
+	12900 6550 12900 6650
 $Comp
-L R_Pack04 RN5
-U 1 1 5C89CE31
-P 14550 3600
-F 0 "RN5" V 14875 3600 50  0000 C CNN
-F 1 "0R, 125mW, 5%" V 14784 3600 50  0000 C CNN
-F 2 "raise_fp:R_Array_Convex_4x0402" V 14825 3600 50  0001 C CNN
-F 3 "" H 14550 3600 50  0001 C CNN
-F 4 "Value" H 14550 3600 60  0001 C CNN "supplier"
-F 5 "Value" H 14550 3600 60  0001 C CNN "supplier PN"
-F 6 "Value" H 14550 3600 60  0001 C CNN "MOQ"
-F 7 "Value" H 14550 3600 60  0001 C CNN "leadtime"
-F 8 "2060029" H 0   0   60  0001 C CNN "farnell #"
-	1    14550 3600
-	0    1    -1   0   
+L Earth #PWR045
+U 1 1 5CA2AA4E
+P 12900 7250
+F 0 "#PWR045" H 12900 7000 50  0001 C CNN
+F 1 "Earth" H 12900 7100 50  0001 C CNN
+F 2 "" H 12900 7250 50  0000 C CNN
+F 3 "" H 12900 7250 50  0000 C CNN
+	1    12900 7250
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	14750 3800 15200 3800
-Wire Wire Line
-	14750 3700 15200 3700
-Wire Wire Line
-	14750 3600 15200 3600
-Wire Wire Line
-	14750 3500 15200 3500
-Connection ~ 15000 3600
-Connection ~ 15100 3500
-Connection ~ 14900 3700
-Connection ~ 14800 3800
-Text Label 12350 5950 1    60   ~ 0
-CA6
-Text Label 12400 4550 1    60   ~ 0
-CA2
-Text Label 12500 4550 1    60   ~ 0
-CA3
-Text Label 12300 4550 1    60   ~ 0
-CA1
-Text Label 12250 5950 1    60   ~ 0
-CA5
-Text Label 12450 5950 1    60   ~ 0
-CA7
-Text Label 12400 8200 2    60   ~ 0
-CB8
-Text Label 14350 5900 1    60   ~ 0
-CB3
-Text Label 14200 4500 1    60   ~ 0
-CB5
-Text Label 14100 4500 1    60   ~ 0
-CB4
-Text Label 14300 4500 1    60   ~ 0
-CB6
-Text Label 12600 4550 1    60   ~ 0
-CA4
-Text Label 12550 5950 1    60   ~ 0
-CA8
-Text Label 12700 7600 0    60   ~ 0
-CA9
-Text Label 14150 5900 1    60   ~ 0
-CB1
-Text Label 14250 5900 1    60   ~ 0
-CB2
-Text Label 14400 4500 1    60   ~ 0
-CB7
-$Comp
-L C C10
-U 1 1 5C8BC172
-P 9600 2100
-F 0 "C10" H 9715 2146 50  0000 L CNN
-F 1 "0.1uF, ceramic, 10v, 10%, x5r" H 8650 1700 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 9638 1950 50  0001 C CNN
-F 3 "" H 9600 2100 50  0000 C CNN
-F 4 "2896426" H 9600 2100 60  0001 C CNN "farnell #"
-F 5 "any/open" H 900 0   60  0001 C CNN "supplier"
-F 6 "Value" H 9600 2100 60  0001 C CNN "supplier PN"
-F 7 "Value" H 9600 2100 60  0001 C CNN "MOQ"
-F 8 "Value" H 9600 2100 60  0001 C CNN "leadtime"
-	1    9600 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR039
-U 1 1 5C8BD8B2
-P 12250 5300
-F 0 "#PWR039" H 12250 5050 50  0001 C CNN
-F 1 "Earth" H 12250 5150 50  0001 C CNN
-F 2 "" H 12250 5300 50  0000 C CNN
-F 3 "" H 12250 5300 50  0000 C CNN
-	1    12250 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C21
-U 1 1 5C8BD8BD
-P 12300 4700
-F 0 "C21" V 12150 4700 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11600 4200 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12338 4550 50  0001 C CNN
-F 3 "" H 12300 4700 50  0000 C CNN
-F 4 "2896415" H 12300 4700 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12300 4700 60  0001 C CNN "supplier"
-F 6 "Value" H 12300 4700 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12300 4700 60  0001 C CNN "MOQ"
-F 8 "Value" H 12300 4700 60  0001 C CNN "leadtime"
-	1    12300 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C22
-U 1 1 5C8BD8C9
-P 12500 4700
-F 0 "C22" V 12350 4700 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11800 4200 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12538 4550 50  0001 C CNN
-F 3 "" H 12500 4700 50  0000 C CNN
-F 4 "2896415" H 12500 4700 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12500 4700 60  0001 C CNN "supplier"
-F 6 "Value" H 12500 4700 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12500 4700 60  0001 C CNN "MOQ"
-F 8 "Value" H 12500 4700 60  0001 C CNN "leadtime"
-	1    12500 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C23
-U 1 1 5C8BD8D5
-P 12400 4950
-F 0 "C23" V 12250 4950 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11700 4200 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12438 4800 50  0001 C CNN
-F 3 "" H 12400 4950 50  0000 C CNN
-F 4 "2896415" H 12400 4950 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12400 4950 60  0001 C CNN "supplier"
-F 6 "Value" H 12400 4950 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12400 4950 60  0001 C CNN "MOQ"
-F 8 "Value" H 12400 4950 60  0001 C CNN "leadtime"
-	1    12400 4950
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C24
-U 1 1 5C8BD8E1
-P 12600 4950
-F 0 "C24" V 12450 4950 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11900 4200 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12638 4800 50  0001 C CNN
-F 3 "" H 12600 4950 50  0000 C CNN
-F 4 "2896415" H 12600 4950 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12600 4950 60  0001 C CNN "supplier"
-F 6 "Value" H 12600 4950 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12600 4950 60  0001 C CNN "MOQ"
-F 8 "Value" H 12600 4950 60  0001 C CNN "leadtime"
-	1    12600 4950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12250 5150 12600 5150
-Connection ~ 12350 5150
-Connection ~ 12450 5150
-Wire Wire Line
-	12250 5150 12250 5300
-Wire Wire Line
-	12300 4850 12300 5150
-Connection ~ 12300 5150
-Wire Wire Line
-	12400 5100 12400 5150
-Connection ~ 12400 5150
-Wire Wire Line
-	12600 5150 12600 5100
-Wire Wire Line
-	12500 4850 12500 5150
-Connection ~ 12500 5150
-Wire Wire Line
-	12400 4800 12400 4550
-Wire Wire Line
-	12600 4800 12600 4550
-$Comp
-L Earth #PWR041
-U 1 1 5C8BEAF5
-P 12200 6700
-F 0 "#PWR041" H 12200 6450 50  0001 C CNN
-F 1 "Earth" H 12200 6550 50  0001 C CNN
-F 2 "" H 12200 6700 50  0000 C CNN
-F 3 "" H 12200 6700 50  0000 C CNN
-	1    12200 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C25
-U 1 1 5C8BEB00
-P 12250 6100
-F 0 "C25" V 12100 6100 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11550 5600 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12288 5950 50  0001 C CNN
-F 3 "" H 12250 6100 50  0000 C CNN
-F 4 "2896415" H 12250 6100 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12250 6100 60  0001 C CNN "supplier"
-F 6 "Value" H 12250 6100 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12250 6100 60  0001 C CNN "MOQ"
-F 8 "Value" H 12250 6100 60  0001 C CNN "leadtime"
-	1    12250 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C26
-U 1 1 5C8BEB0B
-P 12450 6100
-F 0 "C26" V 12300 6100 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11750 5600 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12488 5950 50  0001 C CNN
-F 3 "" H 12450 6100 50  0000 C CNN
-F 4 "2896415" H 12450 6100 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12450 6100 60  0001 C CNN "supplier"
-F 6 "Value" H 12450 6100 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12450 6100 60  0001 C CNN "MOQ"
-F 8 "Value" H 12450 6100 60  0001 C CNN "leadtime"
-	1    12450 6100
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C29
-U 1 1 5C8BEB16
-P 12350 6350
-F 0 "C29" V 12200 6350 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11650 5600 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12388 6200 50  0001 C CNN
-F 3 "" H 12350 6350 50  0000 C CNN
-F 4 "2896415" H 12350 6350 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12350 6350 60  0001 C CNN "supplier"
-F 6 "Value" H 12350 6350 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12350 6350 60  0001 C CNN "MOQ"
-F 8 "Value" H 12350 6350 60  0001 C CNN "leadtime"
-	1    12350 6350
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C30
-U 1 1 5C8BEB21
-P 12550 6350
-F 0 "C30" V 12400 6350 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 11850 5600 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 12588 6200 50  0001 C CNN
-F 3 "" H 12550 6350 50  0000 C CNN
-F 4 "2896415" H 12550 6350 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12550 6350 60  0001 C CNN "supplier"
-F 6 "Value" H 12550 6350 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12550 6350 60  0001 C CNN "MOQ"
-F 8 "Value" H 12550 6350 60  0001 C CNN "leadtime"
-	1    12550 6350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12200 6550 12550 6550
-Connection ~ 12300 6550
-Connection ~ 12400 6550
-Wire Wire Line
-	12200 6550 12200 6700
-Wire Wire Line
-	12250 6250 12250 6550
-Connection ~ 12250 6550
-Wire Wire Line
-	12350 6500 12350 6550
-Connection ~ 12350 6550
-Wire Wire Line
-	12550 6550 12550 6500
-Wire Wire Line
-	12450 6250 12450 6550
-Connection ~ 12450 6550
-Wire Wire Line
-	12350 6200 12350 5950
-Wire Wire Line
-	12550 6200 12550 5950
-$Comp
-L Earth #PWR042
-U 1 1 5C8C0E13
-P 14000 6650
-F 0 "#PWR042" H 14000 6400 50  0001 C CNN
-F 1 "Earth" H 14000 6500 50  0001 C CNN
-F 2 "" H 14000 6650 50  0000 C CNN
-F 3 "" H 14000 6650 50  0000 C CNN
-	1    14000 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C27
-U 1 1 5C8C0E1E
-P 14050 6050
-F 0 "C27" V 13900 6050 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13350 5550 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14088 5900 50  0001 C CNN
-F 3 "" H 14050 6050 50  0000 C CNN
-F 4 "2896415" H 14050 6050 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14050 6050 60  0001 C CNN "supplier"
-F 6 "Value" H 14050 6050 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14050 6050 60  0001 C CNN "MOQ"
-F 8 "Value" H 14050 6050 60  0001 C CNN "leadtime"
-	1    14050 6050
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C28
-U 1 1 5C8C0E29
-P 14250 6050
-F 0 "C28" V 14100 6050 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13550 5550 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14288 5900 50  0001 C CNN
-F 3 "" H 14250 6050 50  0000 C CNN
-F 4 "2896415" H 14250 6050 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14250 6050 60  0001 C CNN "supplier"
-F 6 "Value" H 14250 6050 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14250 6050 60  0001 C CNN "MOQ"
-F 8 "Value" H 14250 6050 60  0001 C CNN "leadtime"
-	1    14250 6050
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C31
-U 1 1 5C8C0E34
-P 14150 6300
-F 0 "C31" V 14000 6300 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13450 5550 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14188 6150 50  0001 C CNN
-F 3 "" H 14150 6300 50  0000 C CNN
-F 4 "2896415" H 14150 6300 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14150 6300 60  0001 C CNN "supplier"
-F 6 "Value" H 14150 6300 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14150 6300 60  0001 C CNN "MOQ"
-F 8 "Value" H 14150 6300 60  0001 C CNN "leadtime"
-	1    14150 6300
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C32
-U 1 1 5C8C0E3F
-P 14350 6300
-F 0 "C32" V 14200 6300 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13650 5550 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14388 6150 50  0001 C CNN
-F 3 "" H 14350 6300 50  0000 C CNN
-F 4 "2896415" H 14350 6300 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14350 6300 60  0001 C CNN "supplier"
-F 6 "Value" H 14350 6300 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14350 6300 60  0001 C CNN "MOQ"
-F 8 "Value" H 14350 6300 60  0001 C CNN "leadtime"
-	1    14350 6300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14000 6500 14350 6500
-Connection ~ 14100 6500
-Connection ~ 14200 6500
-Wire Wire Line
-	14000 6500 14000 6650
-Wire Wire Line
-	14050 6200 14050 6500
-Connection ~ 14050 6500
-Wire Wire Line
-	14150 6450 14150 6500
-Connection ~ 14150 6500
-Wire Wire Line
-	14350 6500 14350 6450
-Wire Wire Line
-	14250 6200 14250 6500
-Connection ~ 14250 6500
-Wire Wire Line
-	14150 6150 14150 5900
-Wire Wire Line
-	14350 6150 14350 5900
-$Comp
-L Earth #PWR034
-U 1 1 5C8C1777
-P 14050 5250
-F 0 "#PWR034" H 14050 5000 50  0001 C CNN
-F 1 "Earth" H 14050 5100 50  0001 C CNN
-F 2 "" H 14050 5250 50  0000 C CNN
-F 3 "" H 14050 5250 50  0000 C CNN
-	1    14050 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 5C8C1782
-P 14100 4650
-F 0 "C16" V 13950 4650 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13400 4150 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14138 4500 50  0001 C CNN
-F 3 "" H 14100 4650 50  0000 C CNN
-F 4 "2896415" H 14100 4650 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14100 4650 60  0001 C CNN "supplier"
-F 6 "Value" H 14100 4650 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14100 4650 60  0001 C CNN "MOQ"
-F 8 "Value" H 14100 4650 60  0001 C CNN "leadtime"
-	1    14100 4650
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C17
-U 1 1 5C8C178D
-P 14300 4650
-F 0 "C17" V 14150 4650 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13600 4150 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14338 4500 50  0001 C CNN
-F 3 "" H 14300 4650 50  0000 C CNN
-F 4 "2896415" H 14300 4650 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14300 4650 60  0001 C CNN "supplier"
-F 6 "Value" H 14300 4650 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14300 4650 60  0001 C CNN "MOQ"
-F 8 "Value" H 14300 4650 60  0001 C CNN "leadtime"
-	1    14300 4650
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C19
-U 1 1 5C8C1798
-P 14200 4900
-F 0 "C19" V 14050 4900 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13500 4150 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14238 4750 50  0001 C CNN
-F 3 "" H 14200 4900 50  0000 C CNN
-F 4 "2896415" H 14200 4900 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14200 4900 60  0001 C CNN "supplier"
-F 6 "Value" H 14200 4900 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14200 4900 60  0001 C CNN "MOQ"
-F 8 "Value" H 14200 4900 60  0001 C CNN "leadtime"
-	1    14200 4900
-	-1   0    0    1   
-$EndComp
-$Comp
-L C C20
-U 1 1 5C8C17A3
-P 14400 4900
-F 0 "C20" V 14250 4900 50  0000 L CNN
-F 1 "1nF ceramic, 100v, 10%" V 13700 4150 50  0000 L CNN
-F 2 "raise_fp:C_0603" H 14438 4750 50  0001 C CNN
-F 3 "" H 14400 4900 50  0000 C CNN
-F 4 "2896415" H 14400 4900 60  0001 C CNN "farnell #"
-F 5 "dnp" H 14400 4900 60  0001 C CNN "supplier"
-F 6 "Value" H 14400 4900 60  0001 C CNN "supplier PN"
-F 7 "Value" H 14400 4900 60  0001 C CNN "MOQ"
-F 8 "Value" H 14400 4900 60  0001 C CNN "leadtime"
-	1    14400 4900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	14050 5100 14400 5100
-Connection ~ 14150 5100
-Connection ~ 14250 5100
-Wire Wire Line
-	14050 5100 14050 5250
-Wire Wire Line
-	14100 4800 14100 5100
-Connection ~ 14100 5100
-Wire Wire Line
-	14200 5050 14200 5100
-Connection ~ 14200 5100
-Wire Wire Line
-	14400 5100 14400 5050
-Wire Wire Line
-	14300 4800 14300 5100
-Connection ~ 14300 5100
-Wire Wire Line
-	14200 4750 14200 4500
-Wire Wire Line
-	14400 4750 14400 4500
+Text Notes 13050 1100 0    60   ~ 0
+optional output filters\n
+Wire Notes Line
+	11600 1050 11600 7850
 $EndSCHEMATC
