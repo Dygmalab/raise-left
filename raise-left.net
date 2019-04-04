@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left.sch)
-    (date "Tue 02 Apr 2019 14:21:09 CEST")
+    (date "Thu 04 Apr 2019 12:11:44 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Raise Left")
         (company Dygma)
         (rev v4.9)
-        (date 2019-04-01)
+        (date 2019-04-02)
         (source raise-left.sch)
         (comment (number 1) (value "Matt Venn"))
         (comment (number 2) (value ""))
@@ -32,7 +32,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -44,7 +43,6 @@
       (fields
         (field (name "farnell #") 2447230)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -74,7 +72,6 @@
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part D))
@@ -133,7 +130,6 @@
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part D))
@@ -228,7 +224,6 @@
       (fields
         (field (name "farnell #") 2454043)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part D))
@@ -609,7 +604,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_02X03))
@@ -621,7 +615,6 @@
       (fields
         (field (name "farnell #") 2456110)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -633,7 +626,6 @@
       (fields
         (field (name "farnell #") 2447404)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -645,7 +637,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -687,7 +678,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -699,7 +689,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -711,7 +700,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -732,14 +720,13 @@
       (fields
         (field (name "farnell #") 2447404)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7C1C8))
     (comp (ref TP1)
-      (value TEST)
+      (value PA2)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -748,7 +735,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7D968))
     (comp (ref TP4)
-      (value TEST)
+      (value GND)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -757,7 +744,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7F77E))
     (comp (ref TP5)
-      (value TEST)
+      (value +5V)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -766,7 +753,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7F9F4))
     (comp (ref TP3)
-      (value TEST)
+      (value SCL)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -775,7 +762,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD7FABC))
     (comp (ref TP2)
-      (value TEST)
+      (value SDA)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -784,7 +771,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD803F9))
     (comp (ref TP6)
-      (value TEST)
+      (value CC)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -793,7 +780,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD80DE1))
     (comp (ref TP7)
-      (value TEST)
+      (value +5VA)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -802,7 +789,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD86355))
     (comp (ref TP8)
-      (value TEST)
+      (value GATE)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -816,7 +803,6 @@
       (fields
         (field (name "farnell #") 2456110)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -857,7 +843,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -868,7 +853,6 @@
       (footprint raise_fp:Fiducial_0.5mm_Dia_1mm_Outer)
       (fields
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -879,7 +863,6 @@
       (footprint raise_fp:Fiducial_0.5mm_Dia_1mm_Outer)
       (fields
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part CONN_01X01))
@@ -891,7 +874,6 @@
       (fields
         (field (name "farnell #") 2447230)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -903,14 +885,13 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B2B8DEB))
     (comp (ref TP10)
-      (value TEST)
+      (value COL1)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -919,7 +900,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED870B))
     (comp (ref TP9)
-      (value TEST)
+      (value COL0)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -928,7 +909,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED89E7))
     (comp (ref TP11)
-      (value TEST)
+      (value COL2)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -937,7 +918,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED8D3A))
     (comp (ref TP12)
-      (value TEST)
+      (value COL3)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -946,7 +927,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED8E2E))
     (comp (ref TP13)
-      (value TEST)
+      (value COL4)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -955,7 +936,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED8F24))
     (comp (ref TP14)
-      (value TEST)
+      (value COL5)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -964,7 +945,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED901E))
     (comp (ref TP15)
-      (value TEST)
+      (value COL6)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -973,7 +954,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED9311))
     (comp (ref TP17)
-      (value TEST)
+      (value ROW0)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -982,7 +963,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED9415))
     (comp (ref TP18)
-      (value TEST)
+      (value ROW1)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -991,7 +972,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED95DC))
     (comp (ref TP19)
-      (value TEST)
+      (value ROW2)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -1000,7 +981,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED9976))
     (comp (ref TP20)
-      (value TEST)
+      (value ROW3)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -1009,7 +990,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED9A7C))
     (comp (ref TP21)
-      (value TEST)
+      (value ROW7)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -1018,7 +999,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BED9CD4))
     (comp (ref TP16)
-      (value TEST)
+      (value COL7)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -1032,14 +1013,13 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C128A86))
     (comp (ref TP22)
-      (value TEST)
+      (value SHUTDOWN)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -1048,7 +1028,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C12ACE3))
     (comp (ref TP23)
-      (value TEST)
+      (value SLED_CS)
       (footprint raise_fp:Measurement_Point_Round-SMD-Pad_Small)
       (fields
         (field (name "farnell #") dnp)
@@ -1062,7 +1042,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1085,8 +1064,8 @@
       (footprint raise_fp:QFN-32_5x5mm_Pitch0.5mm)
       (fields
         (field (name "farnell #") 1748549)
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) Microchip)
+        (field (name "supplier PN") ATTINY88-MU)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib attiny88-a) (part ATTINY48-QFN))
@@ -1098,7 +1077,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -1110,7 +1088,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1120,8 +1097,7 @@
       (value "0R, 125mW, 5%")
       (footprint raise_fp:R_Array_Convex_4x0402)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) any/open)
         (field (name MOQ) Value)
         (field (name leadtime) Value)
         (field (name "farnell #") 2060029))
@@ -1168,7 +1144,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1180,7 +1155,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1192,7 +1166,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1204,7 +1177,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1216,7 +1188,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1228,7 +1199,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1240,7 +1210,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1252,7 +1221,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1264,7 +1232,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1276,7 +1243,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -1288,7 +1254,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -1300,7 +1265,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -1312,7 +1276,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -1676,7 +1639,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2041,7 +2003,6 @@
       (fields
         (field (name "farnell #") 2447230)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -2053,7 +2014,6 @@
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
-        (field (name "supplier PN") dnp)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part R))
@@ -2065,7 +2025,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2075,8 +2034,7 @@
       (value "0R, 125mW, 5%")
       (footprint raise_fp:R_Array_Convex_4x0402)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) any/open)
         (field (name MOQ) Value)
         (field (name leadtime) Value)
         (field (name "farnell #") 2060029))
@@ -2087,8 +2045,7 @@
       (value "0R, 125mW, 5%")
       (footprint raise_fp:R_Array_Convex_4x0402)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) any/open)
         (field (name MOQ) Value)
         (field (name leadtime) Value)
         (field (name "farnell #") 2060029))
@@ -2099,8 +2056,7 @@
       (value "0R, 125mW, 5%")
       (footprint raise_fp:R_Array_Convex_4x0402)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) any/open)
         (field (name MOQ) Value)
         (field (name leadtime) Value)
         (field (name "farnell #") 2060029))
@@ -2111,8 +2067,7 @@
       (value "0R, 125mW, 5%")
       (footprint raise_fp:R_Array_Convex_4x0402)
       (fields
-        (field (name supplier) Value)
-        (field (name "supplier PN") Value)
+        (field (name supplier) any/open)
         (field (name MOQ) Value)
         (field (name leadtime) Value)
         (field (name "farnell #") 2060029))
@@ -2125,7 +2080,6 @@
       (fields
         (field (name "farnell #") 2896426)
         (field (name supplier) any/open)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2137,7 +2091,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2149,7 +2102,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2161,7 +2113,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2173,7 +2124,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2185,7 +2135,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2197,7 +2146,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2209,7 +2157,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2221,7 +2168,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2233,7 +2179,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2245,7 +2190,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2257,7 +2201,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2269,7 +2212,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2281,7 +2223,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2293,7 +2234,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2305,7 +2245,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2317,7 +2256,6 @@
       (fields
         (field (name "farnell #") 2896415)
         (field (name supplier) dnp)
-        (field (name "supplier PN") Value)
         (field (name MOQ) Value)
         (field (name leadtime) Value))
       (libsource (lib raise-left-cache) (part C))
@@ -2613,24 +2551,24 @@
         (pin (num 5) (name vbus) (type input))
         (pin (num 6) (name i/o4) (type input)))))
   (libraries
+    (library (logical ferrite_bead)
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/ferrite_bead.lib))
     (library (logical sled1735)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/sled1735.lib))
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/sled1735.lib))
+    (library (logical rgbled)
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/rgbled.lib))
+    (library (logical r_pack04)
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/r_pack04.lib))
+    (library (logical emi_filter_ll)
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/emi_filter_ll.lib))
     (library (logical raise-left-cache)
       (uri /home/matt/work/shortcut/raise-v3.1/raise-left/raise-left-cache.lib))
-    (library (logical ferrite_bead)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/ferrite_bead.lib))
     (library (logical usblc6-4)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/usblc6-4.lib))
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/usblc6-4.lib))
     (library (logical attiny88-a)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/attiny88-a.lib))
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/attiny88-a.lib))
     (library (logical usb_c_16pin)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/usb_c_16pin.lib))
-    (library (logical rgbled)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/rgbled.lib))
-    (library (logical r_pack04)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/r_pack04.lib))
-    (library (logical emi_filter_ll)
-      (uri /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise_libs/emi_filter_ll.lib)))
+      (uri /home/matt/work/shortcut/raise-v3.1/raise_libs/usb_c_16pin.lib)))
   (nets
     (net (code 1) (name sda)
       (node (ref U1) (pin 6))
