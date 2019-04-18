@@ -1,4 +1,4 @@
-update=Fri 15 Mar 2019 10:00:00 CET
+update=Wed 10 Apr 2019 10:53:05 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -52,3 +42,13 @@ LibName10=raise_libs/bidrectional-tvs
 LibName11=raise_libs/r_pack04
 LibName12=raise_libs/c_pack04
 LibName13=raise_libs/emi_filter_ll
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

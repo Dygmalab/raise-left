@@ -1312,11 +1312,10 @@ F 0 "R30" V 12250 6500 50  0000 L CNN
 F 1 "0R,  125mW, 5%" V 12050 6300 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 12280 6550 50  0001 C CNN
 F 3 "" H 12350 6550 50  0000 C CNN
-F 4 "dnp" H 12350 6550 60  0001 C CNN "farnell #"
-F 5 "dnp" H 12350 6550 60  0001 C CNN "supplier"
-F 6 "" H 12350 6550 60  0001 C CNN "supplier PN"
-F 7 "Value" H 12350 6550 60  0001 C CNN "MOQ"
-F 8 "Value" H 12350 6550 60  0001 C CNN "leadtime"
+F 4 "any/open" H 12350 6550 60  0001 C CNN "supplier"
+F 5 "Value" H 12350 6550 60  0001 C CNN "supplier PN"
+F 6 "Value" H 12350 6550 60  0001 C CNN "MOQ"
+F 7 "Value" H 12350 6550 60  0001 C CNN "leadtime"
 	1    12350 6550
 	0    1    1    0   
 $EndComp
