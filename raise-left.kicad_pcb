@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 273)
+    (drawings 274)
     (tracks 6609)
     (zones 0)
     (modules 410)
@@ -1763,7 +1763,7 @@
     (tags SOT-23-6)
     (path /5C8B74D7)
     (attr smd)
-    (fp_text reference U1 (at 1.1 -2.3 180) (layer B.SilkS)
+    (fp_text reference U1 (at -2.4 -0.07 180) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.1)) (justify mirror))
     )
     (fp_text value usblc6-4 (at 0 -2.9 180) (layer B.Fab)
@@ -11546,6 +11546,9 @@
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
   )
 
+  (gr_text gate (at 183.18 67.1) (layer B.SilkS) (tstamp 5D1F5210)
+    (effects (font (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+  )
   (gr_text $git$ (at 102.875 73.725) (layer F.SilkS) (tstamp 5D0BA50C)
     (effects (font (size 1.2 1.2) (thickness 0.2)))
   )
@@ -11874,7 +11877,7 @@
   (gr_text gnd (at 166.6 73.6) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text gate (at 190.8 78.1 90) (layer B.SilkS)
+  (gr_text pa2 (at 191 77.97 90) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_text +5va (at 189.4 78.2 90) (layer B.SilkS)
